@@ -1,0 +1,1261 @@
+strain,source_condition,time_h,replicate_id,od570,concentration_mM,curve_id,replicate_block,experiment_id,is_control,source_sheet,source_excel_row,background_correction
+ECOLI,No Treatment,0.0,Rep1,0.0,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,2,not specified in this workbook
+ECOLI,No Treatment,1.0,Rep1,0.03,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,3,not specified in this workbook
+ECOLI,No Treatment,2.0,Rep1,0.06,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,4,not specified in this workbook
+ECOLI,No Treatment,3.0,Rep1,0.1,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,5,not specified in this workbook
+ECOLI,No Treatment,4.0,Rep1,0.17,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,6,not specified in this workbook
+ECOLI,No Treatment,5.0,Rep1,0.25,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,7,not specified in this workbook
+ECOLI,No Treatment,6.0,Rep1,0.39,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,8,not specified in this workbook
+ECOLI,No Treatment,7.0,Rep1,0.58,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,9,not specified in this workbook
+ECOLI,No Treatment,8.0,Rep1,0.75,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,10,not specified in this workbook
+ECOLI,No Treatment,9.0,Rep1,0.86,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,11,not specified in this workbook
+ECOLI,No Treatment,10.0,Rep1,0.93,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,12,not specified in this workbook
+ECOLI,No Treatment,11.0,Rep1,0.96,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,13,not specified in this workbook
+ECOLI,No Treatment,12.0,Rep1,0.98,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,14,not specified in this workbook
+ECOLI,No Treatment,13.0,Rep1,0.99,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,15,not specified in this workbook
+ECOLI,No Treatment,14.0,Rep1,1.0,0.0,ECOLI|No Treatment|Rep1,ECOLI|Rep1,,True,Raw Data,16,not specified in this workbook
+ECOLI,No Treatment,0.0,Rep2,0.0,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,17,not specified in this workbook
+ECOLI,No Treatment,1.0,Rep2,0.035,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,18,not specified in this workbook
+ECOLI,No Treatment,2.0,Rep2,0.052,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,19,not specified in this workbook
+ECOLI,No Treatment,3.0,Rep2,0.107,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,20,not specified in this workbook
+ECOLI,No Treatment,4.0,Rep2,0.166,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,21,not specified in this workbook
+ECOLI,No Treatment,5.0,Rep2,0.275,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,22,not specified in this workbook
+ECOLI,No Treatment,6.0,Rep2,0.328,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,23,not specified in this workbook
+ECOLI,No Treatment,7.0,Rep2,0.561,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,24,not specified in this workbook
+ECOLI,No Treatment,8.0,Rep2,0.765,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,25,not specified in this workbook
+ECOLI,No Treatment,9.0,Rep2,0.874,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,26,not specified in this workbook
+ECOLI,No Treatment,10.0,Rep2,0.94,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,27,not specified in this workbook
+ECOLI,No Treatment,11.0,Rep2,0.958,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,28,not specified in this workbook
+ECOLI,No Treatment,12.0,Rep2,0.958,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,29,not specified in this workbook
+ECOLI,No Treatment,13.0,Rep2,0.981,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,30,not specified in this workbook
+ECOLI,No Treatment,14.0,Rep2,0.998,0.0,ECOLI|No Treatment|Rep2,ECOLI|Rep2,,True,Raw Data,31,not specified in this workbook
+ECOLI,No Treatment,0.0,Rep3,0.0,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,32,not specified in this workbook
+ECOLI,No Treatment,1.0,Rep3,0.027,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,33,not specified in this workbook
+ECOLI,No Treatment,2.0,Rep3,0.035,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,34,not specified in this workbook
+ECOLI,No Treatment,3.0,Rep3,0.079,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,35,not specified in this workbook
+ECOLI,No Treatment,4.0,Rep3,0.193,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,36,not specified in this workbook
+ECOLI,No Treatment,5.0,Rep3,0.247,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,37,not specified in this workbook
+ECOLI,No Treatment,6.0,Rep3,0.405,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,38,not specified in this workbook
+ECOLI,No Treatment,7.0,Rep3,0.552,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,39,not specified in this workbook
+ECOLI,No Treatment,8.0,Rep3,0.713,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,40,not specified in this workbook
+ECOLI,No Treatment,9.0,Rep3,0.878,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,41,not specified in this workbook
+ECOLI,No Treatment,10.0,Rep3,0.934,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,42,not specified in this workbook
+ECOLI,No Treatment,11.0,Rep3,0.95,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,43,not specified in this workbook
+ECOLI,No Treatment,12.0,Rep3,1.027,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,44,not specified in this workbook
+ECOLI,No Treatment,13.0,Rep3,0.972,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,45,not specified in this workbook
+ECOLI,No Treatment,14.0,Rep3,1.012,0.0,ECOLI|No Treatment|Rep3,ECOLI|Rep3,,True,Raw Data,46,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,0.0,Rep1,0.0,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,47,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,1.0,Rep1,0.033,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,48,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,2.0,Rep1,0.063,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,49,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,3.0,Rep1,0.106,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,50,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,4.0,Rep1,0.182,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,51,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,5.0,Rep1,0.271,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,52,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,6.0,Rep1,0.42,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,53,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,7.0,Rep1,0.613,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,54,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,8.0,Rep1,0.786,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,55,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,9.0,Rep1,0.887,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,56,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,10.0,Rep1,0.951,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,57,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,11.0,Rep1,0.978,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,58,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,12.0,Rep1,0.995,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,59,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,13.0,Rep1,1.002,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,60,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,14.0,Rep1,1.009,0.05,ECOLI|C8-HSL 0.05 mM|Rep1,ECOLI|Rep1,,False,Raw Data,61,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,0.0,Rep2,0.0,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,62,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,1.0,Rep2,0.042,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,63,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,2.0,Rep2,0.055,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,64,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,3.0,Rep2,0.126,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,65,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,4.0,Rep2,0.182,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,66,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,5.0,Rep2,0.295,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,67,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,6.0,Rep2,0.37,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,68,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,7.0,Rep2,0.604,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,69,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,8.0,Rep2,0.793,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,70,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,9.0,Rep2,0.896,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,71,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,10.0,Rep2,0.958,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,72,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,11.0,Rep2,0.98,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,73,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,12.0,Rep2,0.974,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,74,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,13.0,Rep2,0.998,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,75,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,14.0,Rep2,1.01,0.05,ECOLI|C8-HSL 0.05 mM|Rep2,ECOLI|Rep2,,False,Raw Data,76,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,0.0,Rep3,0.0,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,77,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,1.0,Rep3,0.032,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,78,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,2.0,Rep3,0.042,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,79,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,3.0,Rep3,0.087,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,80,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,4.0,Rep3,0.202,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,81,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,5.0,Rep3,0.276,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,82,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,6.0,Rep3,0.43,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,83,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,7.0,Rep3,0.596,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,84,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,8.0,Rep3,0.757,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,85,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,9.0,Rep3,0.893,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,86,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,10.0,Rep3,0.957,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,87,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,11.0,Rep3,0.974,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,88,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,12.0,Rep3,1.018,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,89,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,13.0,Rep3,0.985,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,90,not specified in this workbook
+ECOLI,C8-HSL 0.05 mM,14.0,Rep3,1.027,0.05,ECOLI|C8-HSL 0.05 mM|Rep3,ECOLI|Rep3,,False,Raw Data,91,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,0.0,Rep1,0.0,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,92,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,1.0,Rep1,0.04,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,93,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,2.0,Rep1,0.07,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,94,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,3.0,Rep1,0.12,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,95,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,4.0,Rep1,0.21,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,96,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,5.0,Rep1,0.32,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,97,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,6.0,Rep1,0.49,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,98,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,7.0,Rep1,0.69,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,99,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,8.0,Rep1,0.87,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,100,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,9.0,Rep1,0.95,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,101,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,10.0,Rep1,1.0,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,102,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,11.0,Rep1,1.02,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,103,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,12.0,Rep1,1.03,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,104,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,13.0,Rep1,1.03,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,105,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,14.0,Rep1,1.03,0.2,ECOLI|C8-HSL 0.2 mM|Rep1,ECOLI|Rep1,,False,Raw Data,106,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,0.0,Rep2,0.0,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,107,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,1.0,Rep2,0.057,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,108,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,2.0,Rep2,0.063,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,109,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,3.0,Rep2,0.171,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,110,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,4.0,Rep2,0.221,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,111,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,5.0,Rep2,0.343,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,112,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,6.0,Rep2,0.468,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,113,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,7.0,Rep2,0.704,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,114,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,8.0,Rep2,0.857,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,115,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,9.0,Rep2,0.949,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,116,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,10.0,Rep2,1.0,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,117,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,11.0,Rep2,1.031,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,118,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,12.0,Rep2,1.012,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,119,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,13.0,Rep2,1.037,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,120,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,14.0,Rep2,1.038,0.2,ECOLI|C8-HSL 0.2 mM|Rep2,ECOLI|Rep2,,False,Raw Data,121,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,0.0,Rep3,0.0,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,122,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,1.0,Rep3,0.044,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,123,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,2.0,Rep3,0.059,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,124,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,3.0,Rep3,0.107,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,125,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,4.0,Rep3,0.224,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,126,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,5.0,Rep3,0.342,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,127,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,6.0,Rep3,0.49,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,128,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,7.0,Rep3,0.697,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,129,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,8.0,Rep3,0.861,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,130,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,9.0,Rep3,0.928,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,131,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,10.0,Rep3,1.012,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,132,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,11.0,Rep3,1.031,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,133,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,12.0,Rep3,0.998,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,134,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,13.0,Rep3,1.016,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,135,not specified in this workbook
+ECOLI,C8-HSL 0.2 mM,14.0,Rep3,1.062,0.2,ECOLI|C8-HSL 0.2 mM|Rep3,ECOLI|Rep3,,False,Raw Data,136,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,0.0,Rep1,0.0,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,137,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,1.0,Rep1,0.036,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,138,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,2.0,Rep1,0.066,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,139,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,3.0,Rep1,0.112,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,140,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,4.0,Rep1,0.194,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,141,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,5.0,Rep1,0.292,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,142,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,6.0,Rep1,0.45,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,143,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,7.0,Rep1,0.646,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,144,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,8.0,Rep1,0.822,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,145,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,9.0,Rep1,0.914,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,146,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,10.0,Rep1,0.972,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,147,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,11.0,Rep1,0.996,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,148,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,12.0,Rep1,1.01,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,149,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,13.0,Rep1,1.014,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,150,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,14.0,Rep1,1.018,1.0,ECOLI|C8-HSL 1.0 mM|Rep1,ECOLI|Rep1,,False,Raw Data,151,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,0.0,Rep2,0.0,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,152,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,1.0,Rep2,0.048,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,153,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,2.0,Rep2,0.059,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,154,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,3.0,Rep2,0.145,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,155,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,4.0,Rep2,0.199,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,156,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,5.0,Rep2,0.316,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,157,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,6.0,Rep2,0.412,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,158,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,7.0,Rep2,0.647,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,159,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,8.0,Rep2,0.82,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,160,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,9.0,Rep2,0.919,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,161,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,10.0,Rep2,0.976,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,162,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,11.0,Rep2,1.002,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,163,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,12.0,Rep2,0.99,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,164,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,13.0,Rep2,1.015,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,165,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,14.0,Rep2,1.022,1.0,ECOLI|C8-HSL 1.0 mM|Rep2,ECOLI|Rep2,,False,Raw Data,166,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,0.0,Rep3,0.0,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,167,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,1.0,Rep3,0.037,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,168,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,2.0,Rep3,0.049,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,169,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,3.0,Rep3,0.096,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,170,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,4.0,Rep3,0.212,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,171,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,5.0,Rep3,0.304,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,172,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,6.0,Rep3,0.456,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,173,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,7.0,Rep3,0.639,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,174,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,8.0,Rep3,0.802,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,175,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,9.0,Rep3,0.908,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,176,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,10.0,Rep3,0.981,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,177,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,11.0,Rep3,0.999,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,178,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,12.0,Rep3,1.01,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,179,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,13.0,Rep3,0.998,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,180,not specified in this workbook
+ECOLI,C8-HSL 1.0 mM,14.0,Rep3,1.042,1.0,ECOLI|C8-HSL 1.0 mM|Rep3,ECOLI|Rep3,,False,Raw Data,181,not specified in this workbook
+PA,No Treatment,0.0,Rep1,0.0,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,182,not specified in this workbook
+PA,No Treatment,1.0,Rep1,0.04,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,183,not specified in this workbook
+PA,No Treatment,2.0,Rep1,0.07,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,184,not specified in this workbook
+PA,No Treatment,3.0,Rep1,0.12,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,185,not specified in this workbook
+PA,No Treatment,4.0,Rep1,0.2,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,186,not specified in this workbook
+PA,No Treatment,5.0,Rep1,0.3,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,187,not specified in this workbook
+PA,No Treatment,6.0,Rep1,0.47,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,188,not specified in this workbook
+PA,No Treatment,7.0,Rep1,0.66,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,189,not specified in this workbook
+PA,No Treatment,8.0,Rep1,0.83,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,190,not specified in this workbook
+PA,No Treatment,9.0,Rep1,0.92,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,191,not specified in this workbook
+PA,No Treatment,10.0,Rep1,0.97,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,192,not specified in this workbook
+PA,No Treatment,11.0,Rep1,0.99,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,193,not specified in this workbook
+PA,No Treatment,12.0,Rep1,1.01,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,194,not specified in this workbook
+PA,No Treatment,13.0,Rep1,1.02,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,195,not specified in this workbook
+PA,No Treatment,14.0,Rep1,1.03,0.0,PA|No Treatment|Rep1,PA|Rep1,,True,Raw Data,196,not specified in this workbook
+PA,No Treatment,0.0,Rep2,0.0,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,197,not specified in this workbook
+PA,No Treatment,1.0,Rep2,0.06,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,198,not specified in this workbook
+PA,No Treatment,2.0,Rep2,0.066,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,199,not specified in this workbook
+PA,No Treatment,3.0,Rep2,0.115,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,200,not specified in this workbook
+PA,No Treatment,4.0,Rep2,0.199,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,201,not specified in this workbook
+PA,No Treatment,5.0,Rep2,0.303,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,202,not specified in this workbook
+PA,No Treatment,6.0,Rep2,0.427,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,203,not specified in this workbook
+PA,No Treatment,7.0,Rep2,0.6,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,204,not specified in this workbook
+PA,No Treatment,8.0,Rep2,0.838,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,205,not specified in this workbook
+PA,No Treatment,9.0,Rep2,0.931,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,206,not specified in this workbook
+PA,No Treatment,10.0,Rep2,0.949,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,207,not specified in this workbook
+PA,No Treatment,11.0,Rep2,0.986,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,208,not specified in this workbook
+PA,No Treatment,12.0,Rep2,0.991,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,209,not specified in this workbook
+PA,No Treatment,13.0,Rep2,1.003,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,210,not specified in this workbook
+PA,No Treatment,14.0,Rep2,1.026,0.0,PA|No Treatment|Rep2,PA|Rep2,,True,Raw Data,211,not specified in this workbook
+PA,No Treatment,0.0,Rep3,0.0,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,212,not specified in this workbook
+PA,No Treatment,1.0,Rep3,0.035,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,213,not specified in this workbook
+PA,No Treatment,2.0,Rep3,0.054,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,214,not specified in this workbook
+PA,No Treatment,3.0,Rep3,0.137,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,215,not specified in this workbook
+PA,No Treatment,4.0,Rep3,0.193,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,216,not specified in this workbook
+PA,No Treatment,5.0,Rep3,0.284,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,217,not specified in this workbook
+PA,No Treatment,6.0,Rep3,0.46,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,218,not specified in this workbook
+PA,No Treatment,7.0,Rep3,0.655,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,219,not specified in this workbook
+PA,No Treatment,8.0,Rep3,0.85,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,220,not specified in this workbook
+PA,No Treatment,9.0,Rep3,0.921,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,221,not specified in this workbook
+PA,No Treatment,10.0,Rep3,0.948,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,222,not specified in this workbook
+PA,No Treatment,11.0,Rep3,0.973,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,223,not specified in this workbook
+PA,No Treatment,12.0,Rep3,1.011,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,224,not specified in this workbook
+PA,No Treatment,13.0,Rep3,0.984,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,225,not specified in this workbook
+PA,No Treatment,14.0,Rep3,1.011,0.0,PA|No Treatment|Rep3,PA|Rep3,,True,Raw Data,226,not specified in this workbook
+PA,C8-HSL 0.05 mM,0.0,Rep1,0.0,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,227,not specified in this workbook
+PA,C8-HSL 0.05 mM,1.0,Rep1,0.04,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,228,not specified in this workbook
+PA,C8-HSL 0.05 mM,2.0,Rep1,0.07,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,229,not specified in this workbook
+PA,C8-HSL 0.05 mM,3.0,Rep1,0.123,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,230,not specified in this workbook
+PA,C8-HSL 0.05 mM,4.0,Rep1,0.206,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,231,not specified in this workbook
+PA,C8-HSL 0.05 mM,5.0,Rep1,0.312,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,232,not specified in this workbook
+PA,C8-HSL 0.05 mM,6.0,Rep1,0.485,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,233,not specified in this workbook
+PA,C8-HSL 0.05 mM,7.0,Rep1,0.678,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,234,not specified in this workbook
+PA,C8-HSL 0.05 mM,8.0,Rep1,0.848,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,235,not specified in this workbook
+PA,C8-HSL 0.05 mM,9.0,Rep1,0.935,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,236,not specified in this workbook
+PA,C8-HSL 0.05 mM,10.0,Rep1,0.982,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,237,not specified in this workbook
+PA,C8-HSL 0.05 mM,11.0,Rep1,1.002,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,238,not specified in this workbook
+PA,C8-HSL 0.05 mM,12.0,Rep1,1.019,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,239,not specified in this workbook
+PA,C8-HSL 0.05 mM,13.0,Rep1,1.029,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,240,not specified in this workbook
+PA,C8-HSL 0.05 mM,14.0,Rep1,1.036,0.05,PA|C8-HSL 0.05 mM|Rep1,PA|Rep1,,False,Raw Data,241,not specified in this workbook
+PA,C8-HSL 0.05 mM,0.0,Rep2,0.0,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,242,not specified in this workbook
+PA,C8-HSL 0.05 mM,1.0,Rep2,0.055,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,243,not specified in this workbook
+PA,C8-HSL 0.05 mM,2.0,Rep2,0.063,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,244,not specified in this workbook
+PA,C8-HSL 0.05 mM,3.0,Rep2,0.127,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,245,not specified in this workbook
+PA,C8-HSL 0.05 mM,4.0,Rep2,0.204,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,246,not specified in this workbook
+PA,C8-HSL 0.05 mM,5.0,Rep2,0.308,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,247,not specified in this workbook
+PA,C8-HSL 0.05 mM,6.0,Rep2,0.453,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,248,not specified in this workbook
+PA,C8-HSL 0.05 mM,7.0,Rep2,0.645,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,249,not specified in this workbook
+PA,C8-HSL 0.05 mM,8.0,Rep2,0.848,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,250,not specified in this workbook
+PA,C8-HSL 0.05 mM,9.0,Rep2,0.954,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,251,not specified in this workbook
+PA,C8-HSL 0.05 mM,10.0,Rep2,0.97,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,252,not specified in this workbook
+PA,C8-HSL 0.05 mM,11.0,Rep2,0.996,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,253,not specified in this workbook
+PA,C8-HSL 0.05 mM,12.0,Rep2,1.004,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,254,not specified in this workbook
+PA,C8-HSL 0.05 mM,13.0,Rep2,1.019,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,255,not specified in this workbook
+PA,C8-HSL 0.05 mM,14.0,Rep2,1.034,0.05,PA|C8-HSL 0.05 mM|Rep2,PA|Rep2,,False,Raw Data,256,not specified in this workbook
+PA,C8-HSL 0.05 mM,0.0,Rep3,0.0,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,257,not specified in this workbook
+PA,C8-HSL 0.05 mM,1.0,Rep3,0.035,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,258,not specified in this workbook
+PA,C8-HSL 0.05 mM,2.0,Rep3,0.053,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,259,not specified in this workbook
+PA,C8-HSL 0.05 mM,3.0,Rep3,0.12,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,260,not specified in this workbook
+PA,C8-HSL 0.05 mM,4.0,Rep3,0.208,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,261,not specified in this workbook
+PA,C8-HSL 0.05 mM,5.0,Rep3,0.3,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,262,not specified in this workbook
+PA,C8-HSL 0.05 mM,6.0,Rep3,0.482,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,263,not specified in this workbook
+PA,C8-HSL 0.05 mM,7.0,Rep3,0.672,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,264,not specified in this workbook
+PA,C8-HSL 0.05 mM,8.0,Rep3,0.858,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,265,not specified in this workbook
+PA,C8-HSL 0.05 mM,9.0,Rep3,0.948,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,266,not specified in this workbook
+PA,C8-HSL 0.05 mM,10.0,Rep3,0.97,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,267,not specified in this workbook
+PA,C8-HSL 0.05 mM,11.0,Rep3,0.996,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,268,not specified in this workbook
+PA,C8-HSL 0.05 mM,12.0,Rep3,1.015,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,269,not specified in this workbook
+PA,C8-HSL 0.05 mM,13.0,Rep3,1.002,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,270,not specified in this workbook
+PA,C8-HSL 0.05 mM,14.0,Rep3,1.022,0.05,PA|C8-HSL 0.05 mM|Rep3,PA|Rep3,,False,Raw Data,271,not specified in this workbook
+PA,C8-HSL 0.2 mM,0.0,Rep1,0.0,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,272,not specified in this workbook
+PA,C8-HSL 0.2 mM,1.0,Rep1,0.04,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,273,not specified in this workbook
+PA,C8-HSL 0.2 mM,2.0,Rep1,0.07,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,274,not specified in this workbook
+PA,C8-HSL 0.2 mM,3.0,Rep1,0.13,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,275,not specified in this workbook
+PA,C8-HSL 0.2 mM,4.0,Rep1,0.22,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,276,not specified in this workbook
+PA,C8-HSL 0.2 mM,5.0,Rep1,0.34,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,277,not specified in this workbook
+PA,C8-HSL 0.2 mM,6.0,Rep1,0.52,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,278,not specified in this workbook
+PA,C8-HSL 0.2 mM,7.0,Rep1,0.72,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,279,not specified in this workbook
+PA,C8-HSL 0.2 mM,8.0,Rep1,0.89,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,280,not specified in this workbook
+PA,C8-HSL 0.2 mM,9.0,Rep1,0.97,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,281,not specified in this workbook
+PA,C8-HSL 0.2 mM,10.0,Rep1,1.01,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,282,not specified in this workbook
+PA,C8-HSL 0.2 mM,11.0,Rep1,1.03,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,283,not specified in this workbook
+PA,C8-HSL 0.2 mM,12.0,Rep1,1.04,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,284,not specified in this workbook
+PA,C8-HSL 0.2 mM,13.0,Rep1,1.05,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,285,not specified in this workbook
+PA,C8-HSL 0.2 mM,14.0,Rep1,1.05,0.2,PA|C8-HSL 0.2 mM|Rep1,PA|Rep1,,False,Raw Data,286,not specified in this workbook
+PA,C8-HSL 0.2 mM,0.0,Rep2,0.0,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,287,not specified in this workbook
+PA,C8-HSL 0.2 mM,1.0,Rep2,0.044,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,288,not specified in this workbook
+PA,C8-HSL 0.2 mM,2.0,Rep2,0.055,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,289,not specified in this workbook
+PA,C8-HSL 0.2 mM,3.0,Rep2,0.156,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,290,not specified in this workbook
+PA,C8-HSL 0.2 mM,4.0,Rep2,0.216,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,291,not specified in this workbook
+PA,C8-HSL 0.2 mM,5.0,Rep2,0.32,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,292,not specified in this workbook
+PA,C8-HSL 0.2 mM,6.0,Rep2,0.515,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,293,not specified in this workbook
+PA,C8-HSL 0.2 mM,7.0,Rep2,0.749,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,294,not specified in this workbook
+PA,C8-HSL 0.2 mM,8.0,Rep2,0.87,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,295,not specified in this workbook
+PA,C8-HSL 0.2 mM,9.0,Rep2,1.009,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,296,not specified in this workbook
+PA,C8-HSL 0.2 mM,10.0,Rep2,1.019,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,297,not specified in this workbook
+PA,C8-HSL 0.2 mM,11.0,Rep2,1.018,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,298,not specified in this workbook
+PA,C8-HSL 0.2 mM,12.0,Rep2,1.035,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,299,not specified in this workbook
+PA,C8-HSL 0.2 mM,13.0,Rep2,1.055,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,300,not specified in this workbook
+PA,C8-HSL 0.2 mM,14.0,Rep2,1.054,0.2,PA|C8-HSL 0.2 mM|Rep2,PA|Rep2,,False,Raw Data,301,not specified in this workbook
+PA,C8-HSL 0.2 mM,0.0,Rep3,0.0,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,302,not specified in this workbook
+PA,C8-HSL 0.2 mM,1.0,Rep3,0.036,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,303,not specified in this workbook
+PA,C8-HSL 0.2 mM,2.0,Rep3,0.051,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,304,not specified in this workbook
+PA,C8-HSL 0.2 mM,3.0,Rep3,0.081,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,305,not specified in this workbook
+PA,C8-HSL 0.2 mM,4.0,Rep3,0.244,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,306,not specified in this workbook
+PA,C8-HSL 0.2 mM,5.0,Rep3,0.339,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,307,not specified in this workbook
+PA,C8-HSL 0.2 mM,6.0,Rep3,0.532,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,308,not specified in this workbook
+PA,C8-HSL 0.2 mM,7.0,Rep3,0.711,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,309,not specified in this workbook
+PA,C8-HSL 0.2 mM,8.0,Rep3,0.877,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,310,not specified in this workbook
+PA,C8-HSL 0.2 mM,9.0,Rep3,1.01,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,311,not specified in this workbook
+PA,C8-HSL 0.2 mM,10.0,Rep3,1.022,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,312,not specified in this workbook
+PA,C8-HSL 0.2 mM,11.0,Rep3,1.05,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,313,not specified in this workbook
+PA,C8-HSL 0.2 mM,12.0,Rep3,1.023,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,314,not specified in this workbook
+PA,C8-HSL 0.2 mM,13.0,Rep3,1.044,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,315,not specified in this workbook
+PA,C8-HSL 0.2 mM,14.0,Rep3,1.049,0.2,PA|C8-HSL 0.2 mM|Rep3,PA|Rep3,,False,Raw Data,316,not specified in this workbook
+PA,C8-HSL 1.0 mM,0.0,Rep1,0.0,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,317,not specified in this workbook
+PA,C8-HSL 1.0 mM,1.0,Rep1,0.04,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,318,not specified in this workbook
+PA,C8-HSL 1.0 mM,2.0,Rep1,0.07,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,319,not specified in this workbook
+PA,C8-HSL 1.0 mM,3.0,Rep1,0.126,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,320,not specified in this workbook
+PA,C8-HSL 1.0 mM,4.0,Rep1,0.212,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,321,not specified in this workbook
+PA,C8-HSL 1.0 mM,5.0,Rep1,0.324,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,322,not specified in this workbook
+PA,C8-HSL 1.0 mM,6.0,Rep1,0.5,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,323,not specified in this workbook
+PA,C8-HSL 1.0 mM,7.0,Rep1,0.696,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,324,not specified in this workbook
+PA,C8-HSL 1.0 mM,8.0,Rep1,0.866,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,325,not specified in this workbook
+PA,C8-HSL 1.0 mM,9.0,Rep1,0.95,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,326,not specified in this workbook
+PA,C8-HSL 1.0 mM,10.0,Rep1,0.994,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,327,not specified in this workbook
+PA,C8-HSL 1.0 mM,11.0,Rep1,1.014,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,328,not specified in this workbook
+PA,C8-HSL 1.0 mM,12.0,Rep1,1.028,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,329,not specified in this workbook
+PA,C8-HSL 1.0 mM,13.0,Rep1,1.038,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,330,not specified in this workbook
+PA,C8-HSL 1.0 mM,14.0,Rep1,1.042,1.0,PA|C8-HSL 1.0 mM|Rep1,PA|Rep1,,False,Raw Data,331,not specified in this workbook
+PA,C8-HSL 1.0 mM,0.0,Rep2,0.0,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,332,not specified in this workbook
+PA,C8-HSL 1.0 mM,1.0,Rep2,0.05,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,333,not specified in this workbook
+PA,C8-HSL 1.0 mM,2.0,Rep2,0.059,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,334,not specified in this workbook
+PA,C8-HSL 1.0 mM,3.0,Rep2,0.14,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,335,not specified in this workbook
+PA,C8-HSL 1.0 mM,4.0,Rep2,0.209,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,336,not specified in this workbook
+PA,C8-HSL 1.0 mM,5.0,Rep2,0.313,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,337,not specified in this workbook
+PA,C8-HSL 1.0 mM,6.0,Rep2,0.48,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,338,not specified in this workbook
+PA,C8-HSL 1.0 mM,7.0,Rep2,0.689,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,339,not specified in this workbook
+PA,C8-HSL 1.0 mM,8.0,Rep2,0.857,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,340,not specified in this workbook
+PA,C8-HSL 1.0 mM,9.0,Rep2,0.978,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,341,not specified in this workbook
+PA,C8-HSL 1.0 mM,10.0,Rep2,0.991,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,342,not specified in this workbook
+PA,C8-HSL 1.0 mM,11.0,Rep2,1.005,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,343,not specified in this workbook
+PA,C8-HSL 1.0 mM,12.0,Rep2,1.017,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,344,not specified in this workbook
+PA,C8-HSL 1.0 mM,13.0,Rep2,1.034,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,345,not specified in this workbook
+PA,C8-HSL 1.0 mM,14.0,Rep2,1.043,1.0,PA|C8-HSL 1.0 mM|Rep2,PA|Rep2,,False,Raw Data,346,not specified in this workbook
+PA,C8-HSL 1.0 mM,0.0,Rep3,0.0,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,347,not specified in this workbook
+PA,C8-HSL 1.0 mM,1.0,Rep3,0.036,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,348,not specified in this workbook
+PA,C8-HSL 1.0 mM,2.0,Rep3,0.052,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,349,not specified in this workbook
+PA,C8-HSL 1.0 mM,3.0,Rep3,0.103,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,350,not specified in this workbook
+PA,C8-HSL 1.0 mM,4.0,Rep3,0.224,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,351,not specified in this workbook
+PA,C8-HSL 1.0 mM,5.0,Rep3,0.317,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,352,not specified in this workbook
+PA,C8-HSL 1.0 mM,6.0,Rep3,0.503,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,353,not specified in this workbook
+PA,C8-HSL 1.0 mM,7.0,Rep3,0.689,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,354,not specified in this workbook
+PA,C8-HSL 1.0 mM,8.0,Rep3,0.866,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,355,not specified in this workbook
+PA,C8-HSL 1.0 mM,9.0,Rep3,0.974,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,356,not specified in this workbook
+PA,C8-HSL 1.0 mM,10.0,Rep3,0.992,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,357,not specified in this workbook
+PA,C8-HSL 1.0 mM,11.0,Rep3,1.019,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,358,not specified in this workbook
+PA,C8-HSL 1.0 mM,12.0,Rep3,1.018,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,359,not specified in this workbook
+PA,C8-HSL 1.0 mM,13.0,Rep3,1.02,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,360,not specified in this workbook
+PA,C8-HSL 1.0 mM,14.0,Rep3,1.034,1.0,PA|C8-HSL 1.0 mM|Rep3,PA|Rep3,,False,Raw Data,361,not specified in this workbook
+SE,No Treatment,0.0,Rep1,0.0,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,362,not specified in this workbook
+SE,No Treatment,1.0,Rep1,0.04,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,363,not specified in this workbook
+SE,No Treatment,2.0,Rep1,0.07,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,364,not specified in this workbook
+SE,No Treatment,3.0,Rep1,0.11,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,365,not specified in this workbook
+SE,No Treatment,4.0,Rep1,0.18,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,366,not specified in this workbook
+SE,No Treatment,5.0,Rep1,0.27,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,367,not specified in this workbook
+SE,No Treatment,6.0,Rep1,0.42,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,368,not specified in this workbook
+SE,No Treatment,7.0,Rep1,0.62,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,369,not specified in this workbook
+SE,No Treatment,8.0,Rep1,0.79,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,370,not specified in this workbook
+SE,No Treatment,9.0,Rep1,0.89,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,371,not specified in this workbook
+SE,No Treatment,10.0,Rep1,0.94,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,372,not specified in this workbook
+SE,No Treatment,11.0,Rep1,0.97,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,373,not specified in this workbook
+SE,No Treatment,12.0,Rep1,0.99,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,374,not specified in this workbook
+SE,No Treatment,13.0,Rep1,1.0,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,375,not specified in this workbook
+SE,No Treatment,14.0,Rep1,1.0,0.0,SE|No Treatment|Rep1,SE|Rep1,,True,Raw Data,376,not specified in this workbook
+SE,No Treatment,0.0,Rep2,0.0,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,377,not specified in this workbook
+SE,No Treatment,1.0,Rep2,0.037,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,378,not specified in this workbook
+SE,No Treatment,2.0,Rep2,0.076,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,379,not specified in this workbook
+SE,No Treatment,3.0,Rep2,0.107,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,380,not specified in this workbook
+SE,No Treatment,4.0,Rep2,0.195,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,381,not specified in this workbook
+SE,No Treatment,5.0,Rep2,0.268,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,382,not specified in this workbook
+SE,No Treatment,6.0,Rep2,0.417,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,383,not specified in this workbook
+SE,No Treatment,7.0,Rep2,0.62,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,384,not specified in this workbook
+SE,No Treatment,8.0,Rep2,0.795,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,385,not specified in this workbook
+SE,No Treatment,9.0,Rep2,0.908,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,386,not specified in this workbook
+SE,No Treatment,10.0,Rep2,0.93,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,387,not specified in this workbook
+SE,No Treatment,11.0,Rep2,0.955,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,388,not specified in this workbook
+SE,No Treatment,12.0,Rep2,0.973,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,389,not specified in this workbook
+SE,No Treatment,13.0,Rep2,0.993,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,390,not specified in this workbook
+SE,No Treatment,14.0,Rep2,0.984,0.0,SE|No Treatment|Rep2,SE|Rep2,,True,Raw Data,391,not specified in this workbook
+SE,No Treatment,0.0,Rep3,0.0,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,392,not specified in this workbook
+SE,No Treatment,1.0,Rep3,0.081,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,393,not specified in this workbook
+SE,No Treatment,2.0,Rep3,0.097,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,394,not specified in this workbook
+SE,No Treatment,3.0,Rep3,0.109,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,395,not specified in this workbook
+SE,No Treatment,4.0,Rep3,0.197,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,396,not specified in this workbook
+SE,No Treatment,5.0,Rep3,0.223,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,397,not specified in this workbook
+SE,No Treatment,6.0,Rep3,0.434,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,398,not specified in this workbook
+SE,No Treatment,7.0,Rep3,0.629,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,399,not specified in this workbook
+SE,No Treatment,8.0,Rep3,0.761,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,400,not specified in this workbook
+SE,No Treatment,9.0,Rep3,0.878,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,401,not specified in this workbook
+SE,No Treatment,10.0,Rep3,0.952,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,402,not specified in this workbook
+SE,No Treatment,11.0,Rep3,0.975,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,403,not specified in this workbook
+SE,No Treatment,12.0,Rep3,0.986,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,404,not specified in this workbook
+SE,No Treatment,13.0,Rep3,0.991,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,405,not specified in this workbook
+SE,No Treatment,14.0,Rep3,0.999,0.0,SE|No Treatment|Rep3,SE|Rep3,,True,Raw Data,406,not specified in this workbook
+SE,C8-HSL 0.05 mM,0.0,Rep1,0.0,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,407,not specified in this workbook
+SE,C8-HSL 0.05 mM,1.0,Rep1,0.04,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,408,not specified in this workbook
+SE,C8-HSL 0.05 mM,2.0,Rep1,0.07,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,409,not specified in this workbook
+SE,C8-HSL 0.05 mM,3.0,Rep1,0.113,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,410,not specified in this workbook
+SE,C8-HSL 0.05 mM,4.0,Rep1,0.186,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,411,not specified in this workbook
+SE,C8-HSL 0.05 mM,5.0,Rep1,0.282,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,412,not specified in this workbook
+SE,C8-HSL 0.05 mM,6.0,Rep1,0.435,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,413,not specified in this workbook
+SE,C8-HSL 0.05 mM,7.0,Rep1,0.638,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,414,not specified in this workbook
+SE,C8-HSL 0.05 mM,8.0,Rep1,0.811,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,415,not specified in this workbook
+SE,C8-HSL 0.05 mM,9.0,Rep1,0.908,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,416,not specified in this workbook
+SE,C8-HSL 0.05 mM,10.0,Rep1,0.955,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,417,not specified in this workbook
+SE,C8-HSL 0.05 mM,11.0,Rep1,0.982,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,418,not specified in this workbook
+SE,C8-HSL 0.05 mM,12.0,Rep1,0.999,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,419,not specified in this workbook
+SE,C8-HSL 0.05 mM,13.0,Rep1,1.009,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,420,not specified in this workbook
+SE,C8-HSL 0.05 mM,14.0,Rep1,1.009,0.05,SE|C8-HSL 0.05 mM|Rep1,SE|Rep1,,False,Raw Data,421,not specified in this workbook
+SE,C8-HSL 0.05 mM,0.0,Rep2,0.0,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,422,not specified in this workbook
+SE,C8-HSL 0.05 mM,1.0,Rep2,0.041,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,423,not specified in this workbook
+SE,C8-HSL 0.05 mM,2.0,Rep2,0.079,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,424,not specified in this workbook
+SE,C8-HSL 0.05 mM,3.0,Rep2,0.119,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,425,not specified in this workbook
+SE,C8-HSL 0.05 mM,4.0,Rep2,0.193,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,426,not specified in this workbook
+SE,C8-HSL 0.05 mM,5.0,Rep2,0.278,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,427,not specified in this workbook
+SE,C8-HSL 0.05 mM,6.0,Rep2,0.43,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,428,not specified in this workbook
+SE,C8-HSL 0.05 mM,7.0,Rep2,0.635,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,429,not specified in this workbook
+SE,C8-HSL 0.05 mM,8.0,Rep2,0.813,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,430,not specified in this workbook
+SE,C8-HSL 0.05 mM,9.0,Rep2,0.92,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,431,not specified in this workbook
+SE,C8-HSL 0.05 mM,10.0,Rep2,0.957,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,432,not specified in this workbook
+SE,C8-HSL 0.05 mM,11.0,Rep2,0.979,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,433,not specified in this workbook
+SE,C8-HSL 0.05 mM,12.0,Rep2,0.992,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,434,not specified in this workbook
+SE,C8-HSL 0.05 mM,13.0,Rep2,1.007,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,435,not specified in this workbook
+SE,C8-HSL 0.05 mM,14.0,Rep2,0.999,0.05,SE|C8-HSL 0.05 mM|Rep2,SE|Rep2,,False,Raw Data,436,not specified in this workbook
+SE,C8-HSL 0.05 mM,0.0,Rep3,0.0,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,437,not specified in this workbook
+SE,C8-HSL 0.05 mM,1.0,Rep3,0.076,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,438,not specified in this workbook
+SE,C8-HSL 0.05 mM,2.0,Rep3,0.092,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,439,not specified in this workbook
+SE,C8-HSL 0.05 mM,3.0,Rep3,0.106,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,440,not specified in this workbook
+SE,C8-HSL 0.05 mM,4.0,Rep3,0.199,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,441,not specified in this workbook
+SE,C8-HSL 0.05 mM,5.0,Rep3,0.25,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,442,not specified in this workbook
+SE,C8-HSL 0.05 mM,6.0,Rep3,0.443,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,443,not specified in this workbook
+SE,C8-HSL 0.05 mM,7.0,Rep3,0.649,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,444,not specified in this workbook
+SE,C8-HSL 0.05 mM,8.0,Rep3,0.783,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,445,not specified in this workbook
+SE,C8-HSL 0.05 mM,9.0,Rep3,0.896,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,446,not specified in this workbook
+SE,C8-HSL 0.05 mM,10.0,Rep3,0.966,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,447,not specified in this workbook
+SE,C8-HSL 0.05 mM,11.0,Rep3,0.986,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,448,not specified in this workbook
+SE,C8-HSL 0.05 mM,12.0,Rep3,1.001,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,449,not specified in this workbook
+SE,C8-HSL 0.05 mM,13.0,Rep3,0.992,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,450,not specified in this workbook
+SE,C8-HSL 0.05 mM,14.0,Rep3,1.016,0.05,SE|C8-HSL 0.05 mM|Rep3,SE|Rep3,,False,Raw Data,451,not specified in this workbook
+SE,C8-HSL 0.2 mM,0.0,Rep1,0.0,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,452,not specified in this workbook
+SE,C8-HSL 0.2 mM,1.0,Rep1,0.04,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,453,not specified in this workbook
+SE,C8-HSL 0.2 mM,2.0,Rep1,0.07,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,454,not specified in this workbook
+SE,C8-HSL 0.2 mM,3.0,Rep1,0.12,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,455,not specified in this workbook
+SE,C8-HSL 0.2 mM,4.0,Rep1,0.2,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,456,not specified in this workbook
+SE,C8-HSL 0.2 mM,5.0,Rep1,0.31,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,457,not specified in this workbook
+SE,C8-HSL 0.2 mM,6.0,Rep1,0.47,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,458,not specified in this workbook
+SE,C8-HSL 0.2 mM,7.0,Rep1,0.68,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,459,not specified in this workbook
+SE,C8-HSL 0.2 mM,8.0,Rep1,0.86,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,460,not specified in this workbook
+SE,C8-HSL 0.2 mM,9.0,Rep1,0.95,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,461,not specified in this workbook
+SE,C8-HSL 0.2 mM,10.0,Rep1,0.99,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,462,not specified in this workbook
+SE,C8-HSL 0.2 mM,11.0,Rep1,1.01,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,463,not specified in this workbook
+SE,C8-HSL 0.2 mM,12.0,Rep1,1.02,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,464,not specified in this workbook
+SE,C8-HSL 0.2 mM,13.0,Rep1,1.03,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,465,not specified in this workbook
+SE,C8-HSL 0.2 mM,14.0,Rep1,1.03,0.2,SE|C8-HSL 0.2 mM|Rep1,SE|Rep1,,False,Raw Data,466,not specified in this workbook
+SE,C8-HSL 0.2 mM,0.0,Rep2,0.0,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,467,not specified in this workbook
+SE,C8-HSL 0.2 mM,1.0,Rep2,0.05,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,468,not specified in this workbook
+SE,C8-HSL 0.2 mM,2.0,Rep2,0.085,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,469,not specified in this workbook
+SE,C8-HSL 0.2 mM,3.0,Rep2,0.147,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,470,not specified in this workbook
+SE,C8-HSL 0.2 mM,4.0,Rep2,0.188,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,471,not specified in this workbook
+SE,C8-HSL 0.2 mM,5.0,Rep2,0.302,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,472,not specified in this workbook
+SE,C8-HSL 0.2 mM,6.0,Rep2,0.462,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,473,not specified in this workbook
+SE,C8-HSL 0.2 mM,7.0,Rep2,0.671,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,474,not specified in this workbook
+SE,C8-HSL 0.2 mM,8.0,Rep2,0.856,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,475,not specified in this workbook
+SE,C8-HSL 0.2 mM,9.0,Rep2,0.948,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,476,not specified in this workbook
+SE,C8-HSL 0.2 mM,10.0,Rep2,1.019,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,477,not specified in this workbook
+SE,C8-HSL 0.2 mM,11.0,Rep2,1.035,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,478,not specified in this workbook
+SE,C8-HSL 0.2 mM,12.0,Rep2,1.038,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,479,not specified in this workbook
+SE,C8-HSL 0.2 mM,13.0,Rep2,1.041,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,480,not specified in this workbook
+SE,C8-HSL 0.2 mM,14.0,Rep2,1.034,0.2,SE|C8-HSL 0.2 mM|Rep2,SE|Rep2,,False,Raw Data,481,not specified in this workbook
+SE,C8-HSL 0.2 mM,0.0,Rep3,0.0,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,482,not specified in this workbook
+SE,C8-HSL 0.2 mM,1.0,Rep3,0.066,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,483,not specified in this workbook
+SE,C8-HSL 0.2 mM,2.0,Rep3,0.079,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,484,not specified in this workbook
+SE,C8-HSL 0.2 mM,3.0,Rep3,0.1,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,485,not specified in this workbook
+SE,C8-HSL 0.2 mM,4.0,Rep3,0.204,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,486,not specified in this workbook
+SE,C8-HSL 0.2 mM,5.0,Rep3,0.313,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,487,not specified in this workbook
+SE,C8-HSL 0.2 mM,6.0,Rep3,0.465,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,488,not specified in this workbook
+SE,C8-HSL 0.2 mM,7.0,Rep3,0.695,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,489,not specified in this workbook
+SE,C8-HSL 0.2 mM,8.0,Rep3,0.834,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,490,not specified in this workbook
+SE,C8-HSL 0.2 mM,9.0,Rep3,0.938,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,491,not specified in this workbook
+SE,C8-HSL 0.2 mM,10.0,Rep3,0.997,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,492,not specified in this workbook
+SE,C8-HSL 0.2 mM,11.0,Rep3,1.012,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,493,not specified in this workbook
+SE,C8-HSL 0.2 mM,12.0,Rep3,1.035,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,494,not specified in this workbook
+SE,C8-HSL 0.2 mM,13.0,Rep3,0.995,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,495,not specified in this workbook
+SE,C8-HSL 0.2 mM,14.0,Rep3,1.057,0.2,SE|C8-HSL 0.2 mM|Rep3,SE|Rep3,,False,Raw Data,496,not specified in this workbook
+SE,C8-HSL 1.0 mM,0.0,Rep1,0.0,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,497,not specified in this workbook
+SE,C8-HSL 1.0 mM,1.0,Rep1,0.04,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,498,not specified in this workbook
+SE,C8-HSL 1.0 mM,2.0,Rep1,0.07,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,499,not specified in this workbook
+SE,C8-HSL 1.0 mM,3.0,Rep1,0.116,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,500,not specified in this workbook
+SE,C8-HSL 1.0 mM,4.0,Rep1,0.192,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,501,not specified in this workbook
+SE,C8-HSL 1.0 mM,5.0,Rep1,0.294,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,502,not specified in this workbook
+SE,C8-HSL 1.0 mM,6.0,Rep1,0.45,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,503,not specified in this workbook
+SE,C8-HSL 1.0 mM,7.0,Rep1,0.656,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,504,not specified in this workbook
+SE,C8-HSL 1.0 mM,8.0,Rep1,0.832,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,505,not specified in this workbook
+SE,C8-HSL 1.0 mM,9.0,Rep1,0.926,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,506,not specified in this workbook
+SE,C8-HSL 1.0 mM,10.0,Rep1,0.97,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,507,not specified in this workbook
+SE,C8-HSL 1.0 mM,11.0,Rep1,0.994,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,508,not specified in this workbook
+SE,C8-HSL 1.0 mM,12.0,Rep1,1.008,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,509,not specified in this workbook
+SE,C8-HSL 1.0 mM,13.0,Rep1,1.018,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,510,not specified in this workbook
+SE,C8-HSL 1.0 mM,14.0,Rep1,1.018,1.0,SE|C8-HSL 1.0 mM|Rep1,SE|Rep1,,False,Raw Data,511,not specified in this workbook
+SE,C8-HSL 1.0 mM,0.0,Rep2,0.0,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,512,not specified in this workbook
+SE,C8-HSL 1.0 mM,1.0,Rep2,0.045,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,513,not specified in this workbook
+SE,C8-HSL 1.0 mM,2.0,Rep2,0.081,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,514,not specified in this workbook
+SE,C8-HSL 1.0 mM,3.0,Rep2,0.131,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,515,not specified in this workbook
+SE,C8-HSL 1.0 mM,4.0,Rep2,0.191,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,516,not specified in this workbook
+SE,C8-HSL 1.0 mM,5.0,Rep2,0.288,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,517,not specified in this workbook
+SE,C8-HSL 1.0 mM,6.0,Rep2,0.444,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,518,not specified in this workbook
+SE,C8-HSL 1.0 mM,7.0,Rep2,0.651,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,519,not specified in this workbook
+SE,C8-HSL 1.0 mM,8.0,Rep2,0.832,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,520,not specified in this workbook
+SE,C8-HSL 1.0 mM,9.0,Rep2,0.932,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,521,not specified in this workbook
+SE,C8-HSL 1.0 mM,10.0,Rep2,0.983,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,522,not specified in this workbook
+SE,C8-HSL 1.0 mM,11.0,Rep2,1.003,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,523,not specified in this workbook
+SE,C8-HSL 1.0 mM,12.0,Rep2,1.012,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,524,not specified in this workbook
+SE,C8-HSL 1.0 mM,13.0,Rep2,1.022,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,525,not specified in this workbook
+SE,C8-HSL 1.0 mM,14.0,Rep2,1.014,1.0,SE|C8-HSL 1.0 mM|Rep2,SE|Rep2,,False,Raw Data,526,not specified in this workbook
+SE,C8-HSL 1.0 mM,0.0,Rep3,0.0,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,527,not specified in this workbook
+SE,C8-HSL 1.0 mM,1.0,Rep3,0.072,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,528,not specified in this workbook
+SE,C8-HSL 1.0 mM,2.0,Rep3,0.086,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,529,not specified in this workbook
+SE,C8-HSL 1.0 mM,3.0,Rep3,0.104,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,530,not specified in this workbook
+SE,C8-HSL 1.0 mM,4.0,Rep3,0.201,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,531,not specified in this workbook
+SE,C8-HSL 1.0 mM,5.0,Rep3,0.277,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,532,not specified in this workbook
+SE,C8-HSL 1.0 mM,6.0,Rep3,0.453,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,533,not specified in this workbook
+SE,C8-HSL 1.0 mM,7.0,Rep3,0.669,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,534,not specified in this workbook
+SE,C8-HSL 1.0 mM,8.0,Rep3,0.805,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,535,not specified in this workbook
+SE,C8-HSL 1.0 mM,9.0,Rep3,0.914,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,536,not specified in this workbook
+SE,C8-HSL 1.0 mM,10.0,Rep3,0.979,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,537,not specified in this workbook
+SE,C8-HSL 1.0 mM,11.0,Rep3,0.997,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,538,not specified in this workbook
+SE,C8-HSL 1.0 mM,12.0,Rep3,1.015,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,539,not specified in this workbook
+SE,C8-HSL 1.0 mM,13.0,Rep3,0.993,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,540,not specified in this workbook
+SE,C8-HSL 1.0 mM,14.0,Rep3,1.034,1.0,SE|C8-HSL 1.0 mM|Rep3,SE|Rep3,,False,Raw Data,541,not specified in this workbook
+ST14028,No Treatment,0.0,Rep1,0.0,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,542,not specified in this workbook
+ST14028,No Treatment,1.0,Rep1,0.03,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,543,not specified in this workbook
+ST14028,No Treatment,2.0,Rep1,0.06,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,544,not specified in this workbook
+ST14028,No Treatment,3.0,Rep1,0.1,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,545,not specified in this workbook
+ST14028,No Treatment,4.0,Rep1,0.16,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,546,not specified in this workbook
+ST14028,No Treatment,5.0,Rep1,0.24,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,547,not specified in this workbook
+ST14028,No Treatment,6.0,Rep1,0.37,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,548,not specified in this workbook
+ST14028,No Treatment,7.0,Rep1,0.54,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,549,not specified in this workbook
+ST14028,No Treatment,8.0,Rep1,0.71,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,550,not specified in this workbook
+ST14028,No Treatment,9.0,Rep1,0.83,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,551,not specified in this workbook
+ST14028,No Treatment,10.0,Rep1,0.9,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,552,not specified in this workbook
+ST14028,No Treatment,11.0,Rep1,0.94,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,553,not specified in this workbook
+ST14028,No Treatment,12.0,Rep1,0.97,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,554,not specified in this workbook
+ST14028,No Treatment,13.0,Rep1,0.98,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,555,not specified in this workbook
+ST14028,No Treatment,14.0,Rep1,0.99,0.0,ST14028|No Treatment|Rep1,ST14028|Rep1,,True,Raw Data,556,not specified in this workbook
+ST14028,No Treatment,0.0,Rep2,0.0,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,557,not specified in this workbook
+ST14028,No Treatment,1.0,Rep2,0.032,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,558,not specified in this workbook
+ST14028,No Treatment,2.0,Rep2,0.049,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,559,not specified in this workbook
+ST14028,No Treatment,3.0,Rep2,0.144,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,560,not specified in this workbook
+ST14028,No Treatment,4.0,Rep2,0.17,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,561,not specified in this workbook
+ST14028,No Treatment,5.0,Rep2,0.206,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,562,not specified in this workbook
+ST14028,No Treatment,6.0,Rep2,0.327,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,563,not specified in this workbook
+ST14028,No Treatment,7.0,Rep2,0.574,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,564,not specified in this workbook
+ST14028,No Treatment,8.0,Rep2,0.745,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,565,not specified in this workbook
+ST14028,No Treatment,9.0,Rep2,0.806,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,566,not specified in this workbook
+ST14028,No Treatment,10.0,Rep2,0.884,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,567,not specified in this workbook
+ST14028,No Treatment,11.0,Rep2,0.962,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,568,not specified in this workbook
+ST14028,No Treatment,12.0,Rep2,0.964,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,569,not specified in this workbook
+ST14028,No Treatment,13.0,Rep2,0.988,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,570,not specified in this workbook
+ST14028,No Treatment,14.0,Rep2,0.988,0.0,ST14028|No Treatment|Rep2,ST14028|Rep2,,True,Raw Data,571,not specified in this workbook
+ST14028,No Treatment,0.0,Rep3,0.0,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,572,not specified in this workbook
+ST14028,No Treatment,1.0,Rep3,0.049,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,573,not specified in this workbook
+ST14028,No Treatment,2.0,Rep3,0.061,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,574,not specified in this workbook
+ST14028,No Treatment,3.0,Rep3,0.108,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,575,not specified in this workbook
+ST14028,No Treatment,4.0,Rep3,0.169,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,576,not specified in this workbook
+ST14028,No Treatment,5.0,Rep3,0.235,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,577,not specified in this workbook
+ST14028,No Treatment,6.0,Rep3,0.387,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,578,not specified in this workbook
+ST14028,No Treatment,7.0,Rep3,0.529,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,579,not specified in this workbook
+ST14028,No Treatment,8.0,Rep3,0.688,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,580,not specified in this workbook
+ST14028,No Treatment,9.0,Rep3,0.841,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,581,not specified in this workbook
+ST14028,No Treatment,10.0,Rep3,0.89,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,582,not specified in this workbook
+ST14028,No Treatment,11.0,Rep3,0.921,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,583,not specified in this workbook
+ST14028,No Treatment,12.0,Rep3,0.968,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,584,not specified in this workbook
+ST14028,No Treatment,13.0,Rep3,0.995,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,585,not specified in this workbook
+ST14028,No Treatment,14.0,Rep3,0.966,0.0,ST14028|No Treatment|Rep3,ST14028|Rep3,,True,Raw Data,586,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,0.0,Rep1,0.0,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,587,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,1.0,Rep1,0.033,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,588,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,2.0,Rep1,0.063,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,589,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,3.0,Rep1,0.106,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,590,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,4.0,Rep1,0.169,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,591,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,5.0,Rep1,0.255,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,592,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,6.0,Rep1,0.391,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,593,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,7.0,Rep1,0.567,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,594,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,8.0,Rep1,0.743,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,595,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,9.0,Rep1,0.857,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,596,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,10.0,Rep1,0.921,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,597,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,11.0,Rep1,0.955,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,598,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,12.0,Rep1,0.982,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,599,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,13.0,Rep1,0.992,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,600,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,14.0,Rep1,0.999,0.05,ST14028|C8-HSL 0.05 mM|Rep1,ST14028|Rep1,,False,Raw Data,601,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,0.0,Rep2,0.0,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,602,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,1.0,Rep2,0.034,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,603,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,2.0,Rep2,0.052,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,604,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,3.0,Rep2,0.141,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,605,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,4.0,Rep2,0.186,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,606,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,5.0,Rep2,0.239,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,607,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,6.0,Rep2,0.365,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,608,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,7.0,Rep2,0.581,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,609,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,8.0,Rep2,0.767,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,610,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,9.0,Rep2,0.835,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,611,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,10.0,Rep2,0.908,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,612,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,11.0,Rep2,0.976,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,613,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,12.0,Rep2,0.976,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,614,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,13.0,Rep2,0.995,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,615,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,14.0,Rep2,0.994,0.05,ST14028|C8-HSL 0.05 mM|Rep2,ST14028|Rep2,,False,Raw Data,616,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,0.0,Rep3,0.0,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,617,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,1.0,Rep3,0.053,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,618,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,2.0,Rep3,0.062,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,619,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,3.0,Rep3,0.103,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,620,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,4.0,Rep3,0.174,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,621,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,5.0,Rep3,0.248,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,622,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,6.0,Rep3,0.401,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,623,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,7.0,Rep3,0.557,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,624,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,8.0,Rep3,0.731,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,625,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,9.0,Rep3,0.868,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,626,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,10.0,Rep3,0.902,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,627,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,11.0,Rep3,0.948,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,628,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,12.0,Rep3,0.979,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,629,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,13.0,Rep3,1.005,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,630,not specified in this workbook
+ST14028,C8-HSL 0.05 mM,14.0,Rep3,0.987,0.05,ST14028|C8-HSL 0.05 mM|Rep3,ST14028|Rep3,,False,Raw Data,631,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,0.0,Rep1,0.0,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,632,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,1.0,Rep1,0.04,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,633,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,2.0,Rep1,0.07,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,634,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,3.0,Rep1,0.12,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,635,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,4.0,Rep1,0.19,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,636,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,5.0,Rep1,0.29,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,637,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,6.0,Rep1,0.44,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,638,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,7.0,Rep1,0.63,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,639,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,8.0,Rep1,0.82,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,640,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,9.0,Rep1,0.92,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,641,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,10.0,Rep1,0.97,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,642,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,11.0,Rep1,0.99,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,643,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,12.0,Rep1,1.01,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,644,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,13.0,Rep1,1.02,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,645,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,14.0,Rep1,1.02,0.2,ST14028|C8-HSL 0.2 mM|Rep1,ST14028|Rep1,,False,Raw Data,646,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,0.0,Rep2,0.0,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,647,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,1.0,Rep2,0.04,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,648,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,2.0,Rep2,0.06,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,649,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,3.0,Rep2,0.134,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,650,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,4.0,Rep2,0.223,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,651,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,5.0,Rep2,0.316,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,652,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,6.0,Rep2,0.455,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,653,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,7.0,Rep2,0.599,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,654,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,8.0,Rep2,0.818,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,655,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,9.0,Rep2,0.904,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,656,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,10.0,Rep2,0.965,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,657,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,11.0,Rep2,1.01,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,658,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,12.0,Rep2,1.003,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,659,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,13.0,Rep2,1.01,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,660,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,14.0,Rep2,1.008,0.2,ST14028|C8-HSL 0.2 mM|Rep2,ST14028|Rep2,,False,Raw Data,661,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,0.0,Rep3,0.0,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,662,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,1.0,Rep3,0.063,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,663,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,2.0,Rep3,0.064,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,664,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,3.0,Rep3,0.092,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,665,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,4.0,Rep3,0.184,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,666,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,5.0,Rep3,0.278,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,667,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,6.0,Rep3,0.432,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,668,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,7.0,Rep3,0.622,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,669,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,8.0,Rep3,0.83,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,670,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,9.0,Rep3,0.93,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,671,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,10.0,Rep3,0.93,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,672,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,11.0,Rep3,1.012,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,673,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,12.0,Rep3,1.006,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,674,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,13.0,Rep3,1.028,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,675,not specified in this workbook
+ST14028,C8-HSL 0.2 mM,14.0,Rep3,1.037,0.2,ST14028|C8-HSL 0.2 mM|Rep3,ST14028|Rep3,,False,Raw Data,676,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,0.0,Rep1,0.0,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,677,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,1.0,Rep1,0.036,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,678,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,2.0,Rep1,0.066,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,679,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,3.0,Rep1,0.112,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,680,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,4.0,Rep1,0.178,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,681,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,5.0,Rep1,0.27,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,682,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,6.0,Rep1,0.412,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,683,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,7.0,Rep1,0.594,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,684,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,8.0,Rep1,0.776,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,685,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,9.0,Rep1,0.884,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,686,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,10.0,Rep1,0.942,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,687,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,11.0,Rep1,0.97,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,688,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,12.0,Rep1,0.994,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,689,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,13.0,Rep1,1.004,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,690,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,14.0,Rep1,1.008,1.0,ST14028|C8-HSL 1.0 mM|Rep1,ST14028|Rep1,,False,Raw Data,691,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,0.0,Rep2,0.0,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,692,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,1.0,Rep2,0.037,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,693,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,2.0,Rep2,0.056,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,694,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,3.0,Rep2,0.138,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,695,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,4.0,Rep2,0.202,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,696,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,5.0,Rep2,0.272,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,697,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,6.0,Rep2,0.404,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,698,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,7.0,Rep2,0.589,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,699,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,8.0,Rep2,0.789,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,700,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,9.0,Rep2,0.865,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,701,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,10.0,Rep2,0.933,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,702,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,11.0,Rep2,0.991,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,703,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,12.0,Rep2,0.987,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,704,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,13.0,Rep2,1.001,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,705,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,14.0,Rep2,1.0,1.0,ST14028|C8-HSL 1.0 mM|Rep2,ST14028|Rep2,,False,Raw Data,706,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,0.0,Rep3,0.0,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,707,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,1.0,Rep3,0.057,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,708,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,2.0,Rep3,0.063,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,709,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,3.0,Rep3,0.098,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,710,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,4.0,Rep3,0.178,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,711,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,5.0,Rep3,0.261,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,712,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,6.0,Rep3,0.414,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,713,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,7.0,Rep3,0.585,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,714,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,8.0,Rep3,0.773,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,715,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,9.0,Rep3,0.894,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,716,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,10.0,Rep3,0.914,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,717,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,11.0,Rep3,0.976,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,718,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,12.0,Rep3,0.991,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,719,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,13.0,Rep3,1.015,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,720,not specified in this workbook
+ST14028,C8-HSL 1.0 mM,14.0,Rep3,1.009,1.0,ST14028|C8-HSL 1.0 mM|Rep3,ST14028|Rep3,,False,Raw Data,721,not specified in this workbook
+STTA1537,No Treatment,0.0,Rep1,0.0,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,722,not specified in this workbook
+STTA1537,No Treatment,1.0,Rep1,0.04,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,723,not specified in this workbook
+STTA1537,No Treatment,2.0,Rep1,0.07,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,724,not specified in this workbook
+STTA1537,No Treatment,3.0,Rep1,0.12,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,725,not specified in this workbook
+STTA1537,No Treatment,4.0,Rep1,0.2,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,726,not specified in this workbook
+STTA1537,No Treatment,5.0,Rep1,0.3,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,727,not specified in this workbook
+STTA1537,No Treatment,6.0,Rep1,0.46,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,728,not specified in this workbook
+STTA1537,No Treatment,7.0,Rep1,0.65,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,729,not specified in this workbook
+STTA1537,No Treatment,8.0,Rep1,0.82,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,730,not specified in this workbook
+STTA1537,No Treatment,9.0,Rep1,0.91,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,731,not specified in this workbook
+STTA1537,No Treatment,10.0,Rep1,0.96,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,732,not specified in this workbook
+STTA1537,No Treatment,11.0,Rep1,0.98,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,733,not specified in this workbook
+STTA1537,No Treatment,12.0,Rep1,1.0,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,734,not specified in this workbook
+STTA1537,No Treatment,13.0,Rep1,1.01,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,735,not specified in this workbook
+STTA1537,No Treatment,14.0,Rep1,1.01,0.0,STTA1537|No Treatment|Rep1,STTA1537|Rep1,,True,Raw Data,736,not specified in this workbook
+STTA1537,No Treatment,0.0,Rep2,0.0,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,737,not specified in this workbook
+STTA1537,No Treatment,1.0,Rep2,0.0,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,738,not specified in this workbook
+STTA1537,No Treatment,2.0,Rep2,0.059,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,739,not specified in this workbook
+STTA1537,No Treatment,3.0,Rep2,0.139,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,740,not specified in this workbook
+STTA1537,No Treatment,4.0,Rep2,0.216,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,741,not specified in this workbook
+STTA1537,No Treatment,5.0,Rep2,0.294,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,742,not specified in this workbook
+STTA1537,No Treatment,6.0,Rep2,0.469,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,743,not specified in this workbook
+STTA1537,No Treatment,7.0,Rep2,0.681,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,744,not specified in this workbook
+STTA1537,No Treatment,8.0,Rep2,0.826,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,745,not specified in this workbook
+STTA1537,No Treatment,9.0,Rep2,0.888,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,746,not specified in this workbook
+STTA1537,No Treatment,10.0,Rep2,0.944,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,747,not specified in this workbook
+STTA1537,No Treatment,11.0,Rep2,1.008,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,748,not specified in this workbook
+STTA1537,No Treatment,12.0,Rep2,1.031,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,749,not specified in this workbook
+STTA1537,No Treatment,13.0,Rep2,0.99,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,750,not specified in this workbook
+STTA1537,No Treatment,14.0,Rep2,1.028,0.0,STTA1537|No Treatment|Rep2,STTA1537|Rep2,,True,Raw Data,751,not specified in this workbook
+STTA1537,No Treatment,0.0,Rep3,0.0,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,752,not specified in this workbook
+STTA1537,No Treatment,1.0,Rep3,0.02,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,753,not specified in this workbook
+STTA1537,No Treatment,2.0,Rep3,0.065,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,754,not specified in this workbook
+STTA1537,No Treatment,3.0,Rep3,0.137,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,755,not specified in this workbook
+STTA1537,No Treatment,4.0,Rep3,0.205,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,756,not specified in this workbook
+STTA1537,No Treatment,5.0,Rep3,0.293,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,757,not specified in this workbook
+STTA1537,No Treatment,6.0,Rep3,0.479,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,758,not specified in this workbook
+STTA1537,No Treatment,7.0,Rep3,0.652,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,759,not specified in this workbook
+STTA1537,No Treatment,8.0,Rep3,0.85,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,760,not specified in this workbook
+STTA1537,No Treatment,9.0,Rep3,0.926,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,761,not specified in this workbook
+STTA1537,No Treatment,10.0,Rep3,0.992,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,762,not specified in this workbook
+STTA1537,No Treatment,11.0,Rep3,1.013,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,763,not specified in this workbook
+STTA1537,No Treatment,12.0,Rep3,1.017,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,764,not specified in this workbook
+STTA1537,No Treatment,13.0,Rep3,1.02,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,765,not specified in this workbook
+STTA1537,No Treatment,14.0,Rep3,1.02,0.0,STTA1537|No Treatment|Rep3,STTA1537|Rep3,,True,Raw Data,766,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,0.0,Rep1,0.0,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,767,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,1.0,Rep1,0.04,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,768,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,2.0,Rep1,0.07,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,769,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,3.0,Rep1,0.12,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,770,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,4.0,Rep1,0.2,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,771,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,5.0,Rep1,0.303,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,772,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,6.0,Rep1,0.463,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,773,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,7.0,Rep1,0.659,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,774,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,8.0,Rep1,0.832,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,775,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,9.0,Rep1,0.922,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,776,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,10.0,Rep1,0.969,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,777,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,11.0,Rep1,0.989,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,778,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,12.0,Rep1,1.006,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,779,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,13.0,Rep1,1.016,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,780,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,14.0,Rep1,1.016,0.05,STTA1537|C8-HSL 0.05 mM|Rep1,STTA1537|Rep1,,False,Raw Data,781,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,0.0,Rep2,0.0,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,782,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,1.0,Rep2,0.005,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,783,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,2.0,Rep2,0.067,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,784,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,3.0,Rep2,0.138,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,785,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,4.0,Rep2,0.211,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,786,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,5.0,Rep2,0.288,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,787,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,6.0,Rep2,0.475,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,788,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,7.0,Rep2,0.671,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,789,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,8.0,Rep2,0.843,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,790,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,9.0,Rep2,0.901,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,791,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,10.0,Rep2,0.964,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,792,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,11.0,Rep2,1.013,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,793,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,12.0,Rep2,1.019,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,794,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,13.0,Rep2,1.006,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,795,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,14.0,Rep2,1.03,0.05,STTA1537|C8-HSL 0.05 mM|Rep2,STTA1537|Rep2,,False,Raw Data,796,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,0.0,Rep3,0.0,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,797,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,1.0,Rep3,0.025,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,798,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,2.0,Rep3,0.061,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,799,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,3.0,Rep3,0.121,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,800,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,4.0,Rep3,0.207,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,801,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,5.0,Rep3,0.302,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,802,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,6.0,Rep3,0.482,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,803,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,7.0,Rep3,0.652,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,804,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,8.0,Rep3,0.86,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,805,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,9.0,Rep3,0.925,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,806,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,10.0,Rep3,0.98,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,807,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,11.0,Rep3,1.002,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,808,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,12.0,Rep3,1.019,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,809,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,13.0,Rep3,1.028,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,810,not specified in this workbook
+STTA1537,C8-HSL 0.05 mM,14.0,Rep3,1.018,0.05,STTA1537|C8-HSL 0.05 mM|Rep3,STTA1537|Rep3,,False,Raw Data,811,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,0.0,Rep1,0.0,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,812,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,1.0,Rep1,0.04,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,813,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,2.0,Rep1,0.07,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,814,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,3.0,Rep1,0.12,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,815,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,4.0,Rep1,0.2,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,816,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,5.0,Rep1,0.31,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,817,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,6.0,Rep1,0.47,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,818,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,7.0,Rep1,0.68,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,819,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,8.0,Rep1,0.86,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,820,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,9.0,Rep1,0.95,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,821,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,10.0,Rep1,0.99,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,822,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,11.0,Rep1,1.01,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,823,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,12.0,Rep1,1.02,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,824,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,13.0,Rep1,1.03,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,825,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,14.0,Rep1,1.03,0.2,STTA1537|C8-HSL 0.2 mM|Rep1,STTA1537|Rep1,,False,Raw Data,826,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,0.0,Rep2,0.0,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,827,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,1.0,Rep2,0.016,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,828,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,2.0,Rep2,0.085,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,829,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,3.0,Rep2,0.134,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,830,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,4.0,Rep2,0.199,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,831,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,5.0,Rep2,0.273,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,832,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,6.0,Rep2,0.489,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,833,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,7.0,Rep2,0.648,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,834,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,8.0,Rep2,0.884,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,835,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,9.0,Rep2,0.93,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,836,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,10.0,Rep2,1.01,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,837,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,11.0,Rep2,1.024,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,838,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,12.0,Rep2,0.992,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,839,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,13.0,Rep2,1.044,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,840,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,14.0,Rep2,1.034,0.2,STTA1537|C8-HSL 0.2 mM|Rep2,STTA1537|Rep2,,False,Raw Data,841,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,0.0,Rep3,0.0,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,842,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,1.0,Rep3,0.035,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,843,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,2.0,Rep3,0.052,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,844,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,3.0,Rep3,0.082,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,845,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,4.0,Rep3,0.212,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,846,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,5.0,Rep3,0.322,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,847,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,6.0,Rep3,0.489,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,848,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,7.0,Rep3,0.652,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,849,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,8.0,Rep3,0.884,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,850,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,9.0,Rep3,0.924,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,851,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,10.0,Rep3,0.952,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,852,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,11.0,Rep3,0.978,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,853,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,12.0,Rep3,1.023,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,854,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,13.0,Rep3,1.045,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,855,not specified in this workbook
+STTA1537,C8-HSL 0.2 mM,14.0,Rep3,1.013,0.2,STTA1537|C8-HSL 0.2 mM|Rep3,STTA1537|Rep3,,False,Raw Data,856,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,0.0,Rep1,0.0,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,857,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,1.0,Rep1,0.04,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,858,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,2.0,Rep1,0.07,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,859,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,3.0,Rep1,0.12,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,860,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,4.0,Rep1,0.2,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,861,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,5.0,Rep1,0.306,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,862,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,6.0,Rep1,0.466,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,863,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,7.0,Rep1,0.668,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,864,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,8.0,Rep1,0.844,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,865,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,9.0,Rep1,0.934,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,866,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,10.0,Rep1,0.978,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,867,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,11.0,Rep1,0.998,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,868,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,12.0,Rep1,1.012,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,869,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,13.0,Rep1,1.022,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,870,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,14.0,Rep1,1.022,1.0,STTA1537|C8-HSL 1.0 mM|Rep1,STTA1537|Rep1,,False,Raw Data,871,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,0.0,Rep2,0.0,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,872,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,1.0,Rep2,0.01,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,873,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,2.0,Rep2,0.075,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,874,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,3.0,Rep2,0.136,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,875,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,4.0,Rep2,0.206,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,876,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,5.0,Rep2,0.281,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,877,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,6.0,Rep2,0.481,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,878,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,7.0,Rep2,0.661,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,879,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,8.0,Rep2,0.861,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,880,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,9.0,Rep2,0.913,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,881,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,10.0,Rep2,0.984,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,882,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,11.0,Rep2,1.018,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,883,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,12.0,Rep2,1.008,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,884,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,13.0,Rep2,1.022,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,885,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,14.0,Rep2,1.032,1.0,STTA1537|C8-HSL 1.0 mM|Rep2,STTA1537|Rep2,,False,Raw Data,886,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,0.0,Rep3,0.0,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,887,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,1.0,Rep3,0.029,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,888,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,2.0,Rep3,0.057,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,889,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,3.0,Rep3,0.104,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,890,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,4.0,Rep3,0.209,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,891,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,5.0,Rep3,0.31,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,892,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,6.0,Rep3,0.485,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,893,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,7.0,Rep3,0.652,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,894,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,8.0,Rep3,0.87,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,895,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,9.0,Rep3,0.925,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,896,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,10.0,Rep3,0.968,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,897,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,11.0,Rep3,0.992,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,898,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,12.0,Rep3,1.021,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,899,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,13.0,Rep3,1.035,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,900,not specified in this workbook
+STTA1537,C8-HSL 1.0 mM,14.0,Rep3,1.016,1.0,STTA1537|C8-HSL 1.0 mM|Rep3,STTA1537|Rep3,,False,Raw Data,901,not specified in this workbook
+STWT,No Treatment,0.0,Rep1,0.0,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,902,not specified in this workbook
+STWT,No Treatment,1.0,Rep1,0.04,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,903,not specified in this workbook
+STWT,No Treatment,2.0,Rep1,0.07,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,904,not specified in this workbook
+STWT,No Treatment,3.0,Rep1,0.11,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,905,not specified in this workbook
+STWT,No Treatment,4.0,Rep1,0.18,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,906,not specified in this workbook
+STWT,No Treatment,5.0,Rep1,0.27,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,907,not specified in this workbook
+STWT,No Treatment,6.0,Rep1,0.41,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,908,not specified in this workbook
+STWT,No Treatment,7.0,Rep1,0.6,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,909,not specified in this workbook
+STWT,No Treatment,8.0,Rep1,0.78,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,910,not specified in this workbook
+STWT,No Treatment,9.0,Rep1,0.88,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,911,not specified in this workbook
+STWT,No Treatment,10.0,Rep1,0.94,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,912,not specified in this workbook
+STWT,No Treatment,11.0,Rep1,0.97,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,913,not specified in this workbook
+STWT,No Treatment,12.0,Rep1,0.99,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,914,not specified in this workbook
+STWT,No Treatment,13.0,Rep1,1.0,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,915,not specified in this workbook
+STWT,No Treatment,14.0,Rep1,1.0,0.0,STWT|No Treatment|Rep1,STWT|Rep1,,True,Raw Data,916,not specified in this workbook
+STWT,No Treatment,0.0,Rep2,0.0,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,917,not specified in this workbook
+STWT,No Treatment,1.0,Rep2,0.038,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,918,not specified in this workbook
+STWT,No Treatment,2.0,Rep2,0.078,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,919,not specified in this workbook
+STWT,No Treatment,3.0,Rep2,0.124,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,920,not specified in this workbook
+STWT,No Treatment,4.0,Rep2,0.177,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,921,not specified in this workbook
+STWT,No Treatment,5.0,Rep2,0.293,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,922,not specified in this workbook
+STWT,No Treatment,6.0,Rep2,0.439,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,923,not specified in this workbook
+STWT,No Treatment,7.0,Rep2,0.62,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,924,not specified in this workbook
+STWT,No Treatment,8.0,Rep2,0.794,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,925,not specified in this workbook
+STWT,No Treatment,9.0,Rep2,0.865,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,926,not specified in this workbook
+STWT,No Treatment,10.0,Rep2,0.943,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,927,not specified in this workbook
+STWT,No Treatment,11.0,Rep2,1.005,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,928,not specified in this workbook
+STWT,No Treatment,12.0,Rep2,0.984,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,929,not specified in this workbook
+STWT,No Treatment,13.0,Rep2,0.983,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,930,not specified in this workbook
+STWT,No Treatment,14.0,Rep2,0.995,0.0,STWT|No Treatment|Rep2,STWT|Rep2,,True,Raw Data,931,not specified in this workbook
+STWT,No Treatment,0.0,Rep3,0.0,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,932,not specified in this workbook
+STWT,No Treatment,1.0,Rep3,0.043,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,933,not specified in this workbook
+STWT,No Treatment,2.0,Rep3,0.049,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,934,not specified in this workbook
+STWT,No Treatment,3.0,Rep3,0.121,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,935,not specified in this workbook
+STWT,No Treatment,4.0,Rep3,0.193,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,936,not specified in this workbook
+STWT,No Treatment,5.0,Rep3,0.25,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,937,not specified in this workbook
+STWT,No Treatment,6.0,Rep3,0.43,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,938,not specified in this workbook
+STWT,No Treatment,7.0,Rep3,0.62,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,939,not specified in this workbook
+STWT,No Treatment,8.0,Rep3,0.78,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,940,not specified in this workbook
+STWT,No Treatment,9.0,Rep3,0.89,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,941,not specified in this workbook
+STWT,No Treatment,10.0,Rep3,0.926,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,942,not specified in this workbook
+STWT,No Treatment,11.0,Rep3,0.987,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,943,not specified in this workbook
+STWT,No Treatment,12.0,Rep3,0.959,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,944,not specified in this workbook
+STWT,No Treatment,13.0,Rep3,1.01,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,945,not specified in this workbook
+STWT,No Treatment,14.0,Rep3,0.974,0.0,STWT|No Treatment|Rep3,STWT|Rep3,,True,Raw Data,946,not specified in this workbook
+STWT,C8-HSL 0.05 mM,0.0,Rep1,0.0,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,947,not specified in this workbook
+STWT,C8-HSL 0.05 mM,1.0,Rep1,0.04,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,948,not specified in this workbook
+STWT,C8-HSL 0.05 mM,2.0,Rep1,0.07,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,949,not specified in this workbook
+STWT,C8-HSL 0.05 mM,3.0,Rep1,0.113,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,950,not specified in this workbook
+STWT,C8-HSL 0.05 mM,4.0,Rep1,0.186,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,951,not specified in this workbook
+STWT,C8-HSL 0.05 mM,5.0,Rep1,0.279,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,952,not specified in this workbook
+STWT,C8-HSL 0.05 mM,6.0,Rep1,0.425,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,953,not specified in this workbook
+STWT,C8-HSL 0.05 mM,7.0,Rep1,0.618,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,954,not specified in this workbook
+STWT,C8-HSL 0.05 mM,8.0,Rep1,0.798,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,955,not specified in this workbook
+STWT,C8-HSL 0.05 mM,9.0,Rep1,0.895,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,956,not specified in this workbook
+STWT,C8-HSL 0.05 mM,10.0,Rep1,0.952,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,957,not specified in this workbook
+STWT,C8-HSL 0.05 mM,11.0,Rep1,0.979,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,958,not specified in this workbook
+STWT,C8-HSL 0.05 mM,12.0,Rep1,0.996,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,959,not specified in this workbook
+STWT,C8-HSL 0.05 mM,13.0,Rep1,1.006,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,960,not specified in this workbook
+STWT,C8-HSL 0.05 mM,14.0,Rep1,1.006,0.05,STWT|C8-HSL 0.05 mM|Rep1,STWT|Rep1,,False,Raw Data,961,not specified in this workbook
+STWT,C8-HSL 0.05 mM,0.0,Rep2,0.0,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,962,not specified in this workbook
+STWT,C8-HSL 0.05 mM,1.0,Rep2,0.034,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,963,not specified in this workbook
+STWT,C8-HSL 0.05 mM,2.0,Rep2,0.08,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,964,not specified in this workbook
+STWT,C8-HSL 0.05 mM,3.0,Rep2,0.119,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,965,not specified in this workbook
+STWT,C8-HSL 0.05 mM,4.0,Rep2,0.184,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,966,not specified in this workbook
+STWT,C8-HSL 0.05 mM,5.0,Rep2,0.295,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,967,not specified in this workbook
+STWT,C8-HSL 0.05 mM,6.0,Rep2,0.448,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,968,not specified in this workbook
+STWT,C8-HSL 0.05 mM,7.0,Rep2,0.625,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,969,not specified in this workbook
+STWT,C8-HSL 0.05 mM,8.0,Rep2,0.81,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,970,not specified in this workbook
+STWT,C8-HSL 0.05 mM,9.0,Rep2,0.882,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,971,not specified in this workbook
+STWT,C8-HSL 0.05 mM,10.0,Rep2,0.942,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,972,not specified in this workbook
+STWT,C8-HSL 0.05 mM,11.0,Rep2,1.011,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,973,not specified in this workbook
+STWT,C8-HSL 0.05 mM,12.0,Rep2,1.002,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,974,not specified in this workbook
+STWT,C8-HSL 0.05 mM,13.0,Rep2,0.997,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,975,not specified in this workbook
+STWT,C8-HSL 0.05 mM,14.0,Rep2,1.012,0.05,STWT|C8-HSL 0.05 mM|Rep2,STWT|Rep2,,False,Raw Data,976,not specified in this workbook
+STWT,C8-HSL 0.05 mM,0.0,Rep3,0.0,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,977,not specified in this workbook
+STWT,C8-HSL 0.05 mM,1.0,Rep3,0.044,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,978,not specified in this workbook
+STWT,C8-HSL 0.05 mM,2.0,Rep3,0.05,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,979,not specified in this workbook
+STWT,C8-HSL 0.05 mM,3.0,Rep3,0.117,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,980,not specified in this workbook
+STWT,C8-HSL 0.05 mM,4.0,Rep3,0.189,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,981,not specified in this workbook
+STWT,C8-HSL 0.05 mM,5.0,Rep3,0.266,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,982,not specified in this workbook
+STWT,C8-HSL 0.05 mM,6.0,Rep3,0.442,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,983,not specified in this workbook
+STWT,C8-HSL 0.05 mM,7.0,Rep3,0.632,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,984,not specified in this workbook
+STWT,C8-HSL 0.05 mM,8.0,Rep3,0.794,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,985,not specified in this workbook
+STWT,C8-HSL 0.05 mM,9.0,Rep3,0.91,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,986,not specified in this workbook
+STWT,C8-HSL 0.05 mM,10.0,Rep3,0.955,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,987,not specified in this workbook
+STWT,C8-HSL 0.05 mM,11.0,Rep3,0.989,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,988,not specified in this workbook
+STWT,C8-HSL 0.05 mM,12.0,Rep3,0.969,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,989,not specified in this workbook
+STWT,C8-HSL 0.05 mM,13.0,Rep3,1.005,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,990,not specified in this workbook
+STWT,C8-HSL 0.05 mM,14.0,Rep3,0.984,0.05,STWT|C8-HSL 0.05 mM|Rep3,STWT|Rep3,,False,Raw Data,991,not specified in this workbook
+STWT,C8-HSL 0.2 mM,0.0,Rep1,0.0,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,992,not specified in this workbook
+STWT,C8-HSL 0.2 mM,1.0,Rep1,0.04,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,993,not specified in this workbook
+STWT,C8-HSL 0.2 mM,2.0,Rep1,0.07,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,994,not specified in this workbook
+STWT,C8-HSL 0.2 mM,3.0,Rep1,0.12,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,995,not specified in this workbook
+STWT,C8-HSL 0.2 mM,4.0,Rep1,0.2,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,996,not specified in this workbook
+STWT,C8-HSL 0.2 mM,5.0,Rep1,0.3,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,997,not specified in this workbook
+STWT,C8-HSL 0.2 mM,6.0,Rep1,0.46,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,998,not specified in this workbook
+STWT,C8-HSL 0.2 mM,7.0,Rep1,0.66,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,999,not specified in this workbook
+STWT,C8-HSL 0.2 mM,8.0,Rep1,0.84,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,1000,not specified in this workbook
+STWT,C8-HSL 0.2 mM,9.0,Rep1,0.93,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,1001,not specified in this workbook
+STWT,C8-HSL 0.2 mM,10.0,Rep1,0.98,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,1002,not specified in this workbook
+STWT,C8-HSL 0.2 mM,11.0,Rep1,1.0,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,1003,not specified in this workbook
+STWT,C8-HSL 0.2 mM,12.0,Rep1,1.01,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,1004,not specified in this workbook
+STWT,C8-HSL 0.2 mM,13.0,Rep1,1.02,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,1005,not specified in this workbook
+STWT,C8-HSL 0.2 mM,14.0,Rep1,1.02,0.2,STWT|C8-HSL 0.2 mM|Rep1,STWT|Rep1,,False,Raw Data,1006,not specified in this workbook
+STWT,C8-HSL 0.2 mM,0.0,Rep2,0.0,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1007,not specified in this workbook
+STWT,C8-HSL 0.2 mM,1.0,Rep2,0.025,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1008,not specified in this workbook
+STWT,C8-HSL 0.2 mM,2.0,Rep2,0.084,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1009,not specified in this workbook
+STWT,C8-HSL 0.2 mM,3.0,Rep2,0.107,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1010,not specified in this workbook
+STWT,C8-HSL 0.2 mM,4.0,Rep2,0.201,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1011,not specified in this workbook
+STWT,C8-HSL 0.2 mM,5.0,Rep2,0.3,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1012,not specified in this workbook
+STWT,C8-HSL 0.2 mM,6.0,Rep2,0.47,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1013,not specified in this workbook
+STWT,C8-HSL 0.2 mM,7.0,Rep2,0.635,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1014,not specified in this workbook
+STWT,C8-HSL 0.2 mM,8.0,Rep2,0.849,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1015,not specified in this workbook
+STWT,C8-HSL 0.2 mM,9.0,Rep2,0.922,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1016,not specified in this workbook
+STWT,C8-HSL 0.2 mM,10.0,Rep2,0.941,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1017,not specified in this workbook
+STWT,C8-HSL 0.2 mM,11.0,Rep2,1.024,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1018,not specified in this workbook
+STWT,C8-HSL 0.2 mM,12.0,Rep2,1.043,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1019,not specified in this workbook
+STWT,C8-HSL 0.2 mM,13.0,Rep2,1.031,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1020,not specified in this workbook
+STWT,C8-HSL 0.2 mM,14.0,Rep2,1.052,0.2,STWT|C8-HSL 0.2 mM|Rep2,STWT|Rep2,,False,Raw Data,1021,not specified in this workbook
+STWT,C8-HSL 0.2 mM,0.0,Rep3,0.0,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1022,not specified in this workbook
+STWT,C8-HSL 0.2 mM,1.0,Rep3,0.045,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1023,not specified in this workbook
+STWT,C8-HSL 0.2 mM,2.0,Rep3,0.053,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1024,not specified in this workbook
+STWT,C8-HSL 0.2 mM,3.0,Rep3,0.108,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1025,not specified in this workbook
+STWT,C8-HSL 0.2 mM,4.0,Rep3,0.181,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1026,not specified in this workbook
+STWT,C8-HSL 0.2 mM,5.0,Rep3,0.304,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1027,not specified in this workbook
+STWT,C8-HSL 0.2 mM,6.0,Rep3,0.469,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1028,not specified in this workbook
+STWT,C8-HSL 0.2 mM,7.0,Rep3,0.661,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1029,not specified in this workbook
+STWT,C8-HSL 0.2 mM,8.0,Rep3,0.826,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1030,not specified in this workbook
+STWT,C8-HSL 0.2 mM,9.0,Rep3,0.958,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1031,not specified in this workbook
+STWT,C8-HSL 0.2 mM,10.0,Rep3,1.023,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1032,not specified in this workbook
+STWT,C8-HSL 0.2 mM,11.0,Rep3,0.994,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1033,not specified in this workbook
+STWT,C8-HSL 0.2 mM,12.0,Rep3,0.991,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1034,not specified in this workbook
+STWT,C8-HSL 0.2 mM,13.0,Rep3,0.992,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1035,not specified in this workbook
+STWT,C8-HSL 0.2 mM,14.0,Rep3,1.007,0.2,STWT|C8-HSL 0.2 mM|Rep3,STWT|Rep3,,False,Raw Data,1036,not specified in this workbook
+STWT,C8-HSL 1.0 mM,0.0,Rep1,0.0,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1037,not specified in this workbook
+STWT,C8-HSL 1.0 mM,1.0,Rep1,0.04,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1038,not specified in this workbook
+STWT,C8-HSL 1.0 mM,2.0,Rep1,0.07,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1039,not specified in this workbook
+STWT,C8-HSL 1.0 mM,3.0,Rep1,0.116,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1040,not specified in this workbook
+STWT,C8-HSL 1.0 mM,4.0,Rep1,0.192,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1041,not specified in this workbook
+STWT,C8-HSL 1.0 mM,5.0,Rep1,0.288,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1042,not specified in this workbook
+STWT,C8-HSL 1.0 mM,6.0,Rep1,0.44,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1043,not specified in this workbook
+STWT,C8-HSL 1.0 mM,7.0,Rep1,0.636,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1044,not specified in this workbook
+STWT,C8-HSL 1.0 mM,8.0,Rep1,0.816,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1045,not specified in this workbook
+STWT,C8-HSL 1.0 mM,9.0,Rep1,0.91,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1046,not specified in this workbook
+STWT,C8-HSL 1.0 mM,10.0,Rep1,0.964,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1047,not specified in this workbook
+STWT,C8-HSL 1.0 mM,11.0,Rep1,0.988,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1048,not specified in this workbook
+STWT,C8-HSL 1.0 mM,12.0,Rep1,1.002,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1049,not specified in this workbook
+STWT,C8-HSL 1.0 mM,13.0,Rep1,1.012,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1050,not specified in this workbook
+STWT,C8-HSL 1.0 mM,14.0,Rep1,1.012,1.0,STWT|C8-HSL 1.0 mM|Rep1,STWT|Rep1,,False,Raw Data,1051,not specified in this workbook
+STWT,C8-HSL 1.0 mM,0.0,Rep2,0.0,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1052,not specified in this workbook
+STWT,C8-HSL 1.0 mM,1.0,Rep2,0.03,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1053,not specified in this workbook
+STWT,C8-HSL 1.0 mM,2.0,Rep2,0.082,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1054,not specified in this workbook
+STWT,C8-HSL 1.0 mM,3.0,Rep2,0.114,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1055,not specified in this workbook
+STWT,C8-HSL 1.0 mM,4.0,Rep2,0.191,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1056,not specified in this workbook
+STWT,C8-HSL 1.0 mM,5.0,Rep2,0.297,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1057,not specified in this workbook
+STWT,C8-HSL 1.0 mM,6.0,Rep2,0.458,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1058,not specified in this workbook
+STWT,C8-HSL 1.0 mM,7.0,Rep2,0.629,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1059,not specified in this workbook
+STWT,C8-HSL 1.0 mM,8.0,Rep2,0.827,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1060,not specified in this workbook
+STWT,C8-HSL 1.0 mM,9.0,Rep2,0.899,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1061,not specified in this workbook
+STWT,C8-HSL 1.0 mM,10.0,Rep2,0.942,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1062,not specified in this workbook
+STWT,C8-HSL 1.0 mM,11.0,Rep2,1.016,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1063,not specified in this workbook
+STWT,C8-HSL 1.0 mM,12.0,Rep2,1.019,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1064,not specified in this workbook
+STWT,C8-HSL 1.0 mM,13.0,Rep2,1.012,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1065,not specified in this workbook
+STWT,C8-HSL 1.0 mM,14.0,Rep2,1.029,1.0,STWT|C8-HSL 1.0 mM|Rep2,STWT|Rep2,,False,Raw Data,1066,not specified in this workbook
+STWT,C8-HSL 1.0 mM,0.0,Rep3,0.0,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1067,not specified in this workbook
+STWT,C8-HSL 1.0 mM,1.0,Rep3,0.044,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1068,not specified in this workbook
+STWT,C8-HSL 1.0 mM,2.0,Rep3,0.051,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1069,not specified in this workbook
+STWT,C8-HSL 1.0 mM,3.0,Rep3,0.113,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1070,not specified in this workbook
+STWT,C8-HSL 1.0 mM,4.0,Rep3,0.186,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1071,not specified in this workbook
+STWT,C8-HSL 1.0 mM,5.0,Rep3,0.282,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1072,not specified in this workbook
+STWT,C8-HSL 1.0 mM,6.0,Rep3,0.453,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1073,not specified in this workbook
+STWT,C8-HSL 1.0 mM,7.0,Rep3,0.645,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1074,not specified in this workbook
+STWT,C8-HSL 1.0 mM,8.0,Rep3,0.808,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1075,not specified in this workbook
+STWT,C8-HSL 1.0 mM,9.0,Rep3,0.931,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1076,not specified in this workbook
+STWT,C8-HSL 1.0 mM,10.0,Rep3,0.984,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1077,not specified in this workbook
+STWT,C8-HSL 1.0 mM,11.0,Rep3,0.991,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1078,not specified in this workbook
+STWT,C8-HSL 1.0 mM,12.0,Rep3,0.978,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1079,not specified in this workbook
+STWT,C8-HSL 1.0 mM,13.0,Rep3,0.999,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1080,not specified in this workbook
+STWT,C8-HSL 1.0 mM,14.0,Rep3,0.994,1.0,STWT|C8-HSL 1.0 mM|Rep3,STWT|Rep3,,False,Raw Data,1081,not specified in this workbook
+SV,No Treatment,0.0,Rep1,0.0,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1082,not specified in this workbook
+SV,No Treatment,1.0,Rep1,0.04,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1083,not specified in this workbook
+SV,No Treatment,2.0,Rep1,0.07,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1084,not specified in this workbook
+SV,No Treatment,3.0,Rep1,0.12,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1085,not specified in this workbook
+SV,No Treatment,4.0,Rep1,0.2,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1086,not specified in this workbook
+SV,No Treatment,5.0,Rep1,0.3,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1087,not specified in this workbook
+SV,No Treatment,6.0,Rep1,0.45,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1088,not specified in this workbook
+SV,No Treatment,7.0,Rep1,0.64,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1089,not specified in this workbook
+SV,No Treatment,8.0,Rep1,0.8,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1090,not specified in this workbook
+SV,No Treatment,9.0,Rep1,0.91,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1091,not specified in this workbook
+SV,No Treatment,10.0,Rep1,0.96,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1092,not specified in this workbook
+SV,No Treatment,11.0,Rep1,0.98,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1093,not specified in this workbook
+SV,No Treatment,12.0,Rep1,1.0,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1094,not specified in this workbook
+SV,No Treatment,13.0,Rep1,1.01,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1095,not specified in this workbook
+SV,No Treatment,14.0,Rep1,1.01,0.0,SV|No Treatment|Rep1,SV|Rep1,,True,Raw Data,1096,not specified in this workbook
+SV,No Treatment,0.0,Rep2,0.0,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1097,not specified in this workbook
+SV,No Treatment,1.0,Rep2,0.06,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1098,not specified in this workbook
+SV,No Treatment,2.0,Rep2,0.086,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1099,not specified in this workbook
+SV,No Treatment,3.0,Rep2,0.112,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1100,not specified in this workbook
+SV,No Treatment,4.0,Rep2,0.172,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1101,not specified in this workbook
+SV,No Treatment,5.0,Rep2,0.297,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1102,not specified in this workbook
+SV,No Treatment,6.0,Rep2,0.429,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1103,not specified in this workbook
+SV,No Treatment,7.0,Rep2,0.634,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1104,not specified in this workbook
+SV,No Treatment,8.0,Rep2,0.79,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1105,not specified in this workbook
+SV,No Treatment,9.0,Rep2,0.868,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1106,not specified in this workbook
+SV,No Treatment,10.0,Rep2,0.975,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1107,not specified in this workbook
+SV,No Treatment,11.0,Rep2,0.994,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1108,not specified in this workbook
+SV,No Treatment,12.0,Rep2,0.966,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1109,not specified in this workbook
+SV,No Treatment,13.0,Rep2,0.987,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1110,not specified in this workbook
+SV,No Treatment,14.0,Rep2,1.038,0.0,SV|No Treatment|Rep2,SV|Rep2,,True,Raw Data,1111,not specified in this workbook
+SV,No Treatment,0.0,Rep3,0.0,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1112,not specified in this workbook
+SV,No Treatment,1.0,Rep3,0.098,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1113,not specified in this workbook
+SV,No Treatment,2.0,Rep3,0.081,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1114,not specified in this workbook
+SV,No Treatment,3.0,Rep3,0.115,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1115,not specified in this workbook
+SV,No Treatment,4.0,Rep3,0.212,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1116,not specified in this workbook
+SV,No Treatment,5.0,Rep3,0.326,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1117,not specified in this workbook
+SV,No Treatment,6.0,Rep3,0.477,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1118,not specified in this workbook
+SV,No Treatment,7.0,Rep3,0.628,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1119,not specified in this workbook
+SV,No Treatment,8.0,Rep3,0.788,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1120,not specified in this workbook
+SV,No Treatment,9.0,Rep3,0.923,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1121,not specified in this workbook
+SV,No Treatment,10.0,Rep3,0.986,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1122,not specified in this workbook
+SV,No Treatment,11.0,Rep3,0.993,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1123,not specified in this workbook
+SV,No Treatment,12.0,Rep3,1.004,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1124,not specified in this workbook
+SV,No Treatment,13.0,Rep3,1.004,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1125,not specified in this workbook
+SV,No Treatment,14.0,Rep3,1.011,0.0,SV|No Treatment|Rep3,SV|Rep3,,True,Raw Data,1126,not specified in this workbook
+SV,C8-HSL 0.05 mM,0.0,Rep1,0.0,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1127,not specified in this workbook
+SV,C8-HSL 0.05 mM,1.0,Rep1,0.04,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1128,not specified in this workbook
+SV,C8-HSL 0.05 mM,2.0,Rep1,0.07,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1129,not specified in this workbook
+SV,C8-HSL 0.05 mM,3.0,Rep1,0.12,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1130,not specified in this workbook
+SV,C8-HSL 0.05 mM,4.0,Rep1,0.2,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1131,not specified in this workbook
+SV,C8-HSL 0.05 mM,5.0,Rep1,0.303,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1132,not specified in this workbook
+SV,C8-HSL 0.05 mM,6.0,Rep1,0.456,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1133,not specified in this workbook
+SV,C8-HSL 0.05 mM,7.0,Rep1,0.652,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1134,not specified in this workbook
+SV,C8-HSL 0.05 mM,8.0,Rep1,0.818,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1135,not specified in this workbook
+SV,C8-HSL 0.05 mM,9.0,Rep1,0.922,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1136,not specified in this workbook
+SV,C8-HSL 0.05 mM,10.0,Rep1,0.969,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1137,not specified in this workbook
+SV,C8-HSL 0.05 mM,11.0,Rep1,0.989,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1138,not specified in this workbook
+SV,C8-HSL 0.05 mM,12.0,Rep1,1.006,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1139,not specified in this workbook
+SV,C8-HSL 0.05 mM,13.0,Rep1,1.016,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1140,not specified in this workbook
+SV,C8-HSL 0.05 mM,14.0,Rep1,1.016,0.05,SV|C8-HSL 0.05 mM|Rep1,SV|Rep1,,False,Raw Data,1141,not specified in this workbook
+SV,C8-HSL 0.05 mM,0.0,Rep2,0.0,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1142,not specified in this workbook
+SV,C8-HSL 0.05 mM,1.0,Rep2,0.053,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1143,not specified in this workbook
+SV,C8-HSL 0.05 mM,2.0,Rep2,0.085,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1144,not specified in this workbook
+SV,C8-HSL 0.05 mM,3.0,Rep2,0.103,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1145,not specified in this workbook
+SV,C8-HSL 0.05 mM,4.0,Rep2,0.184,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1146,not specified in this workbook
+SV,C8-HSL 0.05 mM,5.0,Rep2,0.298,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1147,not specified in this workbook
+SV,C8-HSL 0.05 mM,6.0,Rep2,0.437,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1148,not specified in this workbook
+SV,C8-HSL 0.05 mM,7.0,Rep2,0.644,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1149,not specified in this workbook
+SV,C8-HSL 0.05 mM,8.0,Rep2,0.822,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1150,not specified in this workbook
+SV,C8-HSL 0.05 mM,9.0,Rep2,0.896,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1151,not specified in this workbook
+SV,C8-HSL 0.05 mM,10.0,Rep2,0.984,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1152,not specified in this workbook
+SV,C8-HSL 0.05 mM,11.0,Rep2,1.01,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1153,not specified in this workbook
+SV,C8-HSL 0.05 mM,12.0,Rep2,0.98,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1154,not specified in this workbook
+SV,C8-HSL 0.05 mM,13.0,Rep2,1.016,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1155,not specified in this workbook
+SV,C8-HSL 0.05 mM,14.0,Rep2,1.049,0.05,SV|C8-HSL 0.05 mM|Rep2,SV|Rep2,,False,Raw Data,1156,not specified in this workbook
+SV,C8-HSL 0.05 mM,0.0,Rep3,0.0,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1157,not specified in this workbook
+SV,C8-HSL 0.05 mM,1.0,Rep3,0.073,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1158,not specified in this workbook
+SV,C8-HSL 0.05 mM,2.0,Rep3,0.08,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1159,not specified in this workbook
+SV,C8-HSL 0.05 mM,3.0,Rep3,0.118,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1160,not specified in this workbook
+SV,C8-HSL 0.05 mM,4.0,Rep3,0.208,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1161,not specified in this workbook
+SV,C8-HSL 0.05 mM,5.0,Rep3,0.329,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1162,not specified in this workbook
+SV,C8-HSL 0.05 mM,6.0,Rep3,0.485,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1163,not specified in this workbook
+SV,C8-HSL 0.05 mM,7.0,Rep3,0.649,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1164,not specified in this workbook
+SV,C8-HSL 0.05 mM,8.0,Rep3,0.802,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1165,not specified in this workbook
+SV,C8-HSL 0.05 mM,9.0,Rep3,0.927,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1166,not specified in this workbook
+SV,C8-HSL 0.05 mM,10.0,Rep3,0.996,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1167,not specified in this workbook
+SV,C8-HSL 0.05 mM,11.0,Rep3,1.004,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1168,not specified in this workbook
+SV,C8-HSL 0.05 mM,12.0,Rep3,1.013,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1169,not specified in this workbook
+SV,C8-HSL 0.05 mM,13.0,Rep3,1.019,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1170,not specified in this workbook
+SV,C8-HSL 0.05 mM,14.0,Rep3,1.024,0.05,SV|C8-HSL 0.05 mM|Rep3,SV|Rep3,,False,Raw Data,1171,not specified in this workbook
+SV,C8-HSL 0.2 mM,0.0,Rep1,0.0,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1172,not specified in this workbook
+SV,C8-HSL 0.2 mM,1.0,Rep1,0.04,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1173,not specified in this workbook
+SV,C8-HSL 0.2 mM,2.0,Rep1,0.07,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1174,not specified in this workbook
+SV,C8-HSL 0.2 mM,3.0,Rep1,0.12,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1175,not specified in this workbook
+SV,C8-HSL 0.2 mM,4.0,Rep1,0.2,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1176,not specified in this workbook
+SV,C8-HSL 0.2 mM,5.0,Rep1,0.31,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1177,not specified in this workbook
+SV,C8-HSL 0.2 mM,6.0,Rep1,0.47,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1178,not specified in this workbook
+SV,C8-HSL 0.2 mM,7.0,Rep1,0.68,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1179,not specified in this workbook
+SV,C8-HSL 0.2 mM,8.0,Rep1,0.86,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1180,not specified in this workbook
+SV,C8-HSL 0.2 mM,9.0,Rep1,0.95,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1181,not specified in this workbook
+SV,C8-HSL 0.2 mM,10.0,Rep1,0.99,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1182,not specified in this workbook
+SV,C8-HSL 0.2 mM,11.0,Rep1,1.01,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1183,not specified in this workbook
+SV,C8-HSL 0.2 mM,12.0,Rep1,1.02,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1184,not specified in this workbook
+SV,C8-HSL 0.2 mM,13.0,Rep1,1.03,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1185,not specified in this workbook
+SV,C8-HSL 0.2 mM,14.0,Rep1,1.03,0.2,SV|C8-HSL 0.2 mM|Rep1,SV|Rep1,,False,Raw Data,1186,not specified in this workbook
+SV,C8-HSL 0.2 mM,0.0,Rep2,0.0,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1187,not specified in this workbook
+SV,C8-HSL 0.2 mM,1.0,Rep2,0.037,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1188,not specified in this workbook
+SV,C8-HSL 0.2 mM,2.0,Rep2,0.084,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1189,not specified in this workbook
+SV,C8-HSL 0.2 mM,3.0,Rep2,0.083,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1190,not specified in this workbook
+SV,C8-HSL 0.2 mM,4.0,Rep2,0.211,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1191,not specified in this workbook
+SV,C8-HSL 0.2 mM,5.0,Rep2,0.3,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1192,not specified in this workbook
+SV,C8-HSL 0.2 mM,6.0,Rep2,0.457,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1193,not specified in this workbook
+SV,C8-HSL 0.2 mM,7.0,Rep2,0.666,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1194,not specified in this workbook
+SV,C8-HSL 0.2 mM,8.0,Rep2,0.896,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1195,not specified in this workbook
+SV,C8-HSL 0.2 mM,9.0,Rep2,0.96,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1196,not specified in this workbook
+SV,C8-HSL 0.2 mM,10.0,Rep2,1.006,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1197,not specified in this workbook
+SV,C8-HSL 0.2 mM,11.0,Rep2,1.046,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1198,not specified in this workbook
+SV,C8-HSL 0.2 mM,12.0,Rep2,1.013,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1199,not specified in this workbook
+SV,C8-HSL 0.2 mM,13.0,Rep2,1.083,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1200,not specified in this workbook
+SV,C8-HSL 0.2 mM,14.0,Rep2,1.075,0.2,SV|C8-HSL 0.2 mM|Rep2,SV|Rep2,,False,Raw Data,1201,not specified in this workbook
+SV,C8-HSL 0.2 mM,0.0,Rep3,0.0,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1202,not specified in this workbook
+SV,C8-HSL 0.2 mM,1.0,Rep3,0.014,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1203,not specified in this workbook
+SV,C8-HSL 0.2 mM,2.0,Rep3,0.079,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1204,not specified in this workbook
+SV,C8-HSL 0.2 mM,3.0,Rep3,0.124,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1205,not specified in this workbook
+SV,C8-HSL 0.2 mM,4.0,Rep3,0.198,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1206,not specified in this workbook
+SV,C8-HSL 0.2 mM,5.0,Rep3,0.335,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1207,not specified in this workbook
+SV,C8-HSL 0.2 mM,6.0,Rep3,0.505,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1208,not specified in this workbook
+SV,C8-HSL 0.2 mM,7.0,Rep3,0.699,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1209,not specified in this workbook
+SV,C8-HSL 0.2 mM,8.0,Rep3,0.834,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1210,not specified in this workbook
+SV,C8-HSL 0.2 mM,9.0,Rep3,0.936,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1211,not specified in this workbook
+SV,C8-HSL 0.2 mM,10.0,Rep3,1.019,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1212,not specified in this workbook
+SV,C8-HSL 0.2 mM,11.0,Rep3,1.031,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1213,not specified in this workbook
+SV,C8-HSL 0.2 mM,12.0,Rep3,1.034,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1214,not specified in this workbook
+SV,C8-HSL 0.2 mM,13.0,Rep3,1.055,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1215,not specified in this workbook
+SV,C8-HSL 0.2 mM,14.0,Rep3,1.053,0.2,SV|C8-HSL 0.2 mM|Rep3,SV|Rep3,,False,Raw Data,1216,not specified in this workbook
+SV,C8-HSL 1.0 mM,0.0,Rep1,0.0,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1217,not specified in this workbook
+SV,C8-HSL 1.0 mM,1.0,Rep1,0.04,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1218,not specified in this workbook
+SV,C8-HSL 1.0 mM,2.0,Rep1,0.07,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1219,not specified in this workbook
+SV,C8-HSL 1.0 mM,3.0,Rep1,0.12,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1220,not specified in this workbook
+SV,C8-HSL 1.0 mM,4.0,Rep1,0.2,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1221,not specified in this workbook
+SV,C8-HSL 1.0 mM,5.0,Rep1,0.306,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1222,not specified in this workbook
+SV,C8-HSL 1.0 mM,6.0,Rep1,0.462,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1223,not specified in this workbook
+SV,C8-HSL 1.0 mM,7.0,Rep1,0.664,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1224,not specified in this workbook
+SV,C8-HSL 1.0 mM,8.0,Rep1,0.836,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1225,not specified in this workbook
+SV,C8-HSL 1.0 mM,9.0,Rep1,0.934,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1226,not specified in this workbook
+SV,C8-HSL 1.0 mM,10.0,Rep1,0.978,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1227,not specified in this workbook
+SV,C8-HSL 1.0 mM,11.0,Rep1,0.998,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1228,not specified in this workbook
+SV,C8-HSL 1.0 mM,12.0,Rep1,1.012,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1229,not specified in this workbook
+SV,C8-HSL 1.0 mM,13.0,Rep1,1.022,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1230,not specified in this workbook
+SV,C8-HSL 1.0 mM,14.0,Rep1,1.022,1.0,SV|C8-HSL 1.0 mM|Rep1,SV|Rep1,,False,Raw Data,1231,not specified in this workbook
+SV,C8-HSL 1.0 mM,0.0,Rep2,0.0,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1232,not specified in this workbook
+SV,C8-HSL 1.0 mM,1.0,Rep2,0.046,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1233,not specified in this workbook
+SV,C8-HSL 1.0 mM,2.0,Rep2,0.085,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1234,not specified in this workbook
+SV,C8-HSL 1.0 mM,3.0,Rep2,0.095,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1235,not specified in this workbook
+SV,C8-HSL 1.0 mM,4.0,Rep2,0.195,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1236,not specified in this workbook
+SV,C8-HSL 1.0 mM,5.0,Rep2,0.299,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1237,not specified in this workbook
+SV,C8-HSL 1.0 mM,6.0,Rep2,0.446,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1238,not specified in this workbook
+SV,C8-HSL 1.0 mM,7.0,Rep2,0.653,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1239,not specified in this workbook
+SV,C8-HSL 1.0 mM,8.0,Rep2,0.854,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1240,not specified in this workbook
+SV,C8-HSL 1.0 mM,9.0,Rep2,0.923,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1241,not specified in this workbook
+SV,C8-HSL 1.0 mM,10.0,Rep2,0.994,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1242,not specified in this workbook
+SV,C8-HSL 1.0 mM,11.0,Rep2,1.025,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1243,not specified in this workbook
+SV,C8-HSL 1.0 mM,12.0,Rep2,0.994,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1244,not specified in this workbook
+SV,C8-HSL 1.0 mM,13.0,Rep2,1.045,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1245,not specified in this workbook
+SV,C8-HSL 1.0 mM,14.0,Rep2,1.06,1.0,SV|C8-HSL 1.0 mM|Rep2,SV|Rep2,,False,Raw Data,1246,not specified in this workbook
+SV,C8-HSL 1.0 mM,0.0,Rep3,0.0,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1247,not specified in this workbook
+SV,C8-HSL 1.0 mM,1.0,Rep3,0.048,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1248,not specified in this workbook
+SV,C8-HSL 1.0 mM,2.0,Rep3,0.08,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1249,not specified in this workbook
+SV,C8-HSL 1.0 mM,3.0,Rep3,0.12,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1250,not specified in this workbook
+SV,C8-HSL 1.0 mM,4.0,Rep3,0.204,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1251,not specified in this workbook
+SV,C8-HSL 1.0 mM,5.0,Rep3,0.331,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1252,not specified in this workbook
+SV,C8-HSL 1.0 mM,6.0,Rep3,0.494,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1253,not specified in this workbook
+SV,C8-HSL 1.0 mM,7.0,Rep3,0.671,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1254,not specified in this workbook
+SV,C8-HSL 1.0 mM,8.0,Rep3,0.816,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1255,not specified in this workbook
+SV,C8-HSL 1.0 mM,9.0,Rep3,0.931,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1256,not specified in this workbook
+SV,C8-HSL 1.0 mM,10.0,Rep3,1.006,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1257,not specified in this workbook
+SV,C8-HSL 1.0 mM,11.0,Rep3,1.016,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1258,not specified in this workbook
+SV,C8-HSL 1.0 mM,12.0,Rep3,1.022,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1259,not specified in this workbook
+SV,C8-HSL 1.0 mM,13.0,Rep3,1.035,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1260,not specified in this workbook
+SV,C8-HSL 1.0 mM,14.0,Rep3,1.036,1.0,SV|C8-HSL 1.0 mM|Rep3,SV|Rep3,,False,Raw Data,1261,not specified in this workbook

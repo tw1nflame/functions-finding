@@ -1,0 +1,20 @@
+/* Keep Furo's accessible navigation and both color themes. */
+.content { width: min(100%, 58rem); }
+.sidebar-brand-text { font-size: 1.2rem; font-weight: 720; letter-spacing: -.035em; }
+h1, h2, h3 { letter-spacing: -.025em; }
+h1 { line-height: 1.16; }
+.hero-kicker { color: var(--color-brand-content); font-size: .8rem; font-weight: 700;
+  letter-spacing: .12em; text-transform: uppercase; margin-bottom: 1rem; }
+.hero-lead { font-size: 1.2rem; line-height: 1.65; max-width: 44rem; }
+.doc-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem; margin: 1.8rem 0 2.4rem; }
+.doc-card { display: block; border: 1px solid var(--color-background-border);
+  border-radius: .7rem; padding: 1.2rem; color: var(--color-content-foreground);
+  text-decoration: none; background: var(--color-background-secondary); }
+.doc-card:hover { border-color: var(--color-brand-content); text-decoration: none; }
+.doc-card strong { display: block; color: var(--color-brand-content); margin-bottom: .4rem; }
+.doc-card span { display: block; font-size: .9rem; line-height: 1.6; }
+article table.docutils { font-size: .9rem; }
+article img { border-radius: .5rem; }
+.highlight { border-radius: .5rem; }
+@media (max-width: 620px) { .doc-cards { grid-template-columns: 1fr; } }
