@@ -1,4 +1,4 @@
-"""Empirical power-law trends on nonnegative time."""
+"""Эмпирические степенные тенденции при неотрицательном времени."""
 
 import numpy as np
 from numpy.typing import ArrayLike
@@ -8,7 +8,7 @@ from .base import BaseFunctionFamily, number
 
 
 class PowerLawFamily(BaseFunctionFamily):
-    """y(t) = c + a*t**b, t >= 0, b > 0; a and c are unrestricted."""
+    """Степенная функция: y(t) = c + a*t**b, t >= 0, b > 0; a и c не ограничены."""
 
     name = "power_law"
     parameter_names = ("c", "a", "b")
@@ -17,11 +17,11 @@ class PowerLawFamily(BaseFunctionFamily):
     latex_expression_template = r"(@c@) + (@a@)@t@^{(@b@)}"
 
     def parameter_bounds(self) -> tuple[FloatArray, FloatArray]:
-        """Require a strictly positive exponent."""
+        """Потребовать строго положительную степень."""
         return np.array([-np.inf, -np.inf, np.finfo(float).tiny]), np.full(3, np.inf)
 
     def validate_domain(self, x: FloatArray) -> None:
-        """Reject negative times, including for integral fitted exponents."""
+        """Отклонить отрицательное время, даже если подобранная степень целая."""
         if np.any(x < 0):
             raise ValueError("Power law requires time >= 0.")
 
@@ -36,11 +36,11 @@ class PowerLawFamily(BaseFunctionFamily):
         return result
 
     def initial_guess(self, x: FloatArray, y: FloatArray) -> FloatArray:
-        """Return the first training-only power/level guess."""
+        """Вернуть первую оценку степени и уровней только по обучающим данным."""
         return self.initial_guesses(x, y)[0]
 
     def initial_guesses(self, x: FloatArray, y: FloatArray) -> list[FloatArray]:
-        """Try six exponents and solve levels in a scaled time coordinate."""
+        """Проверить шесть степеней и оценить уровни в масштабированной временной координате."""
         guesses = []
         scale = float(np.max(x))
         for b in (1.0, 0.5, 1.5, 2.0, 0.25, 3.0):
@@ -59,7 +59,7 @@ class PowerLawFamily(BaseFunctionFamily):
         return guesses
 
     def formula(self, params: ArrayLike, *, latex: bool = False) -> str:
-        """Return coefficients in the original time coordinate."""
+        """Вернуть коэффициенты в исходной временной координате."""
         values = (number(v, latex) for v in self.validate_parameters(params))
         return "y = " + self.expression(
             dict(zip(self.parameter_names, values, strict=True)), variable="x", latex=latex

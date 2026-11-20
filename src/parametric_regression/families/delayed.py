@@ -1,4 +1,4 @@
-"""Exponential relaxation following a nonnegative lag."""
+"""Экспоненциальная релаксация с неотрицательной задержкой."""
 
 import numpy as np
 
@@ -7,9 +7,10 @@ from .relaxation import ExponentialRelaxationFamily
 
 
 class DelayedExponentialFamily(ExponentialRelaxationFamily):
-    """y = y0 + A*(1-exp(-k*max(t-lag, 0))); k > 0, lag >= 0.
+    """Релаксация с задержкой: y = y0 + A*(1-exp(-k*max(t-lag, 0))); k > 0, lag >= 0.
 
-    y0 is observed, A may have either sign. lag=0 recovers ordinary relaxation.
+    y0 известно из наблюдения; A может иметь любой знак.
+    При lag=0 получается обычная экспоненциальная релаксация.
     """
 
     name = "delayed_exponential"
@@ -19,18 +20,18 @@ class DelayedExponentialFamily(ExponentialRelaxationFamily):
     latex_expression_template = r"@y0@+(@A@)(1-\exp(-(@k@)\max\{@t@-(@lag@),0\}))"
 
     def with_initial_value(self, value: float) -> "DelayedExponentialFamily":
-        """Bind y0 without dropping the delayed-family type."""
+        """Связать y0, сохранив тип семейства с задержкой."""
         return DelayedExponentialFamily(initial_value=value)
 
     def parameter_bounds(self) -> tuple[FloatArray, FloatArray]:
-        """Preserve the zero-lag boundary; only k is strictly positive."""
+        """Сохранить допустимость нулевой задержки; только k строго положителен."""
         return np.array([-np.inf, np.finfo(float).tiny, 0.0]), np.full(3, np.inf)
 
     def _evaluate(self, x: FloatArray, params: FloatArray) -> FloatArray:
         return super()._evaluate(np.maximum(x - params[2], 0.0), params[:2])
 
     def initial_guesses(self, x: FloatArray, y: FloatArray) -> list[FloatArray]:
-        """Try delays across the observed interval and fit amplitudes linearly."""
+        """Проверить задержки по наблюдаемому интервалу и линейно оценить амплитуды."""
         self.validate_domain(x)
         maximum = float(np.max(x))
         guesses = []

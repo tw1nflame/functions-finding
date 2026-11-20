@@ -1,4 +1,4 @@
-"""Restricted suboptimal-temperature square-root growth law."""
+"""Ограниченный субоптимальный температурный закон роста по модели квадратного корня."""
 
 from collections.abc import Sequence
 from typing import Self
@@ -50,16 +50,17 @@ class _RatkowskyCurve(BaseFunctionFamily):
 
 
 class RatkowskyParameterModel(_OneFactorModel):
-    """Fit log(mu) = 2*log(b) + 2*log(T-T_min), b > 0, T > T_min.
+    """Модель Ратковского: log(mu) = 2*log(b) + 2*log(T-T_min), b > 0, T > T_min.
 
-    Temperatures are Celsius. Standalone targets/predictions are log(mu).
-    The model applies only in the suboptimal growth range.
+    Температуры задаются в градусах Цельсия.
+    При самостоятельном вызове целевая величина и прогнозы имеют шкалу log(mu).
+    Модель применима только в субоптимальном диапазоне роста.
 
     Parameters
     ----------
-    temperature_max : float or None
-        Known upper validity limit in Celsius, chosen below the biological optimum.
-        If omitted, predictions above the largest training temperature are rejected.
+    temperature_max : float или None
+        Известная верхняя граница применимости в градусах Цельсия ниже биологического оптимума.
+        Если не задана, прогноз выше максимальной обучающей температуры запрещён.
     """
 
     name = "ratkowsky"
@@ -81,7 +82,7 @@ class RatkowskyParameterModel(_OneFactorModel):
         feature_names: Sequence[str] | None = None,
         sample_weight: ArrayLike | None = None,
     ) -> Self:
-        """Estimate the lower boundary and positive scale using weighted log-rate errors."""
+        """Оценить нижнюю границу температуры и масштаб по взвешенным ошибкам лог-скорости."""
         x, target, weights = self._prepare_fit(X, y, feature_names, sample_weight)
         maximum = float(np.max(x)) if self.temperature_max is None else float(self.temperature_max)
         self._fit_curve(_RatkowskyCurve(float(np.min(x)), maximum), x, target, weights)

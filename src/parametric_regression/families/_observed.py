@@ -1,4 +1,4 @@
-"""Shared binding of a known positive initial population, never fitted."""
+"""Общее связывание известной положительной начальной численности без её подбора."""
 
 from typing import Self
 
@@ -25,18 +25,18 @@ class _PositiveInitialFamily(BaseFunctionFamily):
         self.initial_value = None if initial_value is None else float(initial_value)
 
     def with_initial_value(self, value: float) -> Self:
-        """Bind the known initial population on a fresh instance."""
+        """Связать известную начальную численность с новым экземпляром семейства."""
         return type(self)(initial_value=value)
 
     def validate_domain(self, x: FloatArray) -> None:
-        """Require a known positive initial population and nonnegative elapsed time."""
+        """Потребовать известную положительную начальную численность и неотрицательное время."""
         if self.initial_value is None:
             raise ValueError("Bind initial_value before evaluating or fitting this family.")
         if np.any(x < 0):
             raise ValueError("Survival families require elapsed time >= 0.")
 
     def formula(self, params: ArrayLike, *, latex: bool = False) -> str:
-        """Include the bound initial value, or an explicit y0 symbol, in the formula."""
+        """Включить в формулу связанное начальное значение или явный символ y0."""
         values = (number(v, latex) for v in self.validate_parameters(params))
         initial = "y_0" if latex else "y0"
         if self.initial_value is not None:

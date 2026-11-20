@@ -1,4 +1,4 @@
-"""Interpretable parametric regression and reproducible holdout selection."""
+"""Интерпретируемая параметрическая регрессия и воспроизводимый выбор по отложенным данным."""
 
 from .families import (
     BaseFunctionFamily,

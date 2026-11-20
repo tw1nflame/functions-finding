@@ -1,4 +1,4 @@
-"""A fitted two-stage analytical function and its independent evaluation reports."""
+"""Обученная двухэтапная аналитическая функция и отдельные отчёты её проверки."""
 
 import warnings
 from collections.abc import Hashable, Mapping
@@ -20,18 +20,18 @@ Conditions = Mapping[str, float] | pd.DataFrame
 
 
 class ExtrapolationWarning(UserWarning):
-    """Prediction conditions exceed the usable training-condition ranges."""
+    """Условия прогноза выходят за диапазоны пригодных обучающих условий."""
 
 
 @dataclass
 class ParameterRelationship:
-    """A coefficient model plus its explicit identity/log target transformation."""
+    """Модель коэффициента с явным преобразованием целевой шкалы identity или log."""
 
     model: BaseParameterModel
     transform: str = "identity"
 
     def predict(self, X: ArrayLike) -> FloatArray:
-        """Return physical coefficient values; reject non-finite/underflowed outputs."""
+        """Вернуть физические коэффициенты, проверив конечность и сохранение положительности."""
         value = as_vector(self.model.predict(X), "predicted parameters")
         if self.transform == "log":
             with np.errstate(over="raise", invalid="raise", under="ignore"):
@@ -41,7 +41,7 @@ class ParameterRelationship:
         return value
 
     def formula(self, *, latex: bool = False) -> str:
-        """Return the physical coefficient expression, including inverse transformation."""
+        """Вернуть выражение физического коэффициента с учётом обратного преобразования."""
         expression = self.model.formula(latex=latex)
         if self.transform == "log":
             return rf"\exp\left({expression}\right)" if latex else f"exp({expression})"
@@ -50,10 +50,11 @@ class ParameterRelationship:
 
 @dataclass
 class MultiExperimentResult:
-    """Two-stage fit, train-only intermediate coefficients, and held-out curve errors.
+    """Результат двухэтапного обучения, промежуточные коэффициенты train и ошибки отложенных кривых.
 
-    parameter_models maps time-parameter names to ParameterRelationship objects.
-    Candidate selection never uses test. No implicit train+validation refit occurs.
+    parameter_models сопоставляет имена временных параметров объектам ParameterRelationship.
+    Тестовые данные не участвуют в выборе кандидатов.
+    Скрытого переобучения на объединении train и validation нет.
     """
 
     time_family: BaseFunctionFamily
@@ -83,19 +84,19 @@ class MultiExperimentResult:
 
     @property
     def metrics(self) -> dict[str, dict[str, object]]:
-        """Separate individual train fits, general train model, validation and test."""
+        """Отдельные метрики индивидуальных train-кривых, общей train-модели, валидации и теста."""
         return {name: evaluation.summary() for name, evaluation in self.evaluations.items()}
 
     @property
     def parameter_formulas(self) -> dict[str, str]:
-        """Physical coefficient expressions in the named conditions."""
+        """Выражения физических коэффициентов через именованные условия."""
         return {
             name: relationship.formula() for name, relationship in self.parameter_models.items()
         }
 
     @property
     def parameter_latex_formulas(self) -> dict[str, str]:
-        """LaTeX coefficient expressions without math delimiters."""
+        """Выражения коэффициентов в LaTeX без ограничителей математической разметки."""
         return {
             name: relationship.formula(latex=True)
             for name, relationship in self.parameter_models.items()
@@ -130,12 +131,12 @@ class MultiExperimentResult:
 
     @property
     def formula(self) -> str | None:
-        """Fully substituted numerical analytical dependency, or None on failure."""
+        """Полностью подставленная численная аналитическая зависимость или None при неудаче."""
         return self._formula(False)
 
     @property
     def latex_formula(self) -> str | None:
-        """Fully substituted LaTeX analytical dependency, or None on failure."""
+        """Полностью подставленная аналитическая зависимость в LaTeX или None при неудаче."""
         return self._formula(True)
 
     def _conditions(self, conditions: Conditions) -> pd.DataFrame:
@@ -161,9 +162,10 @@ class MultiExperimentResult:
         return pd.DataFrame(values, columns=self.condition_columns, index=frame.index)
 
     def prediction_scenarios(self, conditions: Conditions) -> list[str]:
-        """Label seen conditions, interpolation within marginal ranges, or extrapolation.
+        """Разметить известные условия, интерполяцию внутри диапазонов и экстраполяцию.
 
-        'interpolation' is a bounding-box classification, not a convex-hull guarantee.
+        Метка 'interpolation' относится к прямоугольному диапазону факторов;
+        она не гарантирует принадлежности выпуклой оболочке обучающих условий.
         """
         self._require_fit()
         frame = self._conditions(conditions)
@@ -187,7 +189,7 @@ class MultiExperimentResult:
         *,
         warn_extrapolation: bool = True,
     ) -> pd.DataFrame:
-        """Predict physical time parameters for each condition row, in family order."""
+        """Предсказать временные параметры для каждой строки условий в порядке семейства."""
         self._require_fit()
         frame = self._conditions(conditions)
         if warn_extrapolation and "extrapolation" in self.prediction_scenarios(frame):
@@ -222,11 +224,12 @@ class MultiExperimentResult:
         initial_value: float | ArrayLike | None = None,
         warn_extrapolation: bool = True,
     ) -> FloatArray:
-        """Predict a new trajectory or row-wise combinations of time and conditions.
+        """Предсказать новую траекторию или построчные сочетания времени и условий.
 
-        A mapping/one-row DataFrame broadcasts over time. Otherwise provide one
-        condition row per time value. Initial-state families require a finite
-        scalar y0 or a y0 per row, and use elapsed time since observation start.
+        Словарь или одна строка DataFrame распространяются на все моменты времени.
+        Иначе на каждый момент должна приходиться одна строка условий.
+        Семействам с начальным состоянием нужен конечный скаляр y0 или y0 для каждой строки;
+        время задаётся как прошедшее с начала наблюдений.
         """
         self._require_fit()
         time = as_vector(time, "time")
@@ -274,9 +277,9 @@ class MultiExperimentResult:
         conditions: Conditions,
         true_parameters: pd.DataFrame,
     ) -> dict[str, dict[str, float]]:
-        """Compare predictions with externally known physical parameters, without fitting.
+        """Сравнить прогнозы с внешними известными физическими параметрами без подбора.
 
-        Rows are paired by position. This optional diagnostic does not select a model.
+        Строки сопоставляются по позиции. Эта дополнительная диагностика не выбирает модель.
         """
         prediction = self.predict_parameters(conditions)
         if len(prediction) != len(true_parameters):

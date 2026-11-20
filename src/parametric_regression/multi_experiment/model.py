@@ -1,4 +1,4 @@
-"""Two-stage fitting with bounded combination selection on held-out y curves."""
+"""Двухэтапный подбор с ограниченным перебором сочетаний по отложенным кривым."""
 
 from collections.abc import Hashable, Mapping, Sequence
 from copy import deepcopy
@@ -26,37 +26,46 @@ from .validation import evaluate_curves, prepare_trajectories
 
 
 class MultiExperimentRegressor:
-    """Fit theta_i on train trajectories, then theta=g(conditions) on train only.
+    """По обучающим траекториям оценить параметры и их зависимости от условий.
 
     Parameters
     ----------
     time_family : BaseFunctionFamily
-        One explicitly chosen time family; no automatic time-family selection.
-    parameter_models : mapping, optional
-        Time-parameter names to coefficient models. Implies manual mode unless
-        parameter_selection='auto'; in auto mode these entries pin specific models.
-    parameter_selection : {'auto', 'manual'}, optional
-        Auto compares small combinations by validation curve RMSE. Manual requires
-        a model for every non-fixed parameter.
-    parameter_candidates : sequence, optional
-        Auto candidates, default Constant, Linear, full quadratic.
-    parameter_transforms : mapping, optional
-        Explicit 'identity'/'log' overrides; strictly positive family parameters
-        default to log, others to identity.
-    fixed_parameters : mapping, optional
-        Known physical coefficients fixed in BOTH stages, allowing stable fits
-        when an otherwise free coefficient cannot be identified.
+        Явно заданное временное семейство. Автоматического выбора его формы нет.
+    parameter_models : отображение или None
+        Соответствие имён временных параметров моделям коэффициентов.
+        Включает ручной режим, если не задано parameter_selection='auto'.
+        В автоматическом режиме эти записи закрепляют конкретные модели.
+    parameter_selection : {'auto', 'manual'}
+        В режиме auto сочетания сравниваются по RMSE кривых валидации.
+        В режиме manual для каждого нефиксированного параметра требуется модель.
+    parameter_candidates : последовательность или None
+        Кандидаты автоматического выбора: по умолчанию константа, линейная
+        и полная квадратичная модели.
+    parameter_transforms : отображение или None
+        Явные преобразования 'identity'/'log'. Для строго положительных параметров
+        семейства по умолчанию используется log, для остальных — identity.
+        Обязательная шкала специализированной модели учитывается отдельно;
+        явный конфликт настроек отклоняется.
+    fixed_parameters : отображение или None
+        Известные физические коэффициенты, фиксируемые на обоих этапах.
+        Позволяют устойчиво оценивать остальные параметры при неполной идентифицируемости.
     validation_size, test_size : float
-        Fractions of independent groups; test_size=0 omits a test partition.
+        Доли независимых групп. При test_size=0 отдельная тестовая часть не создаётся.
+    random_state : int
+        Начальное значение генератора для воспроизводимого группового разбиения.
     aggregation : {'experiment', 'observation'}
-        Default selection gives equal weight to each independent experiment.
+        По умолчанию независимые эксперименты имеют одинаковый вес при выборе модели.
     relative_tolerance, absolute_tolerance : float
-        Simplicity preference within min_RMSE*(1+relative)+absolute.
+        Предпочтение простоты в пределах min_RMSE*(1+relative_tolerance)+absolute_tolerance.
     condition_threshold : float
-        Reject train coefficient estimates with a column-normalized Jacobian
-        condition number above this threshold, or with deficient rank.
+        Порог обусловленности якобиана после нормировки столбцов.
+        Оценки выше порога или с недостаточным рангом исключаются.
     max_combinations : int
-        Hard cap on complete combinations; no silently truncated search.
+        Жёсткое ограничение числа полных сочетаний; перебор не усекается молча.
+    max_nfev, max_starts : int
+        Бюджет вычислений на один старт и максимальное число начальных приближений
+        для подбора отдельных временных кривых.
     """
 
     def __init__(
@@ -184,13 +193,13 @@ class MultiExperimentRegressor:
         split_column: str | None = None,
         initial_values: Mapping[Hashable, float] | None = None,
     ) -> MultiExperimentResult:
-        """Fit and evaluate a multi-experiment table without held-out parameter fitting.
+        """Обучить и оценить общую модель без подбора параметров отложенных кривых.
 
-        group_column identifies independent experiments; optional trajectory_column
-        identifies organisms/trajectories nested within them. split_column may supply
-        preassigned train/validation/test labels, constant per independent experiment.
-        initial_values optionally maps trajectory IDs to observed initial states.
-        Schema errors raise ValueError; fitting failures are retained in the result.
+        group_column задаёт независимые эксперименты; необязательный trajectory_column —
+        организмы или траектории внутри них. split_column может содержать заранее заданные
+        метки train/validation/test, постоянные в пределах независимого эксперимента.
+        initial_values при необходимости сопоставляет ID траекторий известным начальным состояниям.
+        Ошибки схемы вызывают ValueError; неудачные подгонки сохраняются в результате.
         """
         self.result_ = None
         if isinstance(condition_columns, str):
@@ -477,7 +486,7 @@ class MultiExperimentRegressor:
         initial_value: float | ArrayLike | None = None,
         warn_extrapolation: bool = True,
     ) -> FloatArray:
-        """Delegate to the latest result; raise RuntimeError before successful fitting."""
+        """Использовать последний результат; до успешного обучения вызвать RuntimeError."""
         if self.result_ is None:
             raise RuntimeError("Call fit before predict.")
         return self.result_.predict(

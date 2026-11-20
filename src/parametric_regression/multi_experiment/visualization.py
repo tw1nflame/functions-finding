@@ -1,4 +1,4 @@
-"""Figures for trajectory fits, coefficient dependencies and held-out predictions."""
+"""Графики подгонки траекторий, зависимостей коэффициентов и отложенных прогнозов."""
 
 from collections.abc import Hashable, Mapping, Sequence
 
@@ -20,10 +20,11 @@ def plot_experiments(
     trajectory_ids: Sequence[Hashable] | None = None,
     max_trajectories: int = 6,
 ) -> Figure:
-    """Show observations, available local train fits and the general-model curves.
+    """Показать наблюдения, доступные индивидуальные train-подгонки и кривые общей модели.
 
-    Uses stored trajectories; no fitting is performed for validation/test plots.
-    Failed trajectories are annotated. Returns a Figure without showing/saving it.
+    Используются сохранённые траектории; для validation/test параметры не подбираются.
+    Неудачные траектории отмечаются на графике.
+    Возвращается Figure без автоматического показа или сохранения.
     """
     _positive_integer(max_trajectories, "max_trajectories")
     if partition not in ("train", "validation", "test"):
@@ -81,10 +82,10 @@ def plot_parameter_dependency(
     *,
     reference_conditions: Mapping[str, float] | None = None,
 ) -> Figure:
-    """Show train estimates and a model slice along one environmental factor.
+    """Показать обучающие оценки и сечение модели вдоль одного внешнего фактора.
 
-    Other factors are held at supplied values or training medians. Scatter points
-    include all observed conditions and therefore need not lie on that slice.
+    Остальные факторы фиксируются на переданных значениях или обучающих медианах.
+    Точки включают все наблюдаемые условия, поэтому не обязаны лежать на выбранном сечении.
     """
     result._require_fit()
     if parameter not in result.parameter_models or factor not in result.condition_columns:
@@ -140,7 +141,7 @@ def plot_new_trajectory(
     initial_value: float | ArrayLike | None = None,
     truth: ArrayLike | None = None,
 ) -> Figure:
-    """Plot prediction for supplied conditions, optionally compared to a known true curve."""
+    """Построить прогноз для заданных условий; при наличии показать истинную кривую."""
     time = as_vector(time, "time")
     prediction = result.predict(time, conditions, initial_value=initial_value)
     if truth is not None:
@@ -165,7 +166,7 @@ def plot_prediction_comparison(
     *,
     partition: str = "validation",
 ) -> Figure:
-    """Plot observed versus predicted held-out y, excluding conditioning baselines."""
+    """Построить наблюдения против отложенных прогнозов y, исключив известные начальные точки."""
     if partition not in ("validation", "test") or partition not in result.evaluations:
         raise ValueError("Choose an evaluated validation or test partition.")
     evaluation = result.evaluations[partition]

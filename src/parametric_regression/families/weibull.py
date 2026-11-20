@@ -1,4 +1,4 @@
-"""Weibull survival in the original, positive population scale."""
+"""Выживание по Вейбуллу в исходной положительной шкале численности."""
 
 import numpy as np
 
@@ -7,10 +7,10 @@ from ._observed import _PositiveInitialFamily
 
 
 class WeibullSurvivalFamily(_PositiveInitialFamily):
-    """y(t) = y0*10**(-(t/delta)**p); delta, p, known y0 > 0.
+    """Модель Вейбулла: y(t) = y0*10**(-(t/delta)**p); delta, p и известное y0 > 0.
 
-    Targets are original counts, not log10(counts) and not optical density.
-    At t=delta the prediction is y0/10. Underflow of the survival tail yields zero.
+    Целевая величина — исходная численность, а не log10 численности и не оптическая плотность.
+    При t=delta прогноз равен y0/10. Исчезающий ниже диапазона float64 хвост равен нулю.
     """
 
     name = "weibull_survival"
@@ -20,7 +20,7 @@ class WeibullSurvivalFamily(_PositiveInitialFamily):
     latex_expression_template = r"@y0@\,10^{-(\frac{@t@}{(@delta@)})^{(@p@)}}"
 
     def parameter_bounds(self) -> tuple[FloatArray, FloatArray]:
-        """Both characteristic time and shape are strictly positive."""
+        """Характерное время и параметр формы строго положительны."""
         return np.full(2, np.finfo(float).tiny), np.full(2, np.inf)
 
     def _evaluate(self, x: FloatArray, params: FloatArray) -> FloatArray:
@@ -38,11 +38,11 @@ class WeibullSurvivalFamily(_PositiveInitialFamily):
         return result
 
     def initial_guess(self, x: FloatArray, y: FloatArray) -> FloatArray:
-        """Return the first training-derived survival guess."""
+        """Вернуть первую оценку параметров выживания по обучающим данным."""
         return self.initial_guesses(x, y)[0]
 
     def initial_guesses(self, x: FloatArray, y: FloatArray) -> list[FloatArray]:
-        """Use a log-reduction regression for initialization, then fixed-shape starts."""
+        """Начать с регрессии логарифма лог-снижения, затем проверить фиксированные формы."""
         self.validate_domain(x)
         valid = (x > 0) & (y > 0) & (y < self.initial_value)
         guesses = []

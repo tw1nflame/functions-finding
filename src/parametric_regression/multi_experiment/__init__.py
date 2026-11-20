@@ -1,4 +1,4 @@
-"""Two-stage analytical regression across independent experiments."""
+"""Двухэтапная аналитическая регрессия по независимым экспериментам."""
 
 from .model import MultiExperimentRegressor
 from .results import ExtrapolationWarning, MultiExperimentResult, ParameterRelationship

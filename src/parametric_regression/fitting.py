@@ -1,4 +1,4 @@
-"""Shared linear/nonlinear parameter fitting with deterministic multi-start."""
+"""Общий линейный и нелинейный подбор параметров с несколькими детерминированными стартами."""
 
 import warnings
 
@@ -25,12 +25,14 @@ def fit_family(
     max_nfev: int = 2000,
     max_starts: int = 12,
 ) -> FitResult:
-    """Fit a family to x/y and return coefficients, training metrics and diagnostics.
+    """Подобрать семейство по x/y и вернуть коэффициенты, обучающие метрики и диагностику.
 
-    Invalid shared inputs/settings raise ValueError. Family-specific failures
-    (domain, insufficient data, overflow, convergence) return success=False.
-    max_nfev limits each nonlinear start; max_starts caps deterministic guesses.
-    Only supplied data are used for initialization and optimization.
+    Некорректные общие данные или настройки вызывают ValueError. Ошибки конкретного
+    семейства (домен, недостаток данных, переполнение, отсутствие сходимости)
+    возвращаются в результате с success=False.
+    max_nfev ограничивает число вычислений на один нелинейный старт;
+    max_starts — число детерминированных начальных приближений.
+    Инициализация и оптимизация используют только переданные обучающие данные.
     """
     x, y = validate_xy(x, y)
     _positive_integer(max_nfev, "max_nfev")
@@ -130,7 +132,7 @@ def _nonlinear_fit(
 
 
 def _jacobian_diagnostics(matrix: FloatArray) -> tuple[int, float]:
-    """Assess local identifiability after column normalization (units independent)."""
+    """Оценить локальную идентифицируемость после нормировки столбцов независимо от единиц."""
     norms = np.linalg.norm(matrix, axis=0)
     normalized = matrix / np.where(norms > 0, norms, 1.0)
     return int(np.linalg.matrix_rank(normalized)), float(np.linalg.cond(normalized))

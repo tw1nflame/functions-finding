@@ -1,0 +1,28 @@
+{% extends "!page.html" %}
+
+{# Furo leaves these accessibility labels outside its translation catalogue. #}
+{% block body %}
+{{ super()
+  | replace('aria-label="Toggle site navigation sidebar"', 'aria-label="Показать или скрыть навигацию"')
+  | replace('aria-label="Toggle table of contents sidebar"', 'aria-label="Показать или скрыть содержание"')
+  | replace('aria-label="Toggle Light / Dark / Auto color theme"', 'aria-label="Переключить светлую, тёмную или системную тему"')
+  | replace('Skip to content', 'Перейти к содержимому')
+  | replace('Back to top', 'К началу страницы')
+  | replace('<title>Contents</title>', '<title>Содержание</title>')
+  | replace('title="Keyword-only parameters separator (PEP 3102)"', 'title="Разделитель параметров, передаваемых только по имени (PEP 3102)"')
+  | replace('title="Positional-only parameter separator (PEP 570)"', 'title="Разделитель параметров, передаваемых только по позиции (PEP 570)"')
+}}
+{% endblock %}
+
+{% block footer %}
+{{ super()
+  | replace('Copyright', 'Авторские права')
+  | replace('Made with ', 'Создано с помощью ')
+  | replace('Sphinx</a> and ', 'Sphinx</a> и ')
+  | replace("@pradyunsg</a>'s", '@pradyunsg</a> —')
+}}
+{% endblock %}
+
+{% block right_sidebar %}
+{{ super() | replace('On this page', 'На этой странице') }}
+{% endblock %}

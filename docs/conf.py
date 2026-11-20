@@ -12,8 +12,8 @@ os.environ.setdefault("MPLBACKEND", "Agg")
 from parametric_regression import __version__  # noqa: E402
 
 project = "Parametric Regression"
-author = "Parametric Regression contributors"
-copyright = "2026, Parametric Regression contributors"
+author = "Участники проекта Parametric Regression"
+copyright = "2026, Участники проекта Parametric Regression"
 release = __version__
 version = release
 language = "ru"
@@ -39,6 +39,7 @@ add_module_names = False
 html_theme = "furo"
 html_title = f"Parametric Regression {release}"
 html_static_path = ["_static"]
+templates_path = ["_templates"]
 html_css_files = ["custom.css"]
 html_favicon = "_static/favicon.svg"
 html_show_sourcelink = False

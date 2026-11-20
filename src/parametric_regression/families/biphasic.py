@@ -1,4 +1,4 @@
-"""Ordered two-rate survival, without interchangeable mixture components."""
+"""Двухскоростная модель выживания с однозначным порядком компонентов смеси."""
 
 import numpy as np
 from scipy.special import expit
@@ -8,10 +8,13 @@ from ._observed import _PositiveInitialFamily
 
 
 class BiphasicExponentialFamily(_PositiveInitialFamily):
-    """y = y0*(sigmoid(q)*exp(-(k_slow+delta_k)*t) + sigmoid(-q)*exp(-k_slow*t)).
+    """Двухфазное экспоненциальное снижение с известным начальным значением y0.
 
-    k_slow > 0 and delta_k > 0 impose k_fast > k_slow. q is unrestricted.
-    Components describe two time scales, not necessarily two biological populations.
+    y = y0*(sigmoid(q)*exp(-(k_slow+delta_k)*t) + sigmoid(-q)*exp(-k_slow*t)).
+
+    Ограничения k_slow > 0 и delta_k > 0 обеспечивают k_fast > k_slow.
+    Параметр q не ограничен. Компоненты описывают два временных масштаба;
+    это не обязательно две биологические субпопуляции.
     """
 
     name = "biphasic_exponential"
@@ -27,7 +30,7 @@ class BiphasicExponentialFamily(_PositiveInitialFamily):
     )
 
     def parameter_bounds(self) -> tuple[FloatArray, FloatArray]:
-        """Order rates using a positive increment; leave the logit unconstrained."""
+        """Упорядочить скорости положительной разницей; логит веса не ограничен."""
         return np.array([np.finfo(float).tiny, np.finfo(float).tiny, -np.inf]), np.full(3, np.inf)
 
     def _evaluate(self, x: FloatArray, params: FloatArray) -> FloatArray:
@@ -44,11 +47,11 @@ class BiphasicExponentialFamily(_PositiveInitialFamily):
         return result
 
     def initial_guess(self, x: FloatArray, y: FloatArray) -> FloatArray:
-        """Return the first ordered two-rate guess."""
+        """Вернуть первое начальное приближение с упорядоченными скоростями."""
         return self.initial_guesses(x, y)[0]
 
     def identifiability_warnings(self, x: FloatArray, params: FloatArray) -> tuple[str, ...]:
-        """Flag negligible mixture weights or rates unresolved over the observed interval."""
+        """Отметить пренебрежимо малый вес или неразличимые на наблюдаемом интервале скорости."""
         slow, increment, q = params
         weight = expit(q)
         warnings = []
@@ -64,7 +67,7 @@ class BiphasicExponentialFamily(_PositiveInitialFamily):
         return tuple(warnings)
 
     def initial_guesses(self, x: FloatArray, y: FloatArray) -> list[FloatArray]:
-        """Estimate the late slope and try nine weight/rate-separation combinations."""
+        """Оценить поздний наклон и проверить девять сочетаний веса и разделения скоростей."""
         self.validate_domain(x)
         span = float(np.ptp(x))
         valid = (y > 0) & (x >= np.median(x))

@@ -1,4 +1,4 @@
-"""Reuse the stage-one fitter, optionally binding known physical parameters."""
+"""Повторное использование первого этапа с возможной фиксацией физических коэффициентов."""
 
 from collections.abc import Mapping
 from dataclasses import replace
@@ -15,7 +15,7 @@ from .validation import Trajectory
 
 
 class _FixedParameterFamily(BaseFunctionFamily):
-    """Adapt only free parameters to the existing optimizer; no new optimizer."""
+    """Передать существующему оптимизатору только свободные параметры через адаптер."""
 
     def __init__(self, family: BaseFunctionFamily, fixed: Mapping[str, float]) -> None:
         self.family = family
@@ -59,7 +59,7 @@ def fit_trajectory(
     max_nfev: int,
     max_starts: int,
 ) -> FitResult:
-    """Bind a trajectory's initial state/fixed parameters and call fit_family only on train."""
+    """Связать начальное состояние и фиксированные коэффициенты; обучить только по train."""
     if trajectory.partition != "train":
         raise ValueError("Only training trajectories may be fitted.")
     if trajectory.error:

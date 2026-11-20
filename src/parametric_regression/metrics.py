@@ -1,4 +1,4 @@
-"""Regression metrics shared by fitting and selection."""
+"""Общие метрики регрессии для подбора параметров и выбора моделей."""
 
 import numpy as np
 from numpy.typing import ArrayLike
@@ -8,10 +8,10 @@ from ._validation import validate_xy
 
 
 def regression_metrics(y_true: ArrayLike, y_pred: ArrayLike) -> dict[str, float]:
-    """Return MAE, RMSE and R² for equal finite 1-D arrays.
+    """Вычислить MAE, RMSE и R² для конечных одномерных массивов одинаковой длины.
 
-    R² is NaN for one observation. For constant targets sklearn's finite
-    convention is used: 1 for an exact prediction and 0 otherwise.
+    При одном наблюдении R² равен NaN. Для постоянной целевой величины используется
+    соглашение sklearn: 1 при точном прогнозе, 0 в остальных случаях.
     """
     actual, predicted = validate_xy(y_true, y_pred)
     with np.errstate(over="raise", invalid="raise", divide="raise"):

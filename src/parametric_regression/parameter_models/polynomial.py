@@ -1,10 +1,10 @@
-"""Quadratic condition models with optional pairwise interactions."""
+"""Квадратичные модели условий с необязательными попарными взаимодействиями."""
 
 from .base import _LeastSquaresParameterModel
 
 
 class PolynomialParameterModel(_LeastSquaresParameterModel):
-    """Full quadratic terms; interactions=False omits z_i*z_j for i != j."""
+    """Полный квадратичный базис; interactions=False исключает произведения z_i*z_j при i != j."""
 
     degree = 2
 

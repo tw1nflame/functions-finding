@@ -1,4 +1,4 @@
-"""Small extension contract and shared sklearn implementation for coefficient models."""
+"""Контракт расширения и общая реализация моделей коэффициентов через sklearn."""
 
 from abc import ABC, abstractmethod
 from collections.abc import Sequence
@@ -15,7 +15,7 @@ from ..families.base import number
 
 
 def condition_matrix(X: ArrayLike) -> FloatArray:
-    """Validate a finite real matrix of shape (observations, conditions)."""
+    """Проверить конечную вещественную матрицу формы (число наблюдений, число условий)."""
     array = np.asarray(X)
     if array.ndim != 2 or array.dtype.kind not in "iuf" or min(array.shape) < 1:
         raise ValueError("X must be a nonempty 2-D matrix of real numeric conditions.")
@@ -26,7 +26,7 @@ def condition_matrix(X: ArrayLike) -> FloatArray:
 
 
 def latex_name(name: str) -> str:
-    """Render an arbitrary column name as literal LaTeX text."""
+    """Представить произвольное имя столбца как буквальный текст LaTeX."""
     escapes = {
         "_": r"\_",
         "%": r"\%",
@@ -42,12 +42,12 @@ def latex_name(name: str) -> str:
 
 
 class BaseParameterModel(ABC):
-    """A condition-to-coefficient model; instances are copied before training.
+    """Модель зависимости коэффициента от условий; перед обучением создаётся копия экземпляра.
 
-    Implement fit/predict/formula and complexity. fit must use only supplied
-    training data and honor sample_weight (equal independent-experiment weights).
-    required_transform optionally declares 'identity' or 'log' target scale.
-    The surrounding regressor applies that transform and its inverse exactly once.
+    Реализуйте fit, predict, formula и complexity. fit использует только переданные
+    обучающие данные и учитывает sample_weight для равного вклада независимых экспериментов.
+    Необязательный required_transform задаёт шкалу 'identity' или 'log'.
+    Регрессор применяет это преобразование и его обратное ровно по одному разу.
     """
 
     name: str
@@ -55,7 +55,7 @@ class BaseParameterModel(ABC):
 
     @abstractmethod
     def complexity(self, n_features: int) -> int:
-        """Return the number of estimated coefficients for n_features conditions."""
+        """Вернуть число оцениваемых коэффициентов для n_features внешних факторов."""
 
     @abstractmethod
     def fit(
@@ -66,19 +66,19 @@ class BaseParameterModel(ABC):
         feature_names: Sequence[str] | None = None,
         sample_weight: ArrayLike | None = None,
     ) -> Self:
-        """Fit on training conditions and coefficient estimates; return self."""
+        """Обучить по условиям и оценкам коэффициентов; вернуть текущий экземпляр."""
 
     @abstractmethod
     def predict(self, X: ArrayLike) -> FloatArray:
-        """Return one predicted coefficient per condition row."""
+        """Вернуть по одному прогнозу коэффициента на строку условий."""
 
     @abstractmethod
     def formula(self, *, latex: bool = False) -> str:
-        """Return the fitted right-hand-side expression in named conditions."""
+        """Вернуть правую часть обученного выражения через именованные условия."""
 
 
 class _LeastSquaresParameterModel(BaseParameterModel):
-    """Shared scaled polynomial basis and sklearn ordinary least squares."""
+    """Общий масштабированный полиномиальный базис и обычный МНК sklearn."""
 
     degree: int
     interactions: bool = True
@@ -93,7 +93,7 @@ class _LeastSquaresParameterModel(BaseParameterModel):
         return transformer, mask
 
     def complexity(self, n_features: int) -> int:
-        """Count fitted basis coefficients, including the intercept."""
+        """Посчитать оцениваемые коэффициенты базиса, включая свободный член."""
         if self.value is not None:
             return 0
         return int(self._basis(n_features)[1].sum())
@@ -106,11 +106,11 @@ class _LeastSquaresParameterModel(BaseParameterModel):
         feature_names: Sequence[str] | None = None,
         sample_weight: ArrayLike | None = None,
     ) -> Self:
-        """Fit a full-rank scaled design using sklearn LinearRegression.
+        """Обучить полноранговую масштабированную модель через sklearn LinearRegression.
 
-        X is (n, m), y is (n,), feature_names names the m conditions. Positive
-        sample_weight can give equal total weight to each independent experiment.
-        Insufficient observations or a rank-deficient design raise ValueError.
+        X имеет форму (n, m), y — (n,), feature_names задаёт имена m факторов.
+        Положительные sample_weight позволяют выровнять суммарный вес независимых экспериментов.
+        Недостаток наблюдений или неполный ранг матрицы вызывают ValueError.
         """
         # A failed refit must not leave a previously fitted model usable.
         self._regression = None
@@ -152,7 +152,7 @@ class _LeastSquaresParameterModel(BaseParameterModel):
             raise RuntimeError("Parameter model must be successfully fitted first.")
 
     def predict(self, X: ArrayLike) -> FloatArray:
-        """Return finite coefficient predictions, preserving training feature order."""
+        """Вернуть конечные прогнозы коэффициентов с сохранением обучающего порядка факторов."""
         self._require_fit()
         X = condition_matrix(X)
         if X.shape[1] != len(self.feature_names_in_):
@@ -165,7 +165,7 @@ class _LeastSquaresParameterModel(BaseParameterModel):
         return prediction
 
     def formula(self, *, latex: bool = False) -> str:
-        """Return an explicit expression, including training-derived scaling constants."""
+        """Вернуть явное выражение с константами масштабирования, оценёнными по train."""
         self._require_fit()
         variables = []
         for name, center, scale in zip(
@@ -197,7 +197,7 @@ class _LeastSquaresParameterModel(BaseParameterModel):
 
 
 def independent_weights(groups: Sequence[object]) -> FloatArray:
-    """Give all trajectories of each independent experiment total weight one."""
+    """Назначить всем траекториям одного независимого эксперимента суммарный вес, равный единице."""
     codes, _ = pd.factorize(pd.Series(list(groups), dtype=object), sort=False)
     counts = np.bincount(codes)
     return 1.0 / counts[codes]

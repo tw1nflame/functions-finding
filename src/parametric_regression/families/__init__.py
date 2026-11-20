@@ -1,4 +1,4 @@
-"""Available parametric families and their extension contract."""
+"""Доступные параметрические семейства и контракт их расширения."""
 
 from .base import BaseFunctionFamily
 from .biphasic import BiphasicExponentialFamily

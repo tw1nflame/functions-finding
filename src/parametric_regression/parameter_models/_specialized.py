@@ -1,4 +1,4 @@
-"""One-factor validation and weighted reuse of the existing family fitter."""
+"""Проверка одного фактора и взвешенное использование существующего подбора семейств."""
 
 from collections.abc import Sequence
 from typing import Self
@@ -14,7 +14,7 @@ from .base import BaseParameterModel, condition_matrix, latex_name
 
 
 class _WeightedFamily(BaseFunctionFamily):
-    """Multiply targets and predictions by sqrt(weight) for the shared fitter."""
+    """Умножить целевые значения и прогнозы на корень из веса для общего оптимизатора."""
 
     def __init__(self, family: BaseFunctionFamily, weights: FloatArray) -> None:
         self.family = family
@@ -51,12 +51,12 @@ def curve_formula(family: BaseFunctionFamily, params: ArrayLike, latex: bool) ->
 
 
 class _OneFactorModel(BaseParameterModel):
-    """Common input contract; derived classes retain explicit scientific semantics."""
+    """Общий входной контракт; подклассы сохраняют явный научный смысл."""
 
     n_coefficients: int
 
     def complexity(self, n_features: int) -> int:
-        """Return parameter count, rejecting multivariate use of a one-factor law."""
+        """Вернуть число параметров; отклонить многомерное применение однофакторного закона."""
         if n_features != 1:
             raise ValueError(f"{self.name} requires exactly one condition factor.")
         return self.n_coefficients
@@ -124,12 +124,12 @@ class _OneFactorModel(BaseParameterModel):
         return matrix[:, 0]
 
     def predict(self, X: ArrayLike) -> FloatArray:
-        """Predict in the declared target scale using exactly one factor."""
+        """Вычислить прогноз в объявленной целевой шкале ровно по одному фактору."""
         x = self._prediction_input(X)
         return self._curve.evaluate(x, self._params)
 
     def formula(self, *, latex: bool = False) -> str:
-        """Return an explicit RHS in the declared target scale."""
+        """Вернуть явную правую часть выражения в объявленной целевой шкале."""
         self._require_fit()
         variable = self.feature_names_in_[0]
         if latex:

@@ -1,4 +1,4 @@
-"""Constant coefficient dependency."""
+"""Постоянная зависимость коэффициента."""
 
 import numpy as np
 
@@ -6,10 +6,10 @@ from .base import _LeastSquaresParameterModel
 
 
 class ConstantParameterModel(_LeastSquaresParameterModel):
-    """Learn a shared constant, or hold a supplied value in the model's target scale.
+    """Оценить общую константу или удерживать заданное значение в целевой шкале модели.
 
-    For physical fixed time parameters, prefer MultiExperimentRegressor's
-    fixed_parameters: it also fixes that coefficient during trajectory fitting.
+    Для известных физических временных параметров предпочтительнее fixed_parameters
+    в MultiExperimentRegressor: они фиксируют коэффициент также при подгонке траекторий.
     """
 
     name = "constant"

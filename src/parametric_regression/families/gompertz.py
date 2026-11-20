@@ -1,4 +1,4 @@
-"""Asymmetric Gompertz transitions."""
+"""Асимметричные переходы по модели Гомпертца."""
 
 import numpy as np
 from numpy.typing import ArrayLike
@@ -8,7 +8,7 @@ from .base import BaseFunctionFamily, number, transition_guesses
 
 
 class GompertzFamily(BaseFunctionFamily):
-    """f(x) = c + L*exp(-exp(-k*(x-x0))); parameters (c, L, k, x0)."""
+    """Функция Гомпертца: f(x) = c + L*exp(-exp(-k*(x-x0))); параметры — (c, L, k, x0)."""
 
     name = "gompertz"
     parameter_names = ("c", "L", "k", "x0")
@@ -25,11 +25,11 @@ class GompertzFamily(BaseFunctionFamily):
         return c + amplitude * shape
 
     def initial_guess(self, x: FloatArray, y: FloatArray) -> FloatArray:
-        """Estimate a transition with positive amplitude."""
+        """Оценить переход с положительной амплитудой."""
         return self.initial_guesses(x, y)[0]
 
     def initial_guesses(self, x: FloatArray, y: FloatArray) -> list[FloatArray]:
-        """Try both amplitude signs to cover both asymmetric orientations."""
+        """Проверить оба знака амплитуды для двух асимметричных ориентаций перехода."""
         positive = transition_guesses(x, y, float(np.exp(-1)))
         negative = transition_guesses(x, -y, float(np.exp(-1)))
         for guess in negative:
@@ -37,7 +37,7 @@ class GompertzFamily(BaseFunctionFamily):
         return [guess for pair in zip(positive, negative, strict=True) for guess in pair]
 
     def formula(self, params: ArrayLike, *, latex: bool = False) -> str:
-        """Return a numeric Gompertz formula."""
+        """Вернуть численную формулу Гомпертца."""
         c, amplitude, k, x0 = (number(v, latex) for v in self.validate_parameters(params))
         if latex:
             return rf"y = {c} + ({amplitude})\,\exp(-\exp(-({k})(x-({x0}))))"

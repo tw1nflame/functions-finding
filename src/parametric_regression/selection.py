@@ -1,4 +1,4 @@
-"""Common holdout selection, with explicit simplicity preference and no refit."""
+"""Выбор по общей отложенной части с предпочтением простоты, без переобучения."""
 
 from collections.abc import Sequence
 
@@ -22,21 +22,24 @@ from .results import SelectionResult, SplitInfo, SplitMethod
 
 
 class ModelSelector:
-    """Compare families on a shared holdout using validation RMSE.
+    """Сравнить семейства на общей отложенной части по RMSE валидации.
 
     Parameters
     ----------
-    families : sequence or None
-        Explicit candidates; None creates all five families (three polynomial degrees).
+    families : последовательность или None
+        Явный список кандидатов. При None используются семь стандартных вариантов:
+        полиномы степеней 1/2/3, экспонента, логистика, Гомпертц и рациональное насыщение.
     validation_size : float
-        Fraction in (0, 1); for time/group splits, fraction of unique times/groups.
+        Доля в интервале (0, 1). Для временного или группового разбиения — доля
+        уникальных временных отметок или групп соответственно.
     random_state : int
-        Fixed seed for reproducible random and group splits.
+        Начальное значение генератора для воспроизводимых случайных и групповых разбиений.
     relative_tolerance, absolute_tolerance : float
-        Eligible RMSE <= minimum RMSE * (1 + relative_tolerance) + absolute_tolerance.
-        Among eligible models choose fewest parameters, then lowest RMSE, then input order.
+        Допускаются RMSE <= min_RMSE * (1 + relative_tolerance) + absolute_tolerance.
+        Среди них выбирается меньшее число параметров, затем меньшая ошибка,
+        затем исходный порядок кандидатов.
     max_nfev, max_starts : int
-        Per-start optimization budget and maximum deterministic initializations.
+        Бюджет вычислений на один старт и максимальное число начальных приближений.
     """
 
     def __init__(
@@ -91,12 +94,14 @@ class ModelSelector:
         split: SplitMethod = "random",
         groups: ArrayLike | None = None,
     ) -> SelectionResult:
-        """Fit all candidates on train rows and evaluate on the same holdout.
+        """Подобрать всех кандидатов по обучающим строкам и оценить на общей отложенной части.
 
-        x/y must be finite, real 1-D arrays. For split='group', groups must
-        contain one nonmissing experiment identifier per row. Time splits sort
-        x and keep equal timestamps together. Each partition needs >= 2 rows.
-        Returns all attempts even if no candidate succeeds; no automatic refit.
+        x/y — конечные вещественные одномерные массивы. При split='group' массив groups
+        должен содержать по одному непустому ID эксперимента на строку.
+        Временное разбиение сортирует x и сохраняет одинаковые отметки в одной части.
+        В каждой части нужно не менее двух наблюдений.
+        Все попытки возвращаются даже при отсутствии успешного кандидата;
+        автоматического переобучения после выбора нет.
         """
         x, y = validate_xy(x, y)
         protocol = self._split(x, split, groups)
@@ -144,10 +149,10 @@ class ModelSelector:
         split: SplitMethod = "random",
         group_column: str | None = None,
     ) -> SelectionResult:
-        """Select using named DataFrame columns; group_column names experiment IDs.
+        """Выбрать модель по именованным столбцам DataFrame; group_column задаёт ID экспериментов.
 
-        Indices in the returned split are row positions, independent of df.index.
-        Missing columns, duplicate names, nullable missing values raise ValueError.
+        Индексы разбиения — позиции строк, не зависящие от df.index.
+        Отсутствующие столбцы, повторяющиеся имена и пропущенные значения вызывают ValueError.
         """
         columns = [x_column, y_column] + ([group_column] if group_column is not None else [])
         if not df.columns.is_unique:

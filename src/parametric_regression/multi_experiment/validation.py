@@ -1,4 +1,4 @@
-"""Independent experiment splits, trajectory preparation and honest curve scoring."""
+"""Разбиение независимых экспериментов, подготовка траекторий и проверка кривых."""
 
 from collections.abc import Callable, Hashable, Mapping, Sequence
 from dataclasses import dataclass, field
@@ -15,7 +15,7 @@ from ..metrics import regression_metrics
 
 @dataclass(frozen=True)
 class ExperimentSplit:
-    """Partition of every original row and independent experiment, created before fitting."""
+    """Разделение всех исходных строк и независимых экспериментов, созданное до обучения."""
 
     row_partitions: NDArray[np.str_]
     experiments: pd.DataFrame
@@ -27,7 +27,7 @@ class ExperimentSplit:
 
 @dataclass
 class Trajectory:
-    """Prepared observations; held-out trajectories are never fitted."""
+    """Подготовленные наблюдения; параметры отложенных траекторий не подбираются."""
 
     identifier: Hashable
     experiment: Hashable
@@ -64,7 +64,7 @@ def split_experiments(
     test_size: float,
     random_state: int,
 ) -> ExperimentSplit:
-    """Use GroupShuffleSplit or explicit train/validation/test labels; no fitting."""
+    """Использовать GroupShuffleSplit или явные метки train/validation/test без обучения."""
     _identifier_column(df, group_column)
     groups, identifiers = pd.factorize(df[group_column], sort=False)
     partitions = np.full(len(df), "train", dtype="<U10")
@@ -133,11 +133,11 @@ def prepare_trajectories(
     test_size: float,
     random_state: int,
 ) -> tuple[list[Trajectory], ExperimentSplit]:
-    """Validate schema and fixed conditions; retain invalid time/target trajectories as errors.
+    """Проверить схему и постоянство условий; сохранить ошибки времени и отклика в диагностике.
 
-    For initial-state families, elapsed time starts at the earliest observation.
-    y0 is supplied by trajectory ID or the mean of tied earliest measurements.
-    Those baseline observations are excluded from every curve score.
+    Для семейств с начальным состоянием прошедшее время отсчитывается от первого наблюдения.
+    y0 задаётся по ID траектории или как среднее совпадающих самых ранних измерений.
+    Эти начальные наблюдения исключаются из всех оценочных метрик кривых.
     """
     if not isinstance(df, pd.DataFrame) or df.empty or not df.columns.is_unique:
         raise ValueError("df must be a nonempty DataFrame with unique column names.")
@@ -231,7 +231,7 @@ def prepare_trajectories(
 
 @dataclass
 class CurveEvaluation:
-    """Curve errors with observation/macro-experiment aggregation and full coverage diagnostics."""
+    """Ошибки кривых по наблюдениям и независимым экспериментам с полной диагностикой покрытия."""
 
     observation: dict[str, float]
     experiment: dict[str, float]
@@ -241,7 +241,7 @@ class CurveEvaluation:
     complete: bool
 
     def summary(self) -> dict[str, object]:
-        """Return metrics, coverage and failure count suitable for reporting."""
+        """Вернуть метрики, покрытие и число неудачных траекторий для отчёта."""
         return {
             "observation": dict(self.observation),
             "experiment": dict(self.experiment),
@@ -258,11 +258,11 @@ def evaluate_curves(
     trajectories: Sequence[Trajectory],
     predictor: Callable[[Trajectory], FloatArray],
 ) -> CurveEvaluation:
-    """Evaluate y predictions; any failed trajectory makes the score incomplete.
+    """Оценить прогнозы y; ошибка любой траектории делает оценку неполной.
 
-    Macro RMSE is the arithmetic mean of per-independent-experiment RMSEs.
-    Each experiment pools its trajectories; conditioning baselines are excluded.
-    Partial metrics remain visible but must not be used for model selection.
+    Средняя RMSE — арифметическое среднее RMSE отдельных независимых экспериментов.
+    Внутри эксперимента его траектории объединяются; известные начальные точки исключаются.
+    Частичные метрики сохраняются, но не должны использоваться для выбора модели.
     """
     frames, failures = [], []
     for item in trajectories:

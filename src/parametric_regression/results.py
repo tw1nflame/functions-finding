@@ -1,4 +1,4 @@
-"""Results retain all candidates, diagnostics and the exact evaluation protocol."""
+"""Результаты с полным списком кандидатов, диагностикой и точным протоколом оценки."""
 
 from dataclasses import dataclass, field
 from typing import Literal
@@ -15,7 +15,7 @@ SplitMethod = Literal["random", "time", "group"]
 
 @dataclass(frozen=True)
 class SplitInfo:
-    """Original row positions used for training/validation, plus split settings."""
+    """Позиции исходных строк для обучения и валидации, а также настройки разбиения."""
 
     method: SplitMethod
     train_indices: NDArray[np.int64]
@@ -32,10 +32,11 @@ class SplitInfo:
 
 @dataclass
 class FitResult:
-    """One fitted family or a failed attempt with its diagnostic message.
+    """Результат подбора одного семейства или неудачная попытка с диагностикой.
 
-    Coefficients always belong to the training fit. ``metrics`` refers to
-    validation metrics when evaluated by ModelSelector, training metrics otherwise.
+    Коэффициенты всегда получены только на обучающей части.
+    При оценке через ModelSelector свойство ``metrics`` содержит метрики валидации,
+    в остальных случаях — обучающие метрики.
     """
 
     family: BaseFunctionFamily
@@ -52,38 +53,38 @@ class FitResult:
 
     @property
     def family_name(self) -> str:
-        """Stable family identifier."""
+        """Стабильный идентификатор семейства."""
         return self.family.name
 
     @property
     def n_parameters(self) -> int:
-        """Number of free parameters used for the simplicity preference."""
+        """Число свободных параметров для предпочтения более простой модели."""
         return self.family.n_parameters
 
     @property
     def coefficients(self) -> dict[str, float]:
-        """Named coefficients; empty if no solution was obtained."""
+        """Именованные коэффициенты; пустой словарь, если решение не получено."""
         if self.params is None:
             return {}
         return dict(zip(self.family.parameter_names, map(float, self.params), strict=True))
 
     @property
     def formula(self) -> str | None:
-        """Plain formula in the original input coordinate."""
+        """Текстовая формула в исходной координате входной переменной."""
         return None if self.params is None else self.family.formula(self.params)
 
     @property
     def latex_formula(self) -> str | None:
-        """LaTeX formula without math delimiters."""
+        """Формула LaTeX без ограничителей математической разметки."""
         return None if self.params is None else self.family.formula(self.params, latex=True)
 
     @property
     def metrics(self) -> dict[str, float]:
-        """Validation metrics if available, otherwise training metrics."""
+        """Метрики валидации, если они доступны; иначе обучающие метрики."""
         return dict(self.validation_metrics or self.train_metrics)
 
     def predict(self, x: ArrayLike) -> FloatArray:
-        """Predict a finite 1-D x vector; raise RuntimeError for a failed fit."""
+        """Предсказать значения по одномерному x; при неудачном подборе вызвать RuntimeError."""
         if not self.success or self.params is None:
             raise RuntimeError(f"Cannot predict with {self.family_name}: {self.message}")
         return self.family.evaluate(x, self.params)
@@ -91,7 +92,7 @@ class FitResult:
 
 @dataclass
 class SelectionResult:
-    """Selection outcome, including failed candidates and an optional winner."""
+    """Результат выбора с неудачными кандидатами и выбранной моделью, если она существует."""
 
     candidates: tuple[FitResult, ...]
     best_index: int | None
@@ -102,12 +103,12 @@ class SelectionResult:
 
     @property
     def success(self) -> bool:
-        """Whether at least one model fitted and predicted validation data."""
+        """Удалось ли хотя бы одной модели обучиться и предсказать данные валидации."""
         return self.best_index is not None
 
     @property
     def best_result(self) -> FitResult:
-        """Winning training fit; raise with all diagnostics if every candidate failed."""
+        """Вернуть выбранный результат; если все кандидаты неудачны — ошибку с диагностикой."""
         if self.best_index is None:
             details = "; ".join(f"{r.family_name}: {r.message}" for r in self.candidates)
             raise RuntimeError(f"No successful candidate. {details}")
@@ -115,35 +116,35 @@ class SelectionResult:
 
     @property
     def best_family(self) -> str | None:
-        """Winning family name, or None when no candidate succeeded."""
+        """Имя выбранного семейства или None, если подходящих кандидатов нет."""
         return self.best_result.family_name if self.success else None
 
     @property
     def formula(self) -> str | None:
-        """Winning numeric formula, or None."""
+        """Численная формула выбранной модели или None."""
         return self.best_result.formula if self.success else None
 
     @property
     def latex_formula(self) -> str | None:
-        """Winning LaTeX formula, or None."""
+        """Формула выбранной модели в LaTeX или None."""
         return self.best_result.latex_formula if self.success else None
 
     @property
     def coefficients(self) -> dict[str, float]:
-        """Named coefficients of the winner."""
+        """Именованные коэффициенты выбранной модели."""
         return self.best_result.coefficients if self.success else {}
 
     @property
     def metrics(self) -> dict[str, float]:
-        """Winning validation metrics; empty when every candidate failed."""
+        """Метрики валидации выбранной модели; пустой словарь, если все кандидаты неудачны."""
         return self.best_result.metrics if self.success else {}
 
     def predict(self, x: ArrayLike) -> FloatArray:
-        """Predict using the selected training fit, without implicit refitting."""
+        """Вычислить прогноз выбранной обученной моделью без скрытого переобучения."""
         return self.best_result.predict(x)
 
     def to_dataframe(self) -> pd.DataFrame:
-        """Return all candidates in input order, with separate train/validation metrics."""
+        """Вернуть всех кандидатов по порядку с отдельными метриками обучения и валидации."""
         return pd.DataFrame(
             [
                 {

@@ -1,4 +1,4 @@
-"""Matplotlib figures without global style changes or implicit show/save."""
+"""Графики Matplotlib без изменения глобальных стилей и автоматического показа или сохранения."""
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -21,11 +21,12 @@ def plot_fit(
     ylabel: str = "y",
     title: str | None = None,
 ) -> Figure:
-    """Return a figure with observations and one or more fitted curves.
+    """Построить график наблюдений и одной или нескольких подобранных кривых.
 
-    Supply x/y in the same row order used for selection when show_split=True.
-    The selected model is always shown; remaining successful candidates are
-    ordered by validation RMSE. Failed candidates are skipped. No refitting occurs.
+    При show_split=True передайте x/y в том же порядке строк, что и при выборе модели.
+    Выбранная модель показывается всегда; остальные успешные кандидаты упорядочены
+    по RMSE валидации. Неудачные кандидаты пропускаются.
+    Повторный подбор параметров не выполняется.
     """
     x, y = validate_xy(x, y)
     _positive_integer(top_n, "top_n")

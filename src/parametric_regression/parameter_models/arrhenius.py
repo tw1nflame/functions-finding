@@ -1,4 +1,4 @@
-"""Arrhenius law in an explicit log-target contract; temperature is Kelvin."""
+"""Закон Аррениуса с явной логарифмической шкалой целевой величины и температурой в Кельвинах."""
 
 from collections.abc import Sequence
 from typing import Self
@@ -13,16 +13,17 @@ from .base import latex_name
 
 
 class ArrheniusParameterModel(_OneFactorModel):
-    """Fit log(k) = log(k_ref) - E_a/R * (1/T - 1/T_ref), E_a >= 0.
+    """Закон Аррениуса: log(k) = log(k_ref) - E_a/R * (1/T - 1/T_ref), E_a >= 0.
 
-    T and T_ref are Kelvin; R is J/(mol K) and E_a is J/mol. Standalone fit/predict
-    receive/return log(k). MultiExperimentRegressor applies the inverse exp once.
-    No automatic Celsius conversion or unit inference is performed.
+    T и T_ref задаются в Кельвинах, R — в Дж/(моль·К), E_a — в Дж/моль.
+    При самостоятельном вызове fit принимает log(k), predict возвращает log(k).
+    MultiExperimentRegressor выполняет обратное преобразование exp ровно один раз.
+    Автоматического перевода из градусов Цельсия и определения единиц нет.
 
     Parameters
     ----------
     T_ref : float
-        Known positive reference temperature in Kelvin (default 298.15).
+        Известная положительная опорная температура в Кельвинах; по умолчанию 298.15.
     """
 
     name = "arrhenius"
@@ -55,7 +56,7 @@ class ArrheniusParameterModel(_OneFactorModel):
         feature_names: Sequence[str] | None = None,
         sample_weight: ArrayLike | None = None,
     ) -> Self:
-        """Fit log-rate data by weighted linear least squares with E_a >= 0."""
+        """Оценить логарифм скорости взвешенным линейным МНК при E_a >= 0."""
         x, target, weights = self._prepare_fit(X, y, feature_names, sample_weight)
         z = self._coordinate(x)
         weights = weights / np.max(weights)
@@ -80,7 +81,7 @@ class ArrheniusParameterModel(_OneFactorModel):
         return self
 
     def predict(self, X: ArrayLike) -> FloatArray:
-        """Return log(k), not k, for temperatures in Kelvin."""
+        """Вернуть log(k) для температур в Кельвинах; физическая скорость равна exp результата."""
         x = self._prediction_input(X)
         with np.errstate(over="raise", invalid="raise"):
             result = self._params[0] + self._params[1] * self._coordinate(x)
@@ -89,7 +90,7 @@ class ArrheniusParameterModel(_OneFactorModel):
         return result
 
     def formula(self, *, latex: bool = False) -> str:
-        """Return log(k); the general-model relationship wraps this in exp once."""
+        """Вернуть log(k); связь общей модели применяет exp к этому выражению ровно один раз."""
         self._require_fit()
         name = self.feature_names_in_[0]
         reference, energy, gas, log_reference = (

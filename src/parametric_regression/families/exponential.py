@@ -1,4 +1,4 @@
-"""Exponential growth/decay with an offset."""
+"""Экспоненциальный рост или затухание со свободным сдвигом."""
 
 import numpy as np
 from numpy.typing import ArrayLike
@@ -8,7 +8,7 @@ from .base import BaseFunctionFamily, number
 
 
 class ExponentialFamily(BaseFunctionFamily):
-    """f(x) = c + a*exp(b*x); parameters are (c, a, b)."""
+    """Экспонента со сдвигом: f(x) = c + a*exp(b*x); порядок параметров — (c, a, b)."""
 
     name = "exponential"
     parameter_names = ("c", "a", "b")
@@ -23,11 +23,11 @@ class ExponentialFamily(BaseFunctionFamily):
         return c + np.sign(a) * np.exp(np.log(abs(a)) + b * x)
 
     def initial_guess(self, x: FloatArray, y: FloatArray) -> FloatArray:
-        """Return the first deterministic exponential starting vector."""
+        """Вернуть первый детерминированный старт экспоненциального семейства."""
         return self.initial_guesses(x, y)[0]
 
     def initial_guesses(self, x: FloatArray, y: FloatArray) -> list[FloatArray]:
-        """Estimate levels by linear least squares for six fixed trial rates."""
+        """Оценить уровни линейным МНК для шести фиксированных пробных скоростей."""
         span, center = float(np.ptp(x)), float(np.mean(x))
         guesses = []
         for rate in (-1.0, 1.0, -3.0, 3.0, -0.25, 0.25):
@@ -43,7 +43,7 @@ class ExponentialFamily(BaseFunctionFamily):
         return guesses
 
     def formula(self, params: ArrayLike, *, latex: bool = False) -> str:
-        """Return the exponential formula with numeric coefficients."""
+        """Вернуть формулу экспоненты с численными коэффициентами."""
         c, a, b = (number(v, latex) for v in self.validate_parameters(params))
         if latex:
             return rf"y = {c} + ({a})\,e^{{({b})x}}"

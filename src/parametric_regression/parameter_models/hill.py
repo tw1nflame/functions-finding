@@ -1,4 +1,4 @@
-"""Concentration-response saturation in the incoming coefficient target scale."""
+"""Насыщение эффекта концентрации в переданной целевой шкале коэффициента."""
 
 from collections.abc import Sequence
 from typing import Self
@@ -57,11 +57,11 @@ class _HillCurve(BaseFunctionFamily):
 
 
 class HillParameterModel(_OneFactorModel):
-    """g(C) = c + A*C**h/(K**h+C**h), C >= 0, K/h > 0, signed A.
+    """Зависимость Хилла: g(C) = c + A*C**h/(K**h+C**h), C >= 0, K/h > 0; знак A произволен.
 
-    Operates in the incoming target scale. If the surrounding relationship uses
-    log(k), the physical prediction is exp(g(C)), not an ordinary Hill law for k.
-    At least four distinct concentration levels are needed; more are preferable.
+    Работает в переданной целевой шкале. Если окружающая связь моделирует log(k),
+    физический прогноз равен exp(g(C)), а не обычной функции Хилла для k.
+    Нужно минимум четыре различных уровня концентрации; предпочтительно больше.
     """
 
     name = "hill"
@@ -75,7 +75,7 @@ class HillParameterModel(_OneFactorModel):
         feature_names: Sequence[str] | None = None,
         sample_weight: ArrayLike | None = None,
     ) -> Self:
-        """Use shared multi-start fitting, honoring weights and identifiability checks."""
+        """Выполнить общий подбор с весами, несколькими стартами и проверкой идентифицируемости."""
         x, target, weights = self._prepare_fit(X, y, feature_names, sample_weight)
         self._fit_curve(_HillCurve(), x, target, weights)
         if not np.min(x[x > 0]) <= self.parameters_["K"] <= np.max(x):

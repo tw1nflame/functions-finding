@@ -1,4 +1,4 @@
-"""Logarithmic slowing with a fitted positive time scale."""
+"""Логарифмическое замедление с подбираемым положительным временным масштабом."""
 
 import numpy as np
 from numpy.typing import ArrayLike
@@ -8,7 +8,7 @@ from .base import BaseFunctionFamily, number
 
 
 def logarithmic_basis(x: FloatArray, tau: float) -> FloatArray:
-    """Compute log1p(x/tau), including ratios beyond the float64 range."""
+    """Вычислить log1p(x/tau), включая отношения за пределами диапазона float64."""
     with np.errstate(over="ignore"):
         ratio = x / tau
     result = np.log1p(ratio)
@@ -18,7 +18,7 @@ def logarithmic_basis(x: FloatArray, tau: float) -> FloatArray:
 
 
 class LogarithmicFamily(BaseFunctionFamily):
-    """y(t) = c + a*log1p(t/tau), t >= 0 and tau > 0."""
+    """Логарифмическая зависимость: y(t) = c + a*log1p(t/tau), t >= 0, tau > 0."""
 
     name = "logarithmic"
     parameter_names = ("c", "a", "tau")
@@ -27,11 +27,11 @@ class LogarithmicFamily(BaseFunctionFamily):
     latex_expression_template = r"(@c@) + (@a@)\ln(1+\frac{@t@}{(@tau@)})"
 
     def parameter_bounds(self) -> tuple[FloatArray, FloatArray]:
-        """Only the time scale is constrained."""
+        """Ограничить только временной масштаб."""
         return np.array([-np.inf, -np.inf, np.finfo(float).tiny]), np.full(3, np.inf)
 
     def validate_domain(self, x: FloatArray) -> None:
-        """Require nonnegative time."""
+        """Потребовать неотрицательное время."""
         if np.any(x < 0):
             raise ValueError("Logarithmic family requires time >= 0.")
 
@@ -40,11 +40,11 @@ class LogarithmicFamily(BaseFunctionFamily):
         return c + a * logarithmic_basis(x, tau)
 
     def initial_guess(self, x: FloatArray, y: FloatArray) -> FloatArray:
-        """Return the first time-scale/level guess."""
+        """Вернуть первую начальную оценку временного масштаба и уровней."""
         return self.initial_guesses(x, y)[0]
 
     def initial_guesses(self, x: FloatArray, y: FloatArray) -> list[FloatArray]:
-        """Try four positive scales and estimate c/a linearly."""
+        """Проверить четыре положительных масштаба и линейно оценить c и a."""
         scale = float(np.median(x[x > 0]))
         guesses = []
         for factor in (1.0, 0.1, 10.0, 100.0):
@@ -58,7 +58,7 @@ class LogarithmicFamily(BaseFunctionFamily):
         return guesses
 
     def formula(self, params: ArrayLike, *, latex: bool = False) -> str:
-        """Return the original-scale logarithmic expression."""
+        """Вернуть логарифмическое выражение в исходной шкале."""
         values = (number(v, latex) for v in self.validate_parameters(params))
         return "y = " + self.expression(
             dict(zip(self.parameter_names, values, strict=True)), variable="x", latex=latex

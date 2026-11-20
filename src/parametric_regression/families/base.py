@@ -1,4 +1,4 @@
-"""Contract for stateless, extensible mathematical families."""
+"""Контракт расширяемых математических семейств без состояния обучения."""
 
 import re
 from abc import ABC, abstractmethod
@@ -11,10 +11,10 @@ from .._validation import FloatArray, as_vector
 
 
 class BaseFunctionFamily(ABC):
-    """Define a function, named parameters, bounds and training-only initial guesses.
+    """Задать функцию, имена параметров, границы и начальные оценки по обучающим данным.
 
-    Subclasses implement ``_evaluate``, ``initial_guess`` and ``formula``.
-    Validation and finite-output checks are shared by all built-in families.
+    Подклассы реализуют ``_evaluate``, ``initial_guess`` и ``formula``.
+    Проверка входов и конечности результата общая для всех встроенных семейств.
     """
 
     name: str
@@ -25,7 +25,7 @@ class BaseFunctionFamily(ABC):
     latex_expression_template: str | None = None
 
     def with_initial_value(self, value: float) -> "BaseFunctionFamily":
-        """Return a family bound to an observed initial value, when supported."""
+        """Вернуть семейство с известным начальным значением, если оно поддерживается."""
         raise ValueError(f"{self.name} does not use an initial value.")
 
     def expression(
@@ -36,10 +36,11 @@ class BaseFunctionFamily(ABC):
         initial: str = "y0",
         latex: bool = False,
     ) -> str:
-        """Compose a right-hand-side expression without evaluating user strings.
+        """Составить правую часть выражения без исполнения пользовательских строк.
 
-        Optional stage-two extension: templates use @parameter@, @t@, @y0@.
-        Custom families may override this method instead of supplying templates.
+        Необязательное расширение для второго этапа: шаблоны используют
+        @parameter@, @t@ и @y0@. Пользовательское семейство может переопределить
+        этот метод вместо задания шаблонов.
         """
         template = self.latex_expression_template if latex else self.expression_template
         if template is None:
@@ -49,19 +50,19 @@ class BaseFunctionFamily(ABC):
 
     @property
     def n_parameters(self) -> int:
-        """Number of free coefficients, including the intercept."""
+        """Число свободных коэффициентов, включая свободный член."""
         return len(self.parameter_names)
 
     def parameter_bounds(self) -> tuple[FloatArray, FloatArray]:
-        """Return inclusive lower/upper bounds in parameter_names order."""
+        """Вернуть включительные нижние и верхние границы в порядке parameter_names."""
         return np.full(self.n_parameters, -np.inf), np.full(self.n_parameters, np.inf)
 
     def validate_domain(self, x: FloatArray) -> None:
-        """Raise ValueError if the finite x vector is outside the family domain."""
+        """Вызвать ValueError, если конечный вектор x выходит за область определения семейства."""
         return None
 
     def validate_parameters(self, params: ArrayLike) -> FloatArray:
-        """Return a finite parameter vector satisfying the family bounds."""
+        """Вернуть конечный вектор параметров, удовлетворяющий границам семейства."""
         params = as_vector(params, "params")
         if params.size != self.n_parameters:
             raise ValueError(f"{self.name} requires {self.n_parameters} parameters.")
@@ -71,9 +72,9 @@ class BaseFunctionFamily(ABC):
         return params
 
     def evaluate(self, x: ArrayLike, params: ArrayLike) -> FloatArray:
-        """Evaluate at finite 1-D x; reject invalid parameters or numerical overflow.
+        """Вычислить значения для конечного одномерного x с проверкой параметров и переполнений.
 
-        Returns an array with the same shape as x; an empty x is allowed.
+        Возвращается массив той же формы, что и x. Пустой массив x допустим.
         """
         x = as_vector(x, "x", allow_empty=True)
         params = self.validate_parameters(params)
@@ -86,39 +87,39 @@ class BaseFunctionFamily(ABC):
 
     @abstractmethod
     def _evaluate(self, x: FloatArray, params: FloatArray) -> FloatArray:
-        """Return function values for validated inputs."""
+        """Вычислить значения функции для уже проверенных входов."""
 
     @abstractmethod
     def initial_guess(self, x: FloatArray, y: FloatArray) -> FloatArray:
-        """Return one feasible parameter vector using training data only."""
+        """Вернуть один допустимый вектор параметров только по обучающим данным."""
 
     def initial_guesses(self, x: FloatArray, y: FloatArray) -> list[FloatArray]:
-        """Return deterministic initial vectors for shared multi-start fitting."""
+        """Вернуть детерминированные начальные векторы для общего подбора с несколькими стартами."""
         return [self.initial_guess(x, y)]
 
     @abstractmethod
     def formula(self, params: ArrayLike, *, latex: bool = False) -> str:
-        """Return an explicit formula in x with numeric coefficients."""
+        """Вернуть явную формулу по x с численными коэффициентами."""
 
     def design_matrix(self, x: FloatArray) -> FloatArray | None:
-        """Return a linear design matrix, or None to use nonlinear optimization."""
+        """Вернуть матрицу линейной модели или None для нелинейной оптимизации."""
         return None
 
     def identifiability_warnings(self, x: FloatArray, params: FloatArray) -> tuple[str, ...]:
-        """Return optional family-specific warnings about practically inseparable parameters.
+        """Вернуть предупреждения семейства о практически неразличимых параметрах.
 
-        Ordinary fits retain the warning. Stage two excludes such estimates when
-        parameters were fitted, in addition to its existing Jacobian checks.
+        Обычный подбор сохраняет предупреждение в результате.
+        Второй этап исключает такие подогнанные оценки дополнительно к проверкам якобиана.
         """
         return ()
 
     def linear_parameters(self, coefficients: FloatArray, x: FloatArray) -> FloatArray:
-        """Convert fitted linear-basis coefficients to public parameters."""
+        """Перевести коэффициенты линейного базиса в публичную параметризацию."""
         return coefficients
 
 
 def transition_guesses(x: FloatArray, y: FloatArray, fraction: float) -> list[FloatArray]:
-    """Initialize c, L, k, x0 for monotonic transitions from training data."""
+    """Оценить c, L, k, x0 для монотонных переходов по обучающим данным."""
     order = np.argsort(x)
     span = float(np.ptp(x))
     low, high = float(np.min(y)), float(np.max(y))
@@ -133,7 +134,7 @@ def transition_guesses(x: FloatArray, y: FloatArray, fraction: float) -> list[Fl
 
 
 def number(value: float, latex: bool = False) -> str:
-    """Format a coefficient, including proper LaTeX scientific notation."""
+    """Отформатировать коэффициент, включая научную запись в LaTeX."""
     result = f"{value:.12g}"
     if latex and "e" in result:
         mantissa, exponent = result.split("e")

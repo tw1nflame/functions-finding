@@ -1,4 +1,4 @@
-"""Shared validation; missing observations are never silently dropped."""
+"""Общая проверка данных; пропущенные наблюдения не удаляются молча."""
 
 import numpy as np
 from numpy.typing import ArrayLike, NDArray
@@ -7,7 +7,7 @@ FloatArray = NDArray[np.float64]
 
 
 def as_vector(values: ArrayLike, name: str, *, allow_empty: bool = False) -> FloatArray:
-    """Return a finite real 1-D float array or raise ValueError."""
+    """Вернуть конечный вещественный одномерный массив float или вызвать ValueError."""
     array = np.asarray(values)
     if array.ndim != 1 or array.dtype.kind not in "iuf":
         raise ValueError(f"{name} must be a one-dimensional array of real numbers.")
@@ -20,7 +20,7 @@ def as_vector(values: ArrayLike, name: str, *, allow_empty: bool = False) -> Flo
 
 
 def validate_xy(x: ArrayLike, y: ArrayLike) -> tuple[FloatArray, FloatArray]:
-    """Return validated x and y of equal length."""
+    """Проверить и вернуть массивы x и y одинаковой длины."""
     x_array, y_array = as_vector(x, "x"), as_vector(y, "y")
     if x_array.shape != y_array.shape:
         raise ValueError("x and y must have the same length.")

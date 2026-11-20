@@ -1,4 +1,4 @@
-"""Exponential relaxation with an observed, non-fitted initial value."""
+"""Экспоненциальная релаксация с известным начальным значением, которое не подбирается."""
 
 import numpy as np
 from numpy.typing import ArrayLike
@@ -8,10 +8,11 @@ from .base import BaseFunctionFamily, number
 
 
 class ExponentialRelaxationFamily(BaseFunctionFamily):
-    """y(t) = y0 + A*(1-exp(-k*t)), t >= 0, k > 0; A may have either sign.
+    """Релаксация: y(t) = y0 + A*(1-exp(-k*t)), t >= 0, k > 0; знак A произволен.
 
-    initial_value binds an observed y0 for standalone fit_family. The multi-
-    experiment regressor binds a separate initial value for each trajectory.
+    Для самостоятельного fit_family параметр initial_value задаёт наблюдаемое y0.
+    Регрессор нескольких экспериментов связывает своё начальное значение
+    с каждой отдельной траекторией.
     """
 
     name = "exponential_relaxation"
@@ -29,15 +30,15 @@ class ExponentialRelaxationFamily(BaseFunctionFamily):
         self.initial_value = None if initial_value is None else float(initial_value)
 
     def with_initial_value(self, value: float) -> "ExponentialRelaxationFamily":
-        """Return a new bound family, leaving this template unchanged."""
+        """Вернуть новый экземпляр с начальным значением, сохранив исходный шаблон."""
         return ExponentialRelaxationFamily(initial_value=value)
 
     def parameter_bounds(self) -> tuple[FloatArray, FloatArray]:
-        """A is unrestricted; k is strictly positive."""
+        """Амплитуда A не ограничена; скорость k строго положительна."""
         return np.array([-np.inf, np.finfo(float).tiny]), np.full(2, np.inf)
 
     def validate_domain(self, x: FloatArray) -> None:
-        """Require elapsed nonnegative time and an explicit initial state."""
+        """Потребовать неотрицательное прошедшее время и известное начальное состояние."""
         if self.initial_value is None:
             raise ValueError("Bind initial_value before evaluating or fitting relaxation.")
         if np.any(x < 0):
@@ -51,11 +52,11 @@ class ExponentialRelaxationFamily(BaseFunctionFamily):
         return self.initial_value - amplitude * np.expm1(exponent)
 
     def initial_guess(self, x: FloatArray, y: FloatArray) -> FloatArray:
-        """Return the first training-only rate/amplitude guess."""
+        """Вернуть первую начальную оценку скорости и амплитуды по обучающим данным."""
         return self.initial_guesses(x, y)[0]
 
     def initial_guesses(self, x: FloatArray, y: FloatArray) -> list[FloatArray]:
-        """Try four rates and estimate amplitude linearly for each rate."""
+        """Проверить четыре скорости и для каждой линейно оценить амплитуду."""
         self.validate_domain(x)
         guesses = []
         for factor in (1.0, 0.2, 5.0, 20.0):
@@ -66,7 +67,7 @@ class ExponentialRelaxationFamily(BaseFunctionFamily):
         return guesses
 
     def formula(self, params: ArrayLike, *, latex: bool = False) -> str:
-        """Return a numeric formula with the observed initial state."""
+        """Вернуть численную формулу с известным начальным состоянием."""
         values = self.validate_parameters(params)
         initial = "y_0" if latex else "y0"
         if self.initial_value is not None:

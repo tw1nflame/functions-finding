@@ -1,4 +1,4 @@
-"""Condition-to-coefficient models, independent of time function families."""
+"""Модели зависимости коэффициентов от условий, независимые от временных семейств."""
 
 from .arrhenius import ArrheniusParameterModel
 from .base import BaseParameterModel

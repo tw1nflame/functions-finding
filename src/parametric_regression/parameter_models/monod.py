@@ -1,4 +1,4 @@
-"""Physical nonnegative Monod growth rate; exact zero at zero substrate."""
+"""Физическая неотрицательная скорость роста по Моно с точным нулём при нулевом субстрате."""
 
 from collections.abc import Sequence
 from typing import Self
@@ -38,10 +38,10 @@ class _MonodCurve(RationalSaturationFamily):
 
 
 class MonodParameterModel(_OneFactorModel):
-    """mu(S) = mu_max*S/(K_s+S), S >= 0; mu_max, K_s > 0.
+    """Модель Моно: mu(S) = mu_max*S/(K_s+S), S >= 0; mu_max, K_s > 0.
 
-    Requires identity target scale to preserve physical zero at S=0. The general
-    regressor rejects this zero if the chosen time parameter must be strictly positive.
+    Требуется исходная целевая шкала identity для сохранения физического нуля при S=0.
+    Общий регрессор отклоняет этот ноль, если временной параметр обязан быть строго положительным.
     """
 
     name = "monod"
@@ -56,7 +56,7 @@ class MonodParameterModel(_OneFactorModel):
         feature_names: Sequence[str] | None = None,
         sample_weight: ArrayLike | None = None,
     ) -> Self:
-        """Fit original nonnegative rates through the existing rational evaluator."""
+        """Подобрать исходные неотрицательные скорости через существующее рациональное семейство."""
         x, target, weights = self._prepare_fit(X, y, feature_names, sample_weight)
         if np.any(target < 0):
             raise ValueError("Monod targets must be nonnegative rates in identity scale.")
