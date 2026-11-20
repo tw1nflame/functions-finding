@@ -202,6 +202,12 @@ class MultiExperimentResult:
             prediction = self.parameter_models[name].predict(X)
             if prediction.shape != (len(frame),):
                 raise ValueError(f"Parameter model for {name} returned an invalid shape.")
+            if name in self.time_family.positive_parameters and np.any(prediction <= 0):
+                model_name = self.parameter_models[name].model.name
+                raise ValueError(
+                    f"{model_name} predicts a nonpositive value for strictly positive "
+                    f"time parameter {name}; these conditions are incompatible with the family."
+                )
             values[name] = prediction
         parameters = pd.DataFrame(values, index=frame.index)
         for row in parameters.to_numpy():

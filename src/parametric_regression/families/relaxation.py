@@ -45,7 +45,10 @@ class ExponentialRelaxationFamily(BaseFunctionFamily):
 
     def _evaluate(self, x: FloatArray, params: FloatArray) -> FloatArray:
         amplitude, rate = params
-        return self.initial_value - amplitude * np.expm1(-rate * x)
+        # A large nonnegative rate*time is a finite saturated response, not overflow.
+        with np.errstate(over="ignore"):
+            exponent = -rate * x
+        return self.initial_value - amplitude * np.expm1(exponent)
 
     def initial_guess(self, x: FloatArray, y: FloatArray) -> FloatArray:
         """Return the first training-only rate/amplitude guess."""

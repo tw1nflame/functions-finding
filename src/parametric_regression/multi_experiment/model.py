@@ -92,6 +92,7 @@ class MultiExperimentRegressor:
             for name in time_family.parameter_names
         }
         self.transforms.update(parameter_transforms or {})
+        self._explicit_transforms = set(parameter_transforms or {})
         for mapping in (self.parameter_models, self.fixed_parameters, self.transforms):
             if set(mapping) - names:
                 raise ValueError(f"Unknown time parameters: {set(mapping) - names}")
@@ -284,6 +285,14 @@ class MultiExperimentRegressor:
                         "Excluded: log-transformed parameter estimate is not strictly positive."
                     )
                 record["used_for_parameter_models"] = eligible
+                if eligible and n_free > 0:
+                    family_warnings = self.time_family.identifiability_warnings(
+                        item.time, fitted.params
+                    )
+                    if family_warnings:
+                        eligible = False
+                        record["used_for_parameter_models"] = False
+                        record["message"] = "Excluded: " + "; ".join(family_warnings)
                 if eligible:
                     usable.append(item)
             elif item.error:
@@ -319,7 +328,6 @@ class MultiExperimentRegressor:
             targets = np.array(
                 [result.train_fits[item.identifier].coefficients[name] for item in usable]
             )
-            transformed = np.log(targets) if self.transforms[name] == "log" else targets
             if name in self.fixed_parameters:
                 value = self.fixed_parameters[name]
                 if self.transforms[name] == "log":
@@ -332,15 +340,28 @@ class MultiExperimentRegressor:
             choices[name] = []
             for template in templates:
                 candidate = deepcopy(template)
+                transform = candidate.required_transform or self.transforms[name]
                 info = {
                     "parameter": name,
                     "model": candidate.name,
                     "n_coefficients": None,
-                    "transform": self.transforms[name],
+                    "transform": transform,
                     "success": False,
                     "message": "",
                 }
                 try:
+                    if transform not in ("identity", "log"):
+                        raise ValueError("Model required_transform must be identity, log or None.")
+                    if name in self._explicit_transforms and transform != self.transforms[name]:
+                        raise ValueError(
+                            f"{candidate.name} requires {transform} target scale, "
+                            f"but {name} explicitly uses {self.transforms[name]}."
+                        )
+                    if transform == "log" and np.any(targets <= 0):
+                        raise ValueError(
+                            "Log-target models require strictly positive time parameters."
+                        )
+                    transformed = np.log(targets) if transform == "log" else targets
                     complexity = candidate.complexity(len(columns))
                     if not isinstance(complexity, int) or complexity < 0:
                         raise ValueError("Model complexity must be a nonnegative integer.")
@@ -351,13 +372,14 @@ class MultiExperimentRegressor:
                             f"have {n_independent}."
                         )
                     candidate.fit(X, transformed, feature_names=columns, sample_weight=weights)
-                    relationship = ParameterRelationship(candidate, self.transforms[name])
+                    relationship = ParameterRelationship(candidate, transform)
                     prediction = relationship.predict(X)
                     regression_metrics(targets, prediction)
                     relationship.formula()
                     relationship.formula(latex=True)
                     choices[name].append(relationship)
                     info["success"] = True
+                    info["message"] = "; ".join(getattr(candidate, "warnings_", ()))
                 except Exception as error:
                     info["message"] = f"{type(error).__name__}: {error}"
                 model_records.append(info)

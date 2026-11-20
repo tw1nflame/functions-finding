@@ -55,6 +55,26 @@ uv run --extra docs python -m sphinx -W --keep-going -b doctest docs docs/_build
 семействе `L >= 0`, знак `k` задаёт направление перехода. Гомпертц допускает
 оба знака `L` и `k`. Подробнее: [математические модели](docs/mathematical_models.md).
 
+Дополнительно доступны по явному выбору:
+
+| Временное семейство | Формула | Параметры |
+|---|---|---|
+| `PowerLawFamily` | `c + a*t**b` | `c, a, b`; `b > 0` |
+| `LogarithmicFamily` | `c + a*log1p(t/tau)` | `c, a, tau`; `tau > 0` |
+| `DelayedExponentialFamily` | `y0 + A*(1-exp(-k*max(t-lag,0)))` | `A, k, lag`; известное `y0` |
+| `WeibullSurvivalFamily` | `y0*10**(-(t/delta)**p)` | `delta, p`; известное положительное `y0` |
+| `BiphasicExponentialFamily` | `y0*(w*exp(-(k_slow+delta_k)*t)+(1-w)*exp(-k_slow*t))` | `k_slow, delta_k, q`; `w=expit(q)` |
+
+Для зависимости коэффициентов от одного условия добавлены `ArrheniusParameterModel`
+(температура K, log-шкала), `RatkowskyParameterModel` (температура °C, log-шкала),
+`HillParameterModel` (концентрация, выбранная шкала) и `MonodParameterModel`
+(субстрат, исходная шкала). Требуемое преобразование учитывается вторым этапом
+однократно; явные конфликты шкал отклоняются.
+
+Формулы, домены, начальные состояния, источники и примеры:
+[дополнительные семейства](docs/additional_families.md).
+Стандартные кандидаты `ModelSelector` и Auto не расширяются автоматически.
+
 ## Установка
 
 Требуется Python 3.11+. Из корня проекта:

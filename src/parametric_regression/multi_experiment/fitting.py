@@ -47,6 +47,9 @@ class _FixedParameterFamily(BaseFunctionFamily):
     def formula(self, params: ArrayLike, *, latex: bool = False) -> str:
         return self.family.formula(self.expand(np.asarray(params)), latex=latex)
 
+    def identifiability_warnings(self, x: FloatArray, params: FloatArray) -> tuple[str, ...]:
+        return self.family.identifiability_warnings(x, self.expand(params))
+
 
 def fit_trajectory(
     family: BaseFunctionFamily,

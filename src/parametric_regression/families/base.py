@@ -104,6 +104,14 @@ class BaseFunctionFamily(ABC):
         """Return a linear design matrix, or None to use nonlinear optimization."""
         return None
 
+    def identifiability_warnings(self, x: FloatArray, params: FloatArray) -> tuple[str, ...]:
+        """Return optional family-specific warnings about practically inseparable parameters.
+
+        Ordinary fits retain the warning. Stage two excludes such estimates when
+        parameters were fitted, in addition to its existing Jacobian checks.
+        """
+        return ()
+
     def linear_parameters(self, coefficients: FloatArray, x: FloatArray) -> FloatArray:
         """Convert fitted linear-basis coefficients to public parameters."""
         return coefficients

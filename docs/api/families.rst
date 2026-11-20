@@ -32,3 +32,27 @@
 
 .. autoclass:: parametric_regression.ExponentialRelaxationFamily
    :members:
+
+Дополнительные семейства по явному выбору
+-----------------------------------------
+
+Области применения и ограничения: :doc:`../additional_families`.
+Эти классы не добавляются в стандартный список ``ModelSelector``.
+
+.. autoclass:: parametric_regression.PowerLawFamily
+   :members:
+
+.. autoclass:: parametric_regression.LogarithmicFamily
+   :members:
+
+.. autoclass:: parametric_regression.DelayedExponentialFamily
+   :members:
+   :inherited-members:
+
+.. autoclass:: parametric_regression.WeibullSurvivalFamily
+   :members:
+   :inherited-members:
+
+.. autoclass:: parametric_regression.BiphasicExponentialFamily
+   :members:
+   :inherited-members:

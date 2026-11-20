@@ -20,6 +20,30 @@
    :members:
    :inherited-members:
 
+Специализированные однофакторные законы
+---------------------------------------
+
+Обязательная шкала ``required_transform`` учитывается регрессором до обучения.
+Standalone ``fit`` и ``predict`` Arrhenius/Ratkowsky работают в логарифмической
+шкале, Monod — в исходной. Hill использует шкалу окружающей связи.
+Подробности: :doc:`../additional_families`.
+
+.. autoclass:: parametric_regression.ArrheniusParameterModel
+   :members:
+   :inherited-members:
+
+.. autoclass:: parametric_regression.RatkowskyParameterModel
+   :members:
+   :inherited-members:
+
+.. autoclass:: parametric_regression.HillParameterModel
+   :members:
+   :inherited-members:
+
+.. autoclass:: parametric_regression.MonodParameterModel
+   :members:
+   :inherited-members:
+
 ``ConstantParameterModel(value=...)`` фиксирует значение в шкале вторичной регрессии.
 Если нужно фиксировать физический параметр также при подборе отдельных кривых,
 используйте ``fixed_parameters`` регрессора. См. :doc:`../parameter_models`.

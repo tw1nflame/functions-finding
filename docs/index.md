@@ -74,6 +74,7 @@ scope
 
 fitting_explained
 mathematical_models
+additional_families
 multi_experiment_regression
 parameter_models
 validation

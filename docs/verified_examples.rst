@@ -58,3 +58,41 @@
    ...     general.predict([0, 2], {'u': .4, 'v': .6}), [.8, 5.44], atol=1e-10)
    >>> general.metrics['test']['complete']
    True
+
+Степенная функция и известное начало Weibull
+--------------------------------------------
+
+.. doctest::
+
+   >>> from parametric_regression import PowerLawFamily, WeibullSurvivalFamily
+   >>> t = np.linspace(0, 10, 40)
+   >>> power = PowerLawFamily()
+   >>> fitted = fit_family(power, t, power.evaluate(t, [2, -.4, 1.3]))
+   >>> fitted.success
+   True
+   >>> np.testing.assert_allclose(fitted.params, [2, -.4, 1.3], atol=1e-6)
+   >>> survival = WeibullSurvivalFamily(initial_value=100)
+   >>> np.testing.assert_allclose(survival.evaluate([0, 15, 30], [15, 1]), [100, 10, 1])
+
+Аррениус и однократное восстановление физической шкалы
+------------------------------------------------------
+
+.. doctest::
+
+   >>> from parametric_regression import ArrheniusParameterModel
+   >>> temperatures = np.linspace(285, 320, 12)
+   >>> rates = .2 * np.exp(-40000 / 8.314462618 * (1/temperatures - 1/298.15))
+   >>> law = ArrheniusParameterModel().fit(temperatures[:, None], np.log(rates))
+   >>> np.testing.assert_allclose(np.exp(law.predict(temperatures[:, None])), rates, rtol=1e-9)
+   >>> np.testing.assert_allclose([law.k_ref_, law.E_a_], [.2, 40000], rtol=1e-9)
+
+Моно сохраняет физический ноль
+------------------------------
+
+.. doctest::
+
+   >>> from parametric_regression import MonodParameterModel
+   >>> substrate = np.array([0., .1, .3, 1., 3., 10., 30.])
+   >>> mu = .7 * substrate / (2 + substrate)
+   >>> monod = MonodParameterModel().fit(substrate[:, None], mu)
+   >>> np.testing.assert_allclose(monod.predict([[0], [2]]), [0, .35], atol=1e-8)

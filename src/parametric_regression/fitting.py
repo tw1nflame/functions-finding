@@ -64,6 +64,7 @@ def fit_family(
                     result.warnings = diagnostics
                     result.jacobian_rank, result.jacobian_condition = rank, condition
                 prediction = family.evaluate(x, params)
+                result.warnings += family.identifiability_warnings(x, params)
                 result.train_metrics = regression_metrics(y, prediction)
                 # Validate formula generation before declaring a usable result.
                 family.formula(params)
@@ -121,6 +122,10 @@ def _nonlinear_fit(
     rank, condition = _jacobian_diagnostics(best.jac)
     if rank < family.n_parameters:
         failures.append("Jacobian is rank deficient; individual parameters may be unidentifiable.")
+    elif condition > 1e8:
+        failures.append(
+            "Jacobian is ill-conditioned; individual parameters may be weakly identifiable."
+        )
     return best.x, str(best.message), count, tuple(failures), rank, condition
 
 

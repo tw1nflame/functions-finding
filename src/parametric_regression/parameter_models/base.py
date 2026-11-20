@@ -46,9 +46,12 @@ class BaseParameterModel(ABC):
 
     Implement fit/predict/formula and complexity. fit must use only supplied
     training data and honor sample_weight (equal independent-experiment weights).
+    required_transform optionally declares 'identity' or 'log' target scale.
+    The surrounding regressor applies that transform and its inverse exactly once.
     """
 
     name: str
+    required_transform: str | None = None
 
     @abstractmethod
     def complexity(self, n_features: int) -> int:
